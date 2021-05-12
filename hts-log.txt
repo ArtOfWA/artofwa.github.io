@@ -497,3 +497,17 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 16:04:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/https://vimeo.com/ to https://web.archive.org/web/20210303003634/http://vimeo.com/
 16:04:33	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1514
 16:04:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1514 to https://web.archive.org/web/20210227050030/http://www.artofwa.com.au/?p=1514
+16:06:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=3d-art
+16:06:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=3d-art to https://web.archive.org/web/20210227050127/http://www.artofwa.com.au/?tag=3d-art
+16:06:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=3d-oled-display
+16:06:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=3d-oled-display to https://web.archive.org/web/20210227050150/http://www.artofwa.com.au/?tag=3d-oled-display
+16:06:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=add-new-tag
+16:06:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=add-new-tag to https://web.archive.org/web/20210227050218/http://www.artofwa.com.au/?tag=add-new-tag
+16:06:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=ar
+16:06:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=ar to https://web.archive.org/web/20210227050250/http://www.artofwa.com.au/?tag=ar
+16:07:46	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=ar-augmented-reality
+16:07:46	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=ar-augmented-reality to https://web.archive.org/web/20210227050313/http://www.artofwa.com.au/?tag=ar-augmented-reality
+16:07:47	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=artist-digital
+16:07:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=artist-digital to https://web.archive.org/web/20210227050340/http://www.artofwa.com.au/?tag=artist-digital
+16:07:47	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=art-of-making-marks
+16:07:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=art-of-making-marks to https://web.archive.org/web/20210227051231/http://www.artofwa.com.au/?tag=art-of-making-marks
