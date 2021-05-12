@@ -473,3 +473,23 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 15:46:31	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.extreme.com.au/
 15:46:31	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.extreme.com.au/ to https://web.archive.org/web/20210304164213/http://extreme.com.au/
 15:46:31	Error: 	"NOT FOUND" (404) at link https://web.archive.org/outbound/blogroll/www.extreme.com.au (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:57:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.slideshare.net/LAMP_AFTRS/user-centric-brand-design-ric-holland-presentation/
+15:57:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.slideshare.net/LAMP_AFTRS/user-centric-brand-design-ric-holland-presentation/ to https://web.archive.org/web/20200113121917/http://www.slideshare.net/LAMP_AFTRS/user-centric-brand-design-ric-holland-presentation/
+15:57:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.wacom-asia.com/community/
+15:57:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.wacom-asia.com/community/ to https://web.archive.org/web/20210127080117/http://www.wacom-asia.com/community/
+15:57:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://community.wacom.com/
+15:57:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://community.wacom.com/ to https://web.archive.org/web/20210506183603/http://community.wacom.com/
+15:57:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.pencollective.com/
+15:57:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.pencollective.com/ to https://web.archive.org/web/20210116213657/http://www.pencollective.com/
+15:57:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://linuxwacom.sourceforge.net/
+15:57:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://linuxwacom.sourceforge.net/ to https://web.archive.org/web/20210307050535/http://linuxwacom.sourceforge.net/
+15:58:11	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20210303003404/https://www.scribd.com/document/443964431/Ric-Holland-s-TimeLine-2020 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:58:11	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20210303003404/https://www.scribd.com/user/29784500/Ric-Holland (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:59:56	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1582
+15:59:56	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1582 to https://web.archive.org/web/20210227045914/http://www.artofwa.com.au/?p=1582
+16:00:00	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1575
+16:00:00	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1575 to https://web.archive.org/web/20210227045931/http://www.artofwa.com.au/?p=1575
+16:00:10	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1558
+16:00:10	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1558 to https://web.archive.org/web/20210227045946/http://www.artofwa.com.au/?p=1558
+16:00:14	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1535
+16:00:14	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1535 to https://web.archive.org/web/20210227050014/http://www.artofwa.com.au/?p=1535
