@@ -8,3 +8,452 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 
 15:37:01	Warning: 	* security warning: maximum number of simultaneous connections limited to 8 to avoid server overload
 15:37:01	Warning: 	* security warning: maximum number of connections per second limited to 5.000000 to avoid server overload
+15:39:09	Error: 	"Not Found" (404) at link artofwa.com.au/ (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:09	Error: 	"NOT FOUND" (404) at link https://web.archive.org/_static/ (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?feed=rss2
+15:39:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?feed=rss2 to https://web.archive.org/web/20210227020904/http://www.artofwa.com.au/?feed=rss2
+15:39:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?feed=rss
+15:39:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?feed=rss to https://web.archive.org/web/20210227020913/http://www.artofwa.com.au/?feed=rss
+15:39:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?feed=atom
+15:39:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?feed=atom to https://web.archive.org/web/20210227020946/http://www.artofwa.com.au/?feed=atom
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/xmlrpc.php (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=202008 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=202001 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201908 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201905 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201803 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201712 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201707 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201702 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201610 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201506 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201505 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201503 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201410 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201407 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201403 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201402 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201401 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201312 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201311 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201310 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201309 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201308 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201307 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201306 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201305 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201304 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201303 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201302 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201301 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201212 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201211 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201210 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201209 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201208 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201207 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201206 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201205 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201204 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201203 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201108 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201107 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201106 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201104 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201103 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201102 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201101 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201012 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201011 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201010 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201009 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201008 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201007 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201006 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201005 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201004 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201003 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=201002 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200912 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200911 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200910 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200909 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200908 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200907 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200906 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200904 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200903 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200810 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/?m=200806 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/xmlrpc.php?rsd (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:12	Error: 	"Not Found" (404) at link www.artofwa.com.au/wp-includes/wlwmanifest.xml (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:17	Warning: 	Moved Permanently for faq.web.archive.org/
+15:39:17	Warning: 	File has moved from faq.web.archive.org/ to https://archive.org/about/faqs.php#The_Wayback_Machine
+15:39:17	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://web.archive.org/screenshot/http://artofwa.com.au/
+15:39:17	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://web.archive.org/screenshot/http://artofwa.com.au/ to https://web.archive.org/web/20120619212017/http://web.archive.org/screenshot/http://www.artofwa.com.au/
+15:39:23	Error: 	"Not Found" (404) at link https://web.archive.org/web/20210314001516/http://www.artofwa.com.au/ (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:39:27	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/services/img/nlaweb (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:40:33	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/images/notfound.png (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:40:33	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/details/NLA_2021 (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:40:34	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=1546
+15:40:34	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=1546 to https://web.archive.org/web/20210227022907/http://www.artofwa.com.au/?page_id=1546
+15:40:34	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=2
+15:40:34	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=2 to https://web.archive.org/web/20210227022936/http://www.artofwa.com.au/?page_id=2
+15:40:34	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=752
+15:40:34	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=752 to https://web.archive.org/web/20210227022957/http://www.artofwa.com.au/?page_id=752
+15:40:34	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=622
+15:40:34	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=622 to https://web.archive.org/web/20210227023105/http://www.artofwa.com.au/?page_id=622
+15:40:34	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=810
+15:40:34	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=810 to https://web.archive.org/web/20210227023158/http://www.artofwa.com.au/?page_id=810
+15:40:35	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=618
+15:40:35	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=618 to https://web.archive.org/web/20210227023218/http://www.artofwa.com.au/?page_id=618
+15:40:35	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=39
+15:40:35	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=39 to https://web.archive.org/web/20210227023240/http://www.artofwa.com.au/?page_id=39
+15:40:38	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=616
+15:40:38	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=616 to https://web.archive.org/web/20210227023354/http://www.artofwa.com.au/?page_id=616
+15:40:38	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=43
+15:40:38	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=43 to https://web.archive.org/web/20210227023419/http://www.artofwa.com.au/?page_id=43
+15:40:38	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=38
+15:40:38	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=38 to https://web.archive.org/web/20210227023449/http://www.artofwa.com.au/?page_id=38
+15:40:39	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=44
+15:40:39	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=44 to https://web.archive.org/web/20210227023517/http://www.artofwa.com.au/?page_id=44
+15:40:39	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=870
+15:40:39	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=870 to https://web.archive.org/web/20210227023607/http://www.artofwa.com.au/?page_id=870
+15:40:39	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=35
+15:40:39	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=35 to https://web.archive.org/web/20210227023633/http://www.artofwa.com.au/?page_id=35
+15:40:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=41
+15:40:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=41 to https://web.archive.org/web/20210227023700/http://www.artofwa.com.au/?page_id=41
+15:40:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=42
+15:40:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=42 to https://web.archive.org/web/20210227023738/http://www.artofwa.com.au/?page_id=42
+15:40:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=40
+15:40:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=40 to https://web.archive.org/web/20210227023841/http://www.artofwa.com.au/?page_id=40
+15:40:42	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=34
+15:40:42	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=34 to https://web.archive.org/web/20210227023907/http://www.artofwa.com.au/?page_id=34
+15:40:42	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=6
+15:40:42	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=6 to https://web.archive.org/web/20210227023933/http://www.artofwa.com.au/?page_id=6
+15:40:42	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=37
+15:40:42	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=37 to https://web.archive.org/web/20210227024001/http://www.artofwa.com.au/?page_id=37
+15:40:43	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=872
+15:40:43	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=872 to https://web.archive.org/web/20210227024030/http://www.artofwa.com.au/?page_id=872
+15:40:44	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=952
+15:40:44	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=952 to https://web.archive.org/web/20210227024057/http://www.artofwa.com.au/?page_id=952
+15:40:45	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=809
+15:40:45	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=809 to https://web.archive.org/web/20210227024213/http://www.artofwa.com.au/?page_id=809
+15:40:45	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=789
+15:40:45	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=789 to https://web.archive.org/web/20210227030023/http://www.artofwa.com.au/?page_id=789
+15:40:45	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=690
+15:40:45	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=690 to https://web.archive.org/web/20210227030124/http://www.artofwa.com.au/?page_id=690
+15:40:46	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=124
+15:40:46	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=124 to https://web.archive.org/web/20210227030201/http://www.artofwa.com.au/?page_id=124
+15:40:47	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=623
+15:40:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=623 to https://web.archive.org/web/20210227030235/http://www.artofwa.com.au/?page_id=623
+15:40:47	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=128
+15:40:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=128 to https://web.archive.org/web/20210227030259/http://www.artofwa.com.au/?page_id=128
+15:40:48	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=620
+15:40:48	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=620 to https://web.archive.org/web/20210227030325/http://www.artofwa.com.au/?page_id=620
+15:40:48	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=233
+15:40:48	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=233 to https://web.archive.org/web/20210227030640/http://www.artofwa.com.au/?page_id=233
+15:40:49	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=52
+15:40:49	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=52 to https://web.archive.org/web/20210227030714/http://www.artofwa.com.au/?page_id=52
+15:40:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=127
+15:40:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=127 to https://web.archive.org/web/20210227030739/http://www.artofwa.com.au/?page_id=127
+15:40:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=655
+15:40:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=655 to https://web.archive.org/web/20210227030803/http://www.artofwa.com.au/?page_id=655
+15:40:51	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=23
+15:40:51	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=23 to https://web.archive.org/web/20210227030849/http://www.artofwa.com.au/?page_id=23
+15:40:51	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=873
+15:40:51	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=873 to https://web.archive.org/web/20210227030914/http://www.artofwa.com.au/?page_id=873
+15:40:51	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=53
+15:40:51	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=53 to https://web.archive.org/web/20210227031030/http://www.artofwa.com.au/?page_id=53
+15:40:52	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=19
+15:40:52	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=19 to https://web.archive.org/web/20210227031054/http://www.artofwa.com.au/?page_id=19
+15:40:53	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=1102
+15:40:53	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=1102 to https://web.archive.org/web/20210227031143/http://www.artofwa.com.au/?page_id=1102
+15:40:53	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=50
+15:40:53	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=50 to https://web.archive.org/web/20210227031207/http://www.artofwa.com.au/?page_id=50
+15:40:54	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=28
+15:40:54	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=28 to https://web.archive.org/web/20210227031257/http://www.artofwa.com.au/?page_id=28
+15:40:54	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=56
+15:40:54	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=56 to https://web.archive.org/web/20210227031324/http://www.artofwa.com.au/?page_id=56
+15:40:54	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=51
+15:40:54	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=51 to https://web.archive.org/web/20210227031349/http://www.artofwa.com.au/?page_id=51
+15:40:54	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=49
+15:40:54	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=49 to https://web.archive.org/web/20210227031415/http://www.artofwa.com.au/?page_id=49
+15:40:55	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=31
+15:40:55	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=31 to https://web.archive.org/web/20210227031439/http://www.artofwa.com.au/?page_id=31
+15:40:56	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=55
+15:40:56	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=55 to https://web.archive.org/web/20210227031506/http://www.artofwa.com.au/?page_id=55
+15:40:57	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=947
+15:40:57	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=947 to https://web.archive.org/web/20210227031623/http://www.artofwa.com.au/?page_id=947
+15:40:57	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=47
+15:40:57	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=47 to https://web.archive.org/web/20210227031815/http://www.artofwa.com.au/?page_id=47
+15:40:57	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=808
+15:40:57	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=808 to https://web.archive.org/web/20210227032320/http://www.artofwa.com.au/?page_id=808
+15:40:58	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=30
+15:40:58	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=30 to https://web.archive.org/web/20210227032411/http://www.artofwa.com.au/?page_id=30
+15:40:58	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=726
+15:40:58	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=726 to https://web.archive.org/web/20210227032512/http://www.artofwa.com.au/?page_id=726
+15:40:59	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=46
+15:40:59	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=46 to https://web.archive.org/web/20210227032600/http://www.artofwa.com.au/?page_id=46
+15:41:00	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=54
+15:41:00	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=54 to https://web.archive.org/web/20210227032632/http://www.artofwa.com.au/?page_id=54
+15:41:00	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=21
+15:41:00	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=21 to https://web.archive.org/web/20210227032726/http://www.artofwa.com.au/?page_id=21
+15:41:00	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=22
+15:41:00	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=22 to https://web.archive.org/web/20210227032801/http://www.artofwa.com.au/?page_id=22
+15:41:01	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=70
+15:41:01	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=70 to https://web.archive.org/web/20210227032903/http://www.artofwa.com.au/?page_id=70
+15:41:01	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=945
+15:41:01	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=945 to https://web.archive.org/web/20210227033004/http://www.artofwa.com.au/?page_id=945
+15:41:02	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=16
+15:41:02	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=16 to https://web.archive.org/web/20210227033052/http://www.artofwa.com.au/?page_id=16
+15:41:02	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=949
+15:41:02	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=949 to https://web.archive.org/web/20210227033139/http://www.artofwa.com.au/?page_id=949
+15:41:02	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=86
+15:41:02	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=86 to https://web.archive.org/web/20210227033213/http://www.artofwa.com.au/?page_id=86
+15:41:03	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=871
+15:41:03	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=871 to https://web.archive.org/web/20210227033315/http://www.artofwa.com.au/?page_id=871
+15:41:04	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=15
+15:41:04	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=15 to https://web.archive.org/web/20210227033531/http://www.artofwa.com.au/?page_id=15
+15:41:04	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=48
+15:41:04	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=48 to https://web.archive.org/web/20210227033603/http://www.artofwa.com.au/?page_id=48
+15:41:05	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=624
+15:41:05	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=624 to https://web.archive.org/web/20210227034812/http://www.artofwa.com.au/?page_id=624
+15:41:05	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=20
+15:41:05	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=20 to https://web.archive.org/web/20210227034942/http://www.artofwa.com.au/?page_id=20
+15:41:05	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=24
+15:41:05	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=24 to https://web.archive.org/web/20210227035012/http://www.artofwa.com.au/?page_id=24
+15:41:05	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=33
+15:41:05	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=33 to https://web.archive.org/web/20210227035046/http://www.artofwa.com.au/?page_id=33
+15:41:07	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=45
+15:41:07	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=45 to https://web.archive.org/web/20210227035126/http://www.artofwa.com.au/?page_id=45
+15:41:07	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=134
+15:41:07	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=134 to https://web.archive.org/web/20210227035222/http://www.artofwa.com.au/?page_id=134
+15:41:08	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=621
+15:41:08	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=621 to https://web.archive.org/web/20210227035248/http://www.artofwa.com.au/?page_id=621
+15:41:08	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=129
+15:41:08	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=129 to https://web.archive.org/web/20210227035317/http://www.artofwa.com.au/?page_id=129
+15:41:09	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=71
+15:41:09	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=71 to https://web.archive.org/web/20210227035344/http://www.artofwa.com.au/?page_id=71
+15:41:09	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=691
+15:41:09	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=691 to https://web.archive.org/web/20210227035409/http://www.artofwa.com.au/?page_id=691
+15:41:09	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=69
+15:41:09	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=69 to https://web.archive.org/web/20210227035500/http://www.artofwa.com.au/?page_id=69
+15:41:10	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=751
+15:41:10	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=751 to https://web.archive.org/web/20210227035551/http://www.artofwa.com.au/?page_id=751
+15:41:11	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=72
+15:41:11	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=72 to https://web.archive.org/web/20210227035641/http://www.artofwa.com.au/?page_id=72
+15:41:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=132
+15:41:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=132 to https://web.archive.org/web/20210227035730/http://www.artofwa.com.au/?page_id=132
+15:41:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=32
+15:41:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=32 to https://web.archive.org/web/20210227035822/http://www.artofwa.com.au/?page_id=32
+15:41:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=75
+15:41:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=75 to https://web.archive.org/web/20210227035846/http://www.artofwa.com.au/?page_id=75
+15:41:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=77
+15:41:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=77 to https://web.archive.org/web/20210227035936/http://www.artofwa.com.au/?page_id=77
+15:41:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=78
+15:41:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=78 to https://web.archive.org/web/20210227040001/http://www.artofwa.com.au/?page_id=78
+15:41:14	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=79
+15:41:14	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=79 to https://web.archive.org/web/20210227040058/http://www.artofwa.com.au/?page_id=79
+15:41:15	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=80
+15:41:15	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=80 to https://web.archive.org/web/20210227040126/http://www.artofwa.com.au/?page_id=80
+15:41:15	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=81
+15:41:15	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=81 to https://web.archive.org/web/20210227040157/http://www.artofwa.com.au/?page_id=81
+15:41:16	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=82
+15:41:16	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=82 to https://web.archive.org/web/20210227040242/http://www.artofwa.com.au/?page_id=82
+15:41:16	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=601
+15:41:16	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=601 to https://web.archive.org/web/20210227040322/http://www.artofwa.com.au/?page_id=601
+15:41:16	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=83
+15:41:16	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=83 to https://web.archive.org/web/20210227040421/http://www.artofwa.com.au/?page_id=83
+15:41:17	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=599
+15:41:17	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=599 to https://web.archive.org/web/20210227040550/http://www.artofwa.com.au/?page_id=599
+15:41:18	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=84
+15:41:18	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=84 to https://web.archive.org/web/20210227044249/http://www.artofwa.com.au/?page_id=84
+15:41:19	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=85
+15:41:19	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=85 to https://web.archive.org/web/20210227044533/http://www.artofwa.com.au/?page_id=85
+15:41:19	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=791
+15:41:19	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=791 to https://web.archive.org/web/20210227044649/http://www.artofwa.com.au/?page_id=791
+15:41:20	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=564
+15:41:20	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=564 to https://web.archive.org/web/20210227044752/http://www.artofwa.com.au/?page_id=564
+15:41:20	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=74
+15:41:20	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=74 to https://web.archive.org/web/20210227044847/http://www.artofwa.com.au/?page_id=74
+15:41:20	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=87
+15:41:20	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=87 to https://web.archive.org/web/20210227044948/http://www.artofwa.com.au/?page_id=87
+15:41:21	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=88
+15:41:21	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=88 to https://web.archive.org/web/20210227045036/http://www.artofwa.com.au/?page_id=88
+15:41:21	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=126
+15:41:21	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=126 to https://web.archive.org/web/20210227045123/http://www.artofwa.com.au/?page_id=126
+15:41:22	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=89
+15:41:22	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=89 to https://web.archive.org/web/20210227045215/http://www.artofwa.com.au/?page_id=89
+15:41:22	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=73
+15:41:22	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=73 to https://web.archive.org/web/20210227045322/http://www.artofwa.com.au/?page_id=73
+15:41:23	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=90
+15:41:23	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=90 to https://web.archive.org/web/20210227045445/http://www.artofwa.com.au/?page_id=90
+15:41:23	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=91
+15:41:23	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=91 to https://web.archive.org/web/20210227045607/http://www.artofwa.com.au/?page_id=91
+15:41:24	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=92
+15:41:24	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?page_id=92 to https://web.archive.org/web/20210227045642/http://www.artofwa.com.au/?page_id=92
+15:41:24	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1609
+15:41:24	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1609 to https://web.archive.org/web/20210227045719/http://www.artofwa.com.au/?p=1609
+15:41:25	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1601
+15:41:25	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1601 to https://web.archive.org/web/20210227045737/http://www.artofwa.com.au/?p=1601
+15:41:25	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1590
+15:41:25	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1590 to https://web.archive.org/web/20210227045807/http://www.artofwa.com.au/?p=1590
+15:41:26	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1587
+15:41:26	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1587 to https://web.archive.org/web/20210227045818/http://www.artofwa.com.au/?p=1587
+15:41:26	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1585
+15:41:26	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1585 to https://web.archive.org/web/20210227045835/http://www.artofwa.com.au/?p=1585
+15:41:27	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?cat=1
+15:41:27	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?cat=1 to https://web.archive.org/web/20210227045852/http://www.artofwa.com.au/?cat=1
+15:41:27	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=202008
+15:41:27	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=202008 to https://web.archive.org/web/20210227021009/http://www.artofwa.com.au/?m=202008
+15:41:28	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=202001
+15:41:28	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=202001 to https://web.archive.org/web/20210227021022/http://www.artofwa.com.au/?m=202001
+15:41:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201908
+15:41:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201908 to https://web.archive.org/web/20210227021035/http://www.artofwa.com.au/?m=201908
+15:41:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201905
+15:41:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201905 to https://web.archive.org/web/20210227021045/http://www.artofwa.com.au/?m=201905
+15:41:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201803
+15:41:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201803 to https://web.archive.org/web/20210227021056/http://www.artofwa.com.au/?m=201803
+15:41:30	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201712
+15:41:30	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201712 to https://web.archive.org/web/20210227021133/http://www.artofwa.com.au/?m=201712
+15:41:30	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201707
+15:41:30	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201707 to https://web.archive.org/web/20210227021143/http://www.artofwa.com.au/?m=201707
+15:41:30	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201702
+15:41:30	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201702 to https://web.archive.org/web/20210227021153/http://www.artofwa.com.au/?m=201702
+15:41:31	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201610
+15:41:31	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201610 to https://web.archive.org/web/20210227021234/http://www.artofwa.com.au/?m=201610
+15:41:32	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201506
+15:41:32	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201506 to https://web.archive.org/web/20210227021248/http://www.artofwa.com.au/?m=201506
+15:41:33	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201505
+15:41:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201505 to https://web.archive.org/web/20210227021324/http://www.artofwa.com.au/?m=201505
+15:41:33	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201503
+15:41:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201503 to https://web.archive.org/web/20210227021335/http://www.artofwa.com.au/?m=201503
+15:41:33	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201410
+15:41:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201410 to https://web.archive.org/web/20210227021345/http://www.artofwa.com.au/?m=201410
+15:41:33	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201407
+15:41:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201407 to https://web.archive.org/web/20210227021456/http://www.artofwa.com.au/?m=201407
+15:41:33	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201403
+15:41:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201403 to https://web.archive.org/web/20210227021532/http://www.artofwa.com.au/?m=201403
+15:41:35	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201402
+15:41:35	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201402 to https://web.archive.org/web/20210227021542/http://www.artofwa.com.au/?m=201402
+15:41:36	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201401
+15:41:36	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201401 to https://web.archive.org/web/20210227021552/http://www.artofwa.com.au/?m=201401
+15:41:36	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201312
+15:41:36	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201312 to https://web.archive.org/web/20210227021602/http://www.artofwa.com.au/?m=201312
+15:41:37	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201311
+15:41:37	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201311 to https://web.archive.org/web/20210227021613/http://www.artofwa.com.au/?m=201311
+15:41:37	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201310
+15:41:37	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201310 to https://web.archive.org/web/20210227021624/http://www.artofwa.com.au/?m=201310
+15:41:37	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201309
+15:41:37	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201309 to https://web.archive.org/web/20210227021633/http://www.artofwa.com.au/?m=201309
+15:41:37	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201308
+15:41:37	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201308 to https://web.archive.org/web/20210227021644/http://www.artofwa.com.au/?m=201308
+15:41:38	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201307
+15:41:38	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201307 to https://web.archive.org/web/20210227021654/http://www.artofwa.com.au/?m=201307
+15:41:39	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201306
+15:41:39	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201306 to https://web.archive.org/web/20210227021704/http://www.artofwa.com.au/?m=201306
+15:41:39	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201305
+15:41:39	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201305 to https://web.archive.org/web/20210227021713/http://www.artofwa.com.au/?m=201305
+15:41:39	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201304
+15:41:39	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201304 to https://web.archive.org/web/20210227021723/http://www.artofwa.com.au/?m=201304
+15:41:40	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201303
+15:41:40	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201303 to https://web.archive.org/web/20210227021733/http://www.artofwa.com.au/?m=201303
+15:41:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201302
+15:41:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201302 to https://web.archive.org/web/20210227021744/http://www.artofwa.com.au/?m=201302
+15:41:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201301
+15:41:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201301 to https://web.archive.org/web/20210227021756/http://www.artofwa.com.au/?m=201301
+15:41:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201212
+15:41:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201212 to https://web.archive.org/web/20210227021806/http://www.artofwa.com.au/?m=201212
+15:41:42	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201211
+15:41:42	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201211 to https://web.archive.org/web/20210227021817/http://www.artofwa.com.au/?m=201211
+15:41:43	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201210
+15:41:43	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201210 to https://web.archive.org/web/20210227021828/http://www.artofwa.com.au/?m=201210
+15:41:43	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201209
+15:41:43	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201209 to https://web.archive.org/web/20210227021838/http://www.artofwa.com.au/?m=201209
+15:41:43	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201208
+15:41:43	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201208 to https://web.archive.org/web/20210227021849/http://www.artofwa.com.au/?m=201208
+15:41:44	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201207
+15:41:44	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201207 to https://web.archive.org/web/20210227021903/http://www.artofwa.com.au/?m=201207
+15:41:44	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201206
+15:41:44	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201206 to https://web.archive.org/web/20210227021917/http://www.artofwa.com.au/?m=201206
+15:41:44	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201205
+15:41:44	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201205 to https://web.archive.org/web/20210227021929/http://www.artofwa.com.au/?m=201205
+15:41:44	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201204
+15:41:44	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201204 to https://web.archive.org/web/20210227021942/http://www.artofwa.com.au/?m=201204
+15:41:46	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201203
+15:41:46	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201203 to https://web.archive.org/web/20210227022005/http://www.artofwa.com.au/?m=201203
+15:41:46	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201108
+15:41:46	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201108 to https://web.archive.org/web/20210227022022/http://www.artofwa.com.au/?m=201108
+15:41:47	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201107
+15:41:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201107 to https://web.archive.org/web/20210227022039/http://www.artofwa.com.au/?m=201107
+15:41:47	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201106
+15:41:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201106 to https://web.archive.org/web/20210227022100/http://www.artofwa.com.au/?m=201106
+15:41:47	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201104
+15:41:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201104 to https://web.archive.org/web/20210227022115/http://www.artofwa.com.au/?m=201104
+15:41:48	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201103
+15:41:48	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201103 to https://web.archive.org/web/20210227022131/http://www.artofwa.com.au/?m=201103
+15:41:48	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201102
+15:41:48	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201102 to https://web.archive.org/web/20210227022212/http://www.artofwa.com.au/?m=201102
+15:41:48	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201101
+15:41:48	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201101 to https://web.archive.org/web/20210227022253/http://www.artofwa.com.au/?m=201101
+15:41:49	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201012
+15:41:49	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201012 to https://web.archive.org/web/20210227022310/http://www.artofwa.com.au/?m=201012
+15:41:49	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201011
+15:41:49	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201011 to https://web.archive.org/web/20210227022328/http://www.artofwa.com.au/?m=201011
+15:41:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201010
+15:41:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201010 to https://web.archive.org/web/20210227022345/http://www.artofwa.com.au/?m=201010
+15:41:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201009
+15:41:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201009 to https://web.archive.org/web/20210227022358/http://www.artofwa.com.au/?m=201009
+15:41:50	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201008
+15:41:50	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201008 to https://web.archive.org/web/20210227022410/http://www.artofwa.com.au/?m=201008
+15:41:51	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201007
+15:41:51	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201007 to https://web.archive.org/web/20210227022426/http://www.artofwa.com.au/?m=201007
+15:41:52	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201006
+15:41:52	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201006 to https://web.archive.org/web/20210227022501/http://www.artofwa.com.au/?m=201006
+15:41:53	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201005
+15:41:53	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201005 to https://web.archive.org/web/20210227022536/http://www.artofwa.com.au/?m=201005
+15:41:53	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201004
+15:41:53	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201004 to https://web.archive.org/web/20210227022548/http://www.artofwa.com.au/?m=201004
+15:41:53	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201003
+15:41:53	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201003 to https://web.archive.org/web/20210227022558/http://www.artofwa.com.au/?m=201003
+15:41:54	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201002
+15:41:54	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=201002 to https://web.archive.org/web/20210227022610/http://www.artofwa.com.au/?m=201002
+15:41:55	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200912
+15:41:55	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200912 to https://web.archive.org/web/20210227022620/http://www.artofwa.com.au/?m=200912
+15:41:55	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200911
+15:41:55	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200911 to https://web.archive.org/web/20210227022655/http://www.artofwa.com.au/?m=200911
+15:41:56	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200910
+15:41:56	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200910 to https://web.archive.org/web/20210227022708/http://www.artofwa.com.au/?m=200910
+15:41:56	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200909
+15:41:56	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200909 to https://web.archive.org/web/20210227022718/http://www.artofwa.com.au/?m=200909
+15:41:56	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200908
+15:41:56	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200908 to https://web.archive.org/web/20210227022727/http://www.artofwa.com.au/?m=200908
+15:41:57	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200907
+15:41:57	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200907 to https://web.archive.org/web/20210227022738/http://www.artofwa.com.au/?m=200907
+15:41:57	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200906
+15:41:57	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200906 to https://web.archive.org/web/20210227022748/http://www.artofwa.com.au/?m=200906
+15:41:57	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200904
+15:41:57	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200904 to https://web.archive.org/web/20210227022759/http://www.artofwa.com.au/?m=200904
+15:41:58	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200903
+15:41:58	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200903 to https://web.archive.org/web/20210227022810/http://www.artofwa.com.au/?m=200903
+15:41:58	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200810
+15:41:58	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200810 to https://web.archive.org/web/20210227022821/http://www.artofwa.com.au/?m=200810
+15:41:59	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200806
+15:41:59	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?m=200806 to https://web.archive.org/web/20210227022830/http://www.artofwa.com.au/?m=200806
+15:41:59	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://5senses.wordpress.com/
+15:41:59	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://5senses.wordpress.com/ to https://web.archive.org/web/20201028032700/https://5senses.wordpress.com/
+15:42:19	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.agda.com.au/
+15:42:19	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.agda.com.au/ to https://web.archive.org/web/20210302161040/https://agda.com.au/
+15:42:19	Error: 	"NOT FOUND" (404) at link https://web.archive.org/outbound/blogroll/www.agda.com.au (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:42:21	Error: 	"NOT FOUND" (404) at link https://web.archive.org/outbound/blogroll/www.aimia.com.au (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:42:21	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://area.autodesk.com/
+15:42:21	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://area.autodesk.com/ to https://web.archive.org/web/20210302233650/https://area.autodesk.com/
+15:42:21	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.flickr.com/photos/27770580@N05/
+15:42:21	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.flickr.com/photos/27770580@N05/ to https://web.archive.org/web/20200209195116/http://www.flickr.com/photos/27770580@N05/
+15:42:21	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.ballisticpublishing.com/
+15:42:21	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.ballisticpublishing.com/ to https://web.archive.org/web/20210421153437/http://www.ballisticpublishing.com/
+15:42:21	Error: 	"Not Found" (404) at link https://web.archive.org/web/20200111150431/http://www.wacom.eu/bamboo/dock/index2.asp?lang=en (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:42:21	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.cgsociety.org/
+15:42:21	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.cgsociety.org/ to https://web.archive.org/web/20210302213611/https://cgsociety.org/
+15:42:21	Error: 	"Not Found" (404) at link https://web.archive.org/web/20201121230705/https://designstudiopress.com/new_site/links.php (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
