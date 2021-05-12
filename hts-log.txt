@@ -535,3 +535,73 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 16:11:08	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=intuos4 to https://web.archive.org/web/20210227051715/http://www.artofwa.com.au/?tag=intuos4
 16:11:08	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=intuos-4
 16:11:08	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=intuos-4 to https://web.archive.org/web/20210227051737/http://www.artofwa.com.au/?tag=intuos-4
+16:12:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=ipad
+16:12:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=ipad to https://web.archive.org/web/20210227051754/http://www.artofwa.com.au/?tag=ipad
+16:12:13	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=james-cameron
+16:12:13	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=james-cameron to https://web.archive.org/web/20210227051813/http://www.artofwa.com.au/?tag=james-cameron
+16:12:15	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=microsoft
+16:12:15	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=microsoft to https://web.archive.org/web/20210227051854/http://www.artofwa.com.au/?tag=microsoft
+16:12:18	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=microsoft-research
+16:12:18	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=microsoft-research to https://web.archive.org/web/20210227051937/http://www.artofwa.com.au/?tag=microsoft-research
+16:12:21	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=multi-touch
+16:12:21	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=multi-touch to https://web.archive.org/web/20210227051955/http://www.artofwa.com.au/?tag=multi-touch
+16:12:23	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=multitouch
+16:12:23	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=multitouch to https://web.archive.org/web/20210227052013/http://www.artofwa.com.au/?tag=multitouch
+16:12:27	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=nab
+16:12:27	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=nab to https://web.archive.org/web/20210227052033/http://www.artofwa.com.au/?tag=nab
+16:12:30	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=natural-user-interface
+16:12:30	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=natural-user-interface to https://web.archive.org/web/20210227052049/http://www.artofwa.com.au/?tag=natural-user-interface
+16:12:34	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=new-screen-tablet
+16:12:34	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=new-screen-tablet to https://web.archive.org/web/20210227052109/http://www.artofwa.com.au/?tag=new-screen-tablet
+16:12:37	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=new-wacom-cintiq21ux
+16:12:37	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=new-wacom-cintiq21ux to https://web.archive.org/web/20210227052150/http://www.artofwa.com.au/?tag=new-wacom-cintiq21ux
+16:12:41	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=nui
+16:12:41	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=nui to https://web.archive.org/web/20210227052206/http://www.artofwa.com.au/?tag=nui
+16:12:44	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=nui-natural-user-interface
+16:12:44	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=nui-natural-user-interface to https://web.archive.org/web/20210227052224/http://www.artofwa.com.au/?tag=nui-natural-user-interface
+16:12:46	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=nui-research
+16:12:46	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=nui-research to https://web.archive.org/web/20210227052241/http://www.artofwa.com.au/?tag=nui-research
+16:12:49	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=pen-multi-touch
+16:12:49	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=pen-multi-touch to https://web.archive.org/web/20210227052258/http://www.artofwa.com.au/?tag=pen-multi-touch
+16:12:53	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=pen-tablets
+16:12:53	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=pen-tablets to https://web.archive.org/web/20210227052315/http://www.artofwa.com.au/?tag=pen-tablets
+16:12:54	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=photoshop-cs5
+16:12:54	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=photoshop-cs5 to https://web.archive.org/web/20210227052400/http://www.artofwa.com.au/?tag=photoshop-cs5
+16:12:57	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=ric-holland
+16:12:57	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=ric-holland to https://web.archive.org/web/20210227052443/http://www.artofwa.com.au/?tag=ric-holland
+16:13:02	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=siggraph-2010
+16:13:02	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=siggraph-2010 to https://web.archive.org/web/20210227052530/http://www.artofwa.com.au/?tag=siggraph-2010
+16:13:05	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=stereoscopic-pre-visualisation
+16:13:05	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=stereoscopic-pre-visualisation to https://web.archive.org/web/20210227052550/http://www.artofwa.com.au/?tag=stereoscopic-pre-visualisation
+16:13:06	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=touchpad-tablets
+16:13:06	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=touchpad-tablets to https://web.archive.org/web/20210227052620/http://www.artofwa.com.au/?tag=touchpad-tablets
+16:13:06	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=video
+16:13:06	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=video to https://web.archive.org/web/20210227052640/http://www.artofwa.com.au/?tag=video
+16:13:08	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=virtual-reality
+16:13:08	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=virtual-reality to https://web.archive.org/web/20210227052735/http://www.artofwa.com.au/?tag=virtual-reality
+16:13:09	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=vr
+16:13:09	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=vr to https://web.archive.org/web/20210227052756/http://www.artofwa.com.au/?tag=vr
+16:13:10	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=wacom
+16:13:10	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=wacom to https://web.archive.org/web/20210227052819/http://www.artofwa.com.au/?tag=wacom
+16:13:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=wacom-art-of-making-marks
+16:13:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=wacom-art-of-making-marks to https://web.archive.org/web/20210227052849/http://www.artofwa.com.au/?tag=wacom-art-of-making-marks
+16:13:12	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=wacom-pressure-sensitive-tablets
+16:13:12	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=wacom-pressure-sensitive-tablets to https://web.archive.org/web/20210227052912/http://www.artofwa.com.au/?tag=wacom-pressure-sensitive-tablets
+16:13:14	Error: 	"Not Found" (404) at link https://web.archive.org/web/20210314002434/http://www.artofwa.com.au/wp-login.php (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+16:13:14	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.wordpress.org/
+16:13:14	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.wordpress.org/ to https://web.archive.org/web/20210303003247/https://www.wordpress.org/
+16:13:15	Error: 	"Forbidden" (403) at link https://web.archive.org/web/20210302054649/http://validator.w3.org/check?uri=referer (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+16:13:16	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.briangardner.com/
+16:13:16	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.briangardner.com/ to https://web.archive.org/web/20210303045603/https://briangardner.com/
+16:13:22	Warning: 	Retry after error -4 (No data (connection closed)) at link archive.org/ext/build/npm/bootstrap/dist/js/bootstrap.min.js?v3.0.0 (from https://web.archive.org/)
+16:13:22	Warning: 	Retry after error -4 (No data (connection closed)) at link archive.org/ext/build/js/ie-dom-node-remove-polyfill.min.js?v=445ccf86 (from https://web.archive.org/)
+16:13:22	Warning: 	Retry after error -4 (No data (connection closed)) at link archive.org/ext/build/js/polyfill.min.js?v=445ccf86 (from https://web.archive.org/)
+16:13:22	Warning: 	Retry after error -4 (No data (connection closed)) at link archive.org/includes/analytics.js?v=445ccf86 (from https://web.archive.org/)
+16:13:28	Warning: 	Retry after error -4 (No data (connection closed)) at link archive.org/ext/build/js/ia-topnav.min.js?v=445ccf86 (from https://web.archive.org/)
+16:13:28	Warning: 	Retry after error -4 (No data (connection closed)) at link archive.org/ext/build/npm/react/umd/react.production.min.js?v16.7.0 (from https://web.archive.org/)
+16:13:35	Warning: 	Retry after error -4 (No data (connection closed)) at link archive.org/ext/build/js/areact.min.js?v=445ccf86 (from https://web.archive.org/)
+16:13:49	Warning: 	FOUND for https://wwwb-sentry.us.archive.org/3/
+16:13:49	Warning: 	File has moved from https://wwwb-sentry.us.archive.org/3/ to https://wwwb-sentry.us.archive.org/auth/login/3/
+16:15:52	Warning: 	Retry after error 409 (Conflict) at link https://archive.org/create/ (from https://web.archive.org/)
+16:15:58	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/web/ (from https://web.archive.org/)
+16:15:58	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/details/texts (from https://web.archive.org/)
