@@ -1,1716 +1,1016 @@
-<!DOCTYPE html>
-<html lang="en">
-  
-<!-- Mirrored from web.archive.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 May 2021 05:15:58 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
-    <title>Wayback Machine</title>
-    <script>
-    /*
-    @licstart  The following is the entire license notice for the JavaScript code in this page.
-
-    Copyright (C) 2020 Internet Archive
-
-    The JavaScript code in this page is free software: you can
-    redistribute it and/or modify it under the terms of the GNU Affero
-    General Public License as published by the Free Software
-    Foundation, either version 3 of the License, or (at your option)
-    any later version.  The code is distributed WITHOUT ANY WARRANTY;
-    without even the implied warranty of MERCHANTABILITY or FITNESS
-    FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-    As additional permission under GNU AGPL version 3 section 7, you
-    may distribute non-source (e.g., minimized or compacted) forms of
-    that code without the copy of the GNU AGPL normally required by
-    section 4, provided you include this license notice and a URL
-    through which recipients can access the Corresponding Source.
-
-    @licend  The above is the entire license notice for the JavaScript code in this page.
-    */
-    </script>
-    <script type="text/javascript">
-      window.webComponentLoaderConfig = {
-      baseUrl: 'https://archive.org',
-      version: '29e56e87'
-      }
-    </script>
-    <script src="../archive.org/ext/build/npm/jquery/dist/jquery.minc4a8.js?v1.12.4" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/npm/jquery-ui.mine7d9.js?v1.12.1" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/npm/bootstrap/dist/js/bootstrap.minee7b.js?v3.0.0" type="text/javascript"></script>
-    <script src="../archive.org/ext/components/npm/clipboard/dist/clipboardd30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/js/regenerator-runtime-polyfill.mind30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/js/ie-dom-node-remove-polyfill.mind30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/js/polyfill.mind30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/includes/analyticsd30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/ext/components/npm/%40webcomponents/webcomponentsjs/webcomponents-bundled30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/js/more-facets.mind30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/js/ia-topnav.mind30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/npm/react/umd/react.production.min3a93.js?v16.7.0" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/npm/react-dom/umd/react-dom.production.min3a93.js?v16.7.0" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/js/archive.mind30a.js?v=445ccf86" type="text/javascript"></script>
-    <script src="../archive.org/ext/build/js/areact.mind30a.js?v=445ccf86" type="text/javascript"></script>
-    <link href="../archive.org/ext/build/css/archive.mind30a.css?v=445ccf86" rel="stylesheet" type="text/css"/>
-    <meta property="mediatype" content="">
-    <meta property="primary_collection" content="">
-        <script src="_static/js/raven.min.js" crossorigin="anonymous"></script>
-    <script>Raven.config('../wwwb-sentry.us.archive.org/3/index.html').install();</script>
-<script type="text/javascript">if('archive_analytics' in window){var v=archive_analytics.values;v.path='';v.service='wb';v.server_name='wwwb-app57.us.archive.org';v.server_ms=222;archive_analytics.send_pageview_on_load()}</script>
-    <link href="_static/images/archive.ico" rel="shortcut icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="_static/css/stylesda06.css?v=TN3GQxFf" />
-    <base target="_top">
-    <link href="_static/css/web.css" rel="stylesheet" type="text/css"/>
-    <!-- include component js and css -->
-    <link rel="stylesheet" type="text/css" href="static/bower_components/wayback-search-js/dist/vendors_main.7059a9d5d2fa00a6bd97.chunk.css" />
-<link rel="stylesheet" type="text/css" href="static/bower_components/wayback-search-js/dist/main.4716cf2f9a8258abd761.chunk.css" />
-<script src="static/bower_components/wayback-search-js/dist/runtime.eb06185f9ef8d092b4a4.js"></script>
-<script src="static/bower_components/wayback-search-js/dist/vendors_main.7059a9d5d2fa00a6bd97.chunk.js"></script>
-<script src="static/bower_components/wayback-search-js/dist/main.4716cf2f9a8258abd761.chunk.js"></script>
-    <script src="../archive.org/web/carouFredSel/jquery.carouFredSel-6.2.1-packed9242.js?v6.2.1" type="text/javascript"></script>
-    <style>
-      html, body { margin:0; padding:0 }
-      #faux-header {
-        height: 50px;
-        width: 100%;
-        margin:0;
-        background-color:black;
-      }
-      #react-wayback-search {
-        max-width: 1170px;
-        margin: 0 auto;
-        padding: 10px;
-      }
-    </style>
-  </head>
-  <body class="navia">
-    
-                    <div class="ia-banners">
-              <div
-        class="ia-banner hidden new-lending-mechanism"
-        data-campaign="new-lending-mechanism">
-        <p><a href="../blog.archive.org/2020/06/10/temporary-national-emergency-library-to-close-2-weeks-early-returning-to-traditional-controlled-digital-lending/index.html" rel="nofollow">See what's new with book lending at the Internet Archive</a></p>
-        <form class="banner-close" action="#" method="get" data-action="ia-banner-close">
-          <fieldset>
-            <button aria-label="Close Banner" type="submit"></button>
-          </fieldset>
-        </form>
-      </div>
-          </div>
-                    <div id="topnav">
-                    <ia-topnav
-            baseHost="https://archive.org"
-            mediaBaseHost="https://archive.org"
-            username=""
-            screenName=""
-                        searchQuery=""
-            config="eyJ1cGxvYWRVUkwiOiJodHRwczpcL1wvYXJjaGl2ZS5vcmdcL2NyZWF0ZSIsImV2ZW50Q2F0ZWdvcnkiOiJUb3BOYXYiLCJ3YXliYWNrUGFnZXNBcmNoaXZlZCI6IjU1MSBiaWxsaW9uIn0="
-            menus="eyJhdWRpbyI6eyJoZWFkaW5nIjoiSW50ZXJuZXQgQXJjaGl2ZSBBdWRpbyIsImljb25MaW5rcyI6W3siaWNvbiI6Imh0dHBzOlwvXC9hcmNoaXZlLm9yZ1wvc2VydmljZXNcL2ltZ1wvZXRyZWUiLCJ0aXRsZSI6IkxpdmUgTXVzaWMgQXJjaGl2ZSIsInVybCI6IlwvZGV0YWlsc1wvZXRyZWUifSx7Imljb24iOiJodHRwczpcL1wvYXJjaGl2ZS5vcmdcL3NlcnZpY2VzXC9pbWdcL2xpYnJpdm94YXVkaW8iLCJ0aXRsZSI6IkxpYnJpdm94IEZyZWUgQXVkaW8iLCJ1cmwiOiJcL2RldGFpbHNcL2xpYnJpdm94YXVkaW8ifV0sImZlYXR1cmVkTGlua3MiOlt7InRpdGxlIjoiQWxsIEF1ZGlvIiwidXJsIjoiXC9kZXRhaWxzXC9hdWRpbyJ9LHsidGl0bGUiOiJUaGlzIEp1c3QgSW4iLCJ1cmwiOiJcL3NlYXJjaC5waHA/cXVlcnk9bWVkaWF0eXBlOmF1ZGlvJnNvcnQ9LXB1YmxpY2RhdGUifSx7InRpdGxlIjoiR3JhdGVmdWwgRGVhZCIsInVybCI6IlwvZGV0YWlsc1wvR3JhdGVmdWxEZWFkIn0seyJ0aXRsZSI6Ik5ldGxhYmVscyIsInVybCI6IlwvZGV0YWlsc1wvbmV0bGFiZWxzIn0seyJ0aXRsZSI6Ik9sZCBUaW1lIFJhZGlvIiwidXJsIjoiXC9kZXRhaWxzXC9vbGR0aW1lcmFkaW8ifSx7InRpdGxlIjoiNzggUlBNcyBhbmQgQ3lsaW5kZXIgUmVjb3JkaW5ncyIsInVybCI6IlwvZGV0YWlsc1wvNzhycG0ifV0sImxpbmtzIjpbeyJ0aXRsZSI6IkF1ZGlvIEJvb2tzICYgUG9ldHJ5IiwidXJsIjoiXC9kZXRhaWxzXC9hdWRpb19ib29rc3BvZXRyeSJ9LHsidGl0bGUiOiJDb21wdXRlcnMsIFRlY2hub2xvZ3kgYW5kIFNjaWVuY2UiLCJ1cmwiOiJcL2RldGFpbHNcL2F1ZGlvX3RlY2gifSx7InRpdGxlIjoiTXVzaWMsIEFydHMgJiBDdWx0dXJlIiwidXJsIjoiXC9kZXRhaWxzXC9hdWRpb19tdXNpYyJ9LHsidGl0bGUiOiJOZXdzICYgUHVibGljIEFmZmFpcnMiLCJ1cmwiOiJcL2RldGFpbHNcL2F1ZGlvX25ld3MifSx7InRpdGxlIjoiTm9uLUVuZ2xpc2ggQXVkaW8iLCJ1cmwiOiJcL2RldGFpbHNcL2F1ZGlvX2ZvcmVpZ24ifSx7InRpdGxlIjoiU3Bpcml0dWFsaXR5ICYgUmVsaWdpb24iLCJ1cmwiOiJcL2RldGFpbHNcL2F1ZGlvX3JlbGlnaW9uIn0seyJ0aXRsZSI6IlBvZGNhc3RzIiwidXJsIjoiXC9kZXRhaWxzXC9wb2RjYXN0cyJ9LHsidGl0bGUiOiJSYWRpbyBOZXdzIEFyY2hpdmUiLCJ1cmwiOiJcL2RldGFpbHNcL3JhZGlvIn1dfSwiaW1hZ2VzIjp7ImhlYWRpbmciOiJJbWFnZXMiLCJpY29uTGlua3MiOlt7Imljb24iOiJodHRwczpcL1wvYXJjaGl2ZS5vcmdcL3NlcnZpY2VzXC9pbWdcL21ldHJvcG9saXRhbm11c2V1bW9mYXJ0LWdhbGxlcnkiLCJ0aXRsZSI6Ik1ldHJvcG9saXRhbiBNdXNldW0iLCJ1cmwiOiJcL2RldGFpbHNcL21ldHJvcG9saXRhbm11c2V1bW9mYXJ0LWdhbGxlcnkifSx7Imljb24iOiJodHRwczpcL1wvYXJjaGl2ZS5vcmdcL3NlcnZpY2VzXC9pbWdcL2Jyb29rbHlubXVzZXVtIiwidGl0bGUiOiJCcm9va2x5biBNdXNldW0iLCJ1cmwiOiJcL2RldGFpbHNcL2Jyb29rbHlubXVzZXVtIn1dLCJmZWF0dXJlZExpbmtzIjpbeyJ0aXRsZSI6IkFsbCBJbWFnZXMiLCJ1cmwiOiJcL2RldGFpbHNcL2ltYWdlIn0seyJ0aXRsZSI6IlRoaXMgSnVzdCBJbiIsInVybCI6Ilwvc2VhcmNoLnBocD9xdWVyeT1tZWRpYXR5cGU6aW1hZ2Umc29ydD0tcHVibGljZGF0ZSJ9LHsidGl0bGUiOiJGbGlja3IgQ29tbW9ucyIsInVybCI6IlwvZGV0YWlsc1wvZmxpY2tyY29tbW9ucyJ9LHsidGl0bGUiOiJPY2N1cHkgV2FsbCBTdHJlZXQgRmxpY2tyIiwidXJsIjoiXC9kZXRhaWxzXC9mbGlja3Itb3dzIn0seyJ0aXRsZSI6IkNvdmVyIEFydCIsInVybCI6IlwvZGV0YWlsc1wvY292ZXJhcnRhcmNoaXZlIn0seyJ0aXRsZSI6IlVTR1MgTWFwcyIsInVybCI6IlwvZGV0YWlsc1wvbWFwc191c2dzIn1dLCJsaW5rcyI6W3sidGl0bGUiOiJOQVNBIEltYWdlcyIsInVybCI6IlwvZGV0YWlsc1wvbmFzYSJ9LHsidGl0bGUiOiJTb2xhciBTeXN0ZW0gQ29sbGVjdGlvbiIsInVybCI6IlwvZGV0YWlsc1wvc29sYXJzeXN0ZW1jb2xsZWN0aW9uIn0seyJ0aXRsZSI6IkFtZXMgUmVzZWFyY2ggQ2VudGVyIiwidXJsIjoiXC9kZXRhaWxzXC9hbWVzcmVzZWFyY2hjZW50ZXJpbWFnZWxpYnJhcnkifV19LCJtb3JlIjpbeyJ0aXRsZSI6IkFib3V0IiwidXJsIjoiXC9hYm91dFwvIn0seyJ0aXRsZSI6IkJsb2ciLCJ1cmwiOiJodHRwczpcL1wvYmxvZy5hcmNoaXZlLm9yZ1wvIn0seyJ0aXRsZSI6IlByb2plY3RzIiwidXJsIjoiXC9wcm9qZWN0c1wvIn0seyJ0aXRsZSI6IkhlbHAiLCJ1cmwiOiJcL2Fib3V0XC9mYXFzLnBocCJ9LHsidGl0bGUiOiJEb25hdGUiLCJ1cmwiOiJcL2RvbmF0ZT9vcmlnaW49d2J3d3ctVG9wTmF2RG9uYXRlQnV0dG9uIn0seyJ0aXRsZSI6IkNvbnRhY3QiLCJ1cmwiOiJcL2Fib3V0XC9jb250YWN0LnBocCJ9LHsidGl0bGUiOiJKb2JzIiwidXJsIjoiXC9hYm91dFwvam9icy5waHAifSx7InRpdGxlIjoiVm9sdW50ZWVyIiwidXJsIjoiXC9hYm91dFwvdm9sdW50ZWVycG9zaXRpb25zLnBocCJ9LHsidGl0bGUiOiJQZW9wbGUiLCJ1cmwiOiJcL2Fib3V0XC9iaW9zLnBocCJ9XSwic29mdHdhcmUiOnsiaGVhZGluZyI6IlNvZnR3YXJlIiwiaWNvbkxpbmtzIjpbeyJpY29uIjoiaHR0cHM6XC9cL2FyY2hpdmUub3JnXC9zZXJ2aWNlc1wvaW1nXC9pbnRlcm5ldGFyY2FkZSIsInRpdGxlIjoiSW50ZXJuZXQgQXJjYWRlIiwidXJsIjoiXC9kZXRhaWxzXC9pbnRlcm5ldGFyY2FkZSJ9LHsiaWNvbiI6Imh0dHBzOlwvXC9hcmNoaXZlLm9yZ1wvc2VydmljZXNcL2ltZ1wvY29uc29sZWxpdmluZ3Jvb20iLCJ0aXRsZSI6IkNvbnNvbGUgTGl2aW5nIFJvb20iLCJ1cmwiOiJcL2RldGFpbHNcL2NvbnNvbGVsaXZpbmdyb29tIn1dLCJmZWF0dXJlZExpbmtzIjpbeyJ0aXRsZSI6IkFsbCBTb2Z0d2FyZSIsInVybCI6IlwvZGV0YWlsc1wvc29mdHdhcmUifSx7InRpdGxlIjoiVGhpcyBKdXN0IEluIiwidXJsIjoiXC9zZWFyY2gucGhwP3F1ZXJ5PW1lZGlhdHlwZTpzb2Z0d2FyZSZzb3J0PS1wdWJsaWNkYXRlIn0seyJ0aXRsZSI6Ik9sZCBTY2hvb2wgRW11bGF0aW9uIiwidXJsIjoiXC9kZXRhaWxzXC90b3NlYyJ9LHsidGl0bGUiOiJNUy1ET1MgR2FtZXMiLCJ1cmwiOiJcL2RldGFpbHNcL3NvZnR3YXJlbGlicmFyeV9tc2Rvc19nYW1lcyJ9LHsidGl0bGUiOiJIaXN0b3JpY2FsIFNvZnR3YXJlIiwidXJsIjoiXC9kZXRhaWxzXC9oaXN0b3JpY2Fsc29mdHdhcmUifSx7InRpdGxlIjoiQ2xhc3NpYyBQQyBHYW1lcyIsInVybCI6IlwvZGV0YWlsc1wvY2xhc3NpY3BjZ2FtZXMifSx7InRpdGxlIjoiU29mdHdhcmUgTGlicmFyeSIsInVybCI6IlwvZGV0YWlsc1wvc29mdHdhcmVsaWJyYXJ5In1dLCJsaW5rcyI6W3sidGl0bGUiOiJLb2RpIEFyY2hpdmUgYW5kIFN1cHBvcnQgRmlsZSIsInVybCI6IlwvZGV0YWlsc1wva29kaV9hcmNoaXZlIn0seyJ0aXRsZSI6IlZpbnRhZ2UgU29mdHdhcmUiLCJ1cmwiOiJcL2RldGFpbHNcL3ZpbnRhZ2Vzb2Z0d2FyZSJ9LHsidGl0bGUiOiJBUEsiLCJ1cmwiOiJcL2RldGFpbHNcL2Fwa2FyY2hpdmUifSx7InRpdGxlIjoiTVMtRE9TIiwidXJsIjoiXC9kZXRhaWxzXC9zb2Z0d2FyZWxpYnJhcnlfbXNkb3MifSx7InRpdGxlIjoiQ0QtUk9NIFNvZnR3YXJlIiwidXJsIjoiXC9kZXRhaWxzXC9jZC1yb21zIn0seyJ0aXRsZSI6IkNELVJPTSBTb2Z0d2FyZSBMaWJyYXJ5IiwidXJsIjoiXC9kZXRhaWxzXC9jZHJvbXNvZnR3YXJlIn0seyJ0aXRsZSI6IlNvZnR3YXJlIFNpdGVzIiwidXJsIjoiXC9kZXRhaWxzXC9zb2Z0d2FyZXNpdGVzIn0seyJ0aXRsZSI6IlR1Y293cyBTb2Z0d2FyZSBMaWJyYXJ5IiwidXJsIjoiXC9kZXRhaWxzXC90dWNvd3MifSx7InRpdGxlIjoiU2hhcmV3YXJlIENELVJPTXMiLCJ1cmwiOiJcL2RldGFpbHNcL2NkYmJzYXJjaGl2ZSJ9LHsidGl0bGUiOiJTb2Z0d2FyZSBDYXBzdWxlcyBDb21waWxhdGlvbiIsInVybCI6IlwvZGV0YWlsc1wvc29mdHdhcmVjYXBzdWxlcyJ9LHsidGl0bGUiOiJDRC1ST00gSW1hZ2VzIiwidXJsIjoiXC9kZXRhaWxzXC9jZHJvbWltYWdlcyJ9LHsidGl0bGUiOiJaWCBTcGVjdHJ1bSIsInVybCI6IlwvZGV0YWlsc1wvc29mdHdhcmVsaWJyYXJ5X3p4X3NwZWN0cnVtIn0seyJ0aXRsZSI6IkRPT00gTGV2ZWwgQ0QiLCJ1cmwiOiJcL2RldGFpbHNcL2Rvb20tY2RzIn1dfSwidGV4dHMiOnsiaGVhZGluZyI6IkJvb2tzIiwiaWNvbkxpbmtzIjpbeyJ0aXRsZSI6IkJvb2tzIHRvIEJvcnJvdyIsImljb24iOiJodHRwczpcL1wvYXJjaGl2ZS5vcmdcL3NlcnZpY2VzXC9pbWdcL2lubGlicmFyeSIsInVybCI6IlwvZGV0YWlsc1wvaW5saWJyYXJ5In0seyJ0aXRsZSI6Ik9wZW4gTGlicmFyeSIsImljb24iOiJodHRwczpcL1wvYXJjaGl2ZS5vcmdcL2ltYWdlc1wvd2lkZ2V0T0wucG5nIiwidXJsIjoiaHR0cHM6XC9cL29wZW5saWJyYXJ5Lm9yZ1wvIn1dLCJmZWF0dXJlZExpbmtzIjpbeyJ0aXRsZSI6IkFsbCBCb29rcyIsInVybCI6IlwvZGV0YWlsc1wvYm9va3MifSx7InRpdGxlIjoiQWxsIFRleHRzIiwidXJsIjoiXC9kZXRhaWxzXC90ZXh0cyJ9LHsidGl0bGUiOiJUaGlzIEp1c3QgSW4iLCJ1cmwiOiJcL3NlYXJjaC5waHA/cXVlcnk9bWVkaWF0eXBlOnRleHRzJnNvcnQ9LXB1YmxpY2RhdGUifSx7InRpdGxlIjoiU21pdGhzb25pYW4gTGlicmFyaWVzIiwidXJsIjoiXC9kZXRhaWxzXC9zbWl0aHNvbmlhbiJ9LHsidGl0bGUiOiJGRURMSU5LIChVUykiLCJ1cmwiOiJcL2RldGFpbHNcL2ZlZGxpbmsifSx7InRpdGxlIjoiR2VuZWFsb2d5IiwidXJsIjoiXC9kZXRhaWxzXC9nZW5lYWxvZ3kifSx7InRpdGxlIjoiTGluY29sbiBDb2xsZWN0aW9uIiwidXJsIjoiXC9kZXRhaWxzXC9saW5jb2xuY29sbGVjdGlvbiJ9XSwibGlua3MiOlt7InRpdGxlIjoiQW1lcmljYW4gTGlicmFyaWVzIiwidXJsIjoiXC9kZXRhaWxzXC9hbWVyaWNhbmEifSx7InRpdGxlIjoiQ2FuYWRpYW4gTGlicmFyaWVzIiwidXJsIjoiXC9kZXRhaWxzXC90b3JvbnRvIn0seyJ0aXRsZSI6IlVuaXZlcnNhbCBMaWJyYXJ5IiwidXJsIjoiXC9kZXRhaWxzXC91bml2ZXJzYWxsaWJyYXJ5In0seyJ0aXRsZSI6IlByb2plY3QgR3V0ZW5iZXJnIiwidXJsIjoiXC9kZXRhaWxzXC9ndXRlbmJlcmcifSx7InRpdGxlIjoiQ2hpbGRyZW4ncyBMaWJyYXJ5IiwidXJsIjoiXC9kZXRhaWxzXC9pYWNsIn0seyJ0aXRsZSI6IkJpb2RpdmVyc2l0eSBIZXJpdGFnZSBMaWJyYXJ5IiwidXJsIjoiXC9kZXRhaWxzXC9iaW9kaXZlcnNpdHkifSx7InRpdGxlIjoiQm9va3MgYnkgTGFuZ3VhZ2UiLCJ1cmwiOiJcL2RldGFpbHNcL2Jvb2tzYnlsYW5ndWFnZSJ9LHsidGl0bGUiOiJCb29rcyBieSBMYW5ndWFnZSIsInVybCI6IlwvZGV0YWlsc1wvYm9va3NieWxhbmd1YWdlIn0seyJ0aXRsZSI6IkFkZGl0aW9uYWwgQ29sbGVjdGlvbnMiLCJ1cmwiOiJcL2RldGFpbHNcL2FkZGl0aW9uYWxfY29sbGVjdGlvbnMifV19LCJ3ZWIiOnsibW9iaWxlQXBwc0xpbmtzIjpbeyJ1cmwiOiJodHRwczpcL1wvYXBwcy5hcHBsZS5jb21cL3VzXC9hcHBcL3dheWJhY2stbWFjaGluZVwvaWQxMjAxODg4MzEzIiwidGl0bGUiOiJXYXliYWNrIE1hY2hpbmUgKGlPUykiLCJleHRlcm5hbCI6dHJ1ZX0seyJ1cmwiOiJodHRwczpcL1wvcGxheS5nb29nbGUuY29tXC9zdG9yZVwvYXBwc1wvZGV0YWlscz9pZD1jb20uYXJjaGl2ZS53YXliYWNrbWFjaGluZSZobD1lbl9VUyIsInRpdGxlIjoiV2F5YmFjayBNYWNoaW5lIChBbmRyb2lkKSIsImV4dGVybmFsIjp0cnVlfV0sImJyb3dzZXJFeHRlbnNpb25zTGlua3MiOlt7InVybCI6Imh0dHBzOlwvXC9jaHJvbWUuZ29vZ2xlLmNvbVwvd2Vic3RvcmVcL2RldGFpbFwvc2F2ZS10by10aGUtd2F5YmFjay1tYWNoaVwvZWVicGlvYWFpbGJqb2ptZGJtbHBvbWZnaWpubGNlbWs/aGw9ZW4iLCJ0aXRsZSI6IkNocm9tZSIsImV4dGVybmFsIjp0cnVlfSx7InVybCI6Imh0dHBzOlwvXC9hZGRvbnMubW96aWxsYS5vcmdcL2VuLVVTXC9maXJlZm94XC9hZGRvblwvd2F5YmFjay1tYWNoaW5lX25ld1wvIiwidGl0bGUiOiJGaXJlZm94IiwiZXh0ZXJuYWwiOnRydWV9LHsidXJsIjoiaHR0cHM6XC9cL2FwcHMuYXBwbGUuY29tXC91c1wvYXBwXC93YXliYWNrLW1hY2hpbmVcL2lkMTQ3MjQzMjQyMj9tdD0xMiIsInRpdGxlIjoiU2FmYXJpIiwiZXh0ZXJuYWwiOnRydWV9XSwiYXJjaGl2ZUl0TGlua3MiOlt7InVybCI6Imh0dHBzOlwvXC93d3cuYXJjaGl2ZS1pdC5vcmdcL2V4cGxvcmUiLCJ0aXRsZSI6IkV4cGxvcmUgdGhlIENvbGxlY3Rpb25zIn0seyJ1cmwiOiJodHRwczpcL1wvd3d3LmFyY2hpdmUtaXQub3JnXC9ibG9nXC9sZWFybi1tb3JlXC8iLCJ0aXRsZSI6IkxlYXJuIE1vcmUifSx7InVybCI6Imh0dHBzOlwvXC93d3cuYXJjaGl2ZS1pdC5vcmdcL2NvbnRhY3QtdXMiLCJ0aXRsZSI6IkJ1aWxkIENvbGxlY3Rpb25zIn1dfSwidmlkZW8iOnsiaGVhZGluZyI6IlZpZGVvIiwiaWNvbkxpbmtzIjpbeyJpY29uIjoiaHR0cHM6XC9cL2FyY2hpdmUub3JnXC9zZXJ2aWNlc1wvaW1nXC90diIsInRpdGxlIjoiVFYgTmV3cyIsInVybCI6IlwvZGV0YWlsc1wvdHYifSx7Imljb24iOiJodHRwczpcL1wvYXJjaGl2ZS5vcmdcL3NlcnZpY2VzXC9pbWdcLzkxMSIsInRpdGxlIjoiVW5kZXJzdGFuZGluZyA5XC8xMSIsInVybCI6IlwvZGV0YWlsc1wvOTExIn1dLCJmZWF0dXJlZExpbmtzIjpbeyJ0aXRsZSI6IkFsbCBWaWRlbyIsInVybCI6IlwvZGV0YWlsc1wvbW92aWVzIn0seyJ0aXRsZSI6IlRoaXMgSnVzdCBJbiIsInVybCI6Ilwvc2VhcmNoLnBocD9xdWVyeT1tZWRpYXR5cGU6bW92aWVzJnNvcnQ9LXB1YmxpY2RhdGUifSx7InRpdGxlIjoiUHJlbGluZ2VyIEFyY2hpdmVzIiwidXJsIjoiXC9kZXRhaWxzXC9wcmVsaW5nZXIifSx7InRpdGxlIjoiRGVtb2NyYWN5IE5vdyEiLCJ1cmwiOiJcL2RldGFpbHNcL2RlbW9jcmFjeV9ub3dfdmlkIn0seyJ0aXRsZSI6Ik9jY3VweSBXYWxsIFN0cmVldCIsInVybCI6IlwvZGV0YWlsc1wvb2NjdXB5d2FsbHN0cmVldCJ9LHsidGl0bGUiOiJUViBOU0EgQ2xpcCBMaWJyYXJ5IiwidXJsIjoiXC9kZXRhaWxzXC9uc2EifV0sImxpbmtzIjpbeyJ0aXRsZSI6IkFuaW1hdGlvbiAmIENhcnRvb25zIiwidXJsIjoiXC9kZXRhaWxzXC9hbmltYXRpb25hbmRjYXJ0b29ucyJ9LHsidGl0bGUiOiJBcnRzICYgTXVzaWMiLCJ1cmwiOiJcL2RldGFpbHNcL2FydHNhbmRtdXNpY3ZpZGVvcyJ9LHsidGl0bGUiOiJDb21wdXRlcnMgJiBUZWNobm9sb2d5IiwidXJsIjoiXC9kZXRhaWxzXC9jb21wdXRlcnNhbmR0ZWNodmlkZW9zIn0seyJ0aXRsZSI6IkN1bHR1cmFsICYgQWNhZGVtaWMgRmlsbXMiLCJ1cmwiOiJcL2RldGFpbHNcL2N1bHR1cmFsYW5kYWNhZGVtaWNmaWxtcyJ9LHsidGl0bGUiOiJFcGhlbWVyYWwgRmlsbXMiLCJ1cmwiOiJcL2RldGFpbHNcL2VwaGVtZXJhIn0seyJ0aXRsZSI6Ik1vdmllcyIsInVybCI6IlwvZGV0YWlsc1wvbW92aWVzYW5kZmlsbXMifSx7InRpdGxlIjoiTmV3cyAmIFB1YmxpYyBBZmZhaXJzIiwidXJsIjoiXC9kZXRhaWxzXC9uZXdzYW5kcHVibGljYWZmYWlycyJ9LHsidGl0bGUiOiJTcGlyaXR1YWxpdHkgJiBSZWxpZ2lvbiIsInVybCI6IlwvZGV0YWlsc1wvc3Bpcml0dWFsaXR5YW5kcmVsaWdpb24ifSx7InRpdGxlIjoiU3BvcnRzIFZpZGVvcyIsInVybCI6IlwvZGV0YWlsc1wvc3BvcnRzIn0seyJ0aXRsZSI6IlRlbGV2aXNpb24iLCJ1cmwiOiJcL2RldGFpbHNcL3RlbGV2aXNpb24ifSx7InRpdGxlIjoiVmlkZW9nYW1lIFZpZGVvcyIsInVybCI6IlwvZGV0YWlsc1wvZ2FtZXZpZGVvcyJ9LHsidGl0bGUiOiJWbG9ncyIsInVybCI6IlwvZGV0YWlsc1wvdmxvZ3MifSx7InRpdGxlIjoiWW91dGggTWVkaWEiLCJ1cmwiOiJcL2RldGFpbHNcL3lvdXRoX21lZGlhIn1dfSwidXNlciI6W10sInNpZ25lZE91dCI6W3sidXJsIjoiXC9hY2NvdW50XC9zaWdudXAiLCJ0aXRsZSI6IlNpZ24gdXAgZm9yIGZyZWUiLCJhbmFseXRpY3NFdmVudCI6IkF2YXRhck1lbnUtU2lnbnVwIn0seyJ1cmwiOiJcL2FjY291bnRcL2xvZ2luIiwidGl0bGUiOiJMb2cgaW4iLCJhbmFseXRpY3NFdmVudCI6IkF2YXRhck1lbnUtTG9naW4ifV19">
-                                      <noscript class='static-content'>      <style scope="icon-hamburger-1">.icon-hamburger-1 svg.icon-hamburger {
-        display: block;
-      }
-
-      .icon-hamburger-1 .fill-color.icon-hamburger {
-        fill: #fff;
-      }</style><!-- Shady DOM styles for login-button --><style scope="login-button-1">.login-button-1 .dropdown-toggle.login-button {
-        display: block;
-          height: 4rem;
-          font-size: 1.6rem;
-          text-transform: uppercase;
-          text-decoration: none;
-          color: #ccc;
-          cursor: pointer;
-      }
-
-      .login-button-1 .dropdown-toggle.login-button .fill-color.login-button {
-        fill: #999;
-      }
-
-      .login-button-1 .dropdown-toggle.login-button:active .fill-color.login-button,.login-button-1 .dropdown-toggle.login-button:focus .fill-color.login-button,.login-button-1 .dropdown-toggle.login-button:hover .fill-color.login-button {
-        fill: #fff;
-      }
-
-      .login-button-1 .active.login-button {
-        border-radius: 1rem 1rem 0 0;
-          background: #333;
-      }
-
-      .login-button-1 .active.login-button .fill-color.login-button {
-        fill: #fff;
-      }
-
-      .login-button-1 span.login-button {
-        display: none;
-          font-size: 1.4rem;
-          text-transform: uppercase;
-          color: #999;
-      }
-
-      .login-button-1 span.login-button a.login-button {
-        color: inherit;
-          text-decoration: none;
-      }
-
-      .login-button-1 a.login-button:hover,.login-button-1 a.login-button:active,.login-button-1 a.login-button:focus {
-        color: #fff;
-      }
-
-      @media (min-width: 890px) {
-      .login-button-1 .logged-out-toolbar.login-button {
-        transform: translateY(-.5rem);
-      }
-
-      .login-button-1 .active.login-button {
-        background: transparent;
-      }
-
-      .login-button-1 .dropdown-toggle.login-button {
-        display: inline-block;
-            vertical-align: middle;
-      }
-
-      .login-button-1 span.login-button {
-        display: inline;
-            vertical-align: middle;
-      }
-
-      }</style><!-- Shady DOM styles for nav-search --><style scope="nav-search-1">.nav-search-1 input.nav-search:focus {
-        outline: none;
-      }
-
-      .nav-search-1 button.nav-search {
-        background: none;
-          color: inherit;
-          border: none;
-          font: inherit;
-          cursor: pointer;
-      }
-
-      .nav-search-1 button.nav-search:focus {
-        outline: none;
-      }
-
-      .nav-search-1 .search.nav-search {
-        padding-top: 0;
-          margin-right: .5rem;
-      }
-
-      .nav-search-1 .search.nav-search svg.nav-search {
-        position: relative;
-          top: -5px;
-          right: -3px;
-          fill:;
-      }
-
-      .nav-search-1 .search-activated.nav-search {
-        display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          position: absolute;
-          top: 0;
-          right: 5rem;
-          bottom: 0;
-          left: 5rem;
-          z-index: 3;
-          padding: 0.5rem 0.2rem;
-          border-radius: 1rem 1rem 0 0;
-          background: #333;
-      }
-
-      .nav-search-1 .search-inactive.nav-search {
-        display: none;
-      }
-
-      .nav-search-1 .search-activated.nav-search .highlight.nav-search,.nav-search-1 .search-activated.nav-search .search.nav-search {
-        background: #fff;
-          border-radius: 0.5rem;
-      }
-
-      .nav-search-1 .search-activated.nav-search .highlight.nav-search {
-        display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          width: 100%;
-          margin: 0 .5rem;
-      }
-
-      .nav-search-1 .search-activated.nav-search .search.nav-search {
-        height: 100%;
-          padding: 0;
-          margin-right: 0;
-          -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
-      }
-
-      .nav-search-1 .search-activated.nav-search .search-field.nav-search {
-        width: 100%;
-          height: 100%;
-          box-sizing: border-box;
-          padding-left: 1rem;
-          border-radius: 0.5rem;
-          border: none;
-          font-size: 1.6rem;
-          text-align: center;
-      }
-
-      .nav-search-1 .search-activated.nav-search .search-field.nav-search:focus {
-        outline: none;
-      }
-
-      @keyframes fade-in-nav-search-1 {
-      0% {
-        opacity: 0;
-      }
-
-      100% {
-        opacity: 1;
-      }
-
-      }
-
-      .nav-search-1 .fade-in.nav-search {
-        animation: fade-in-nav-search-1 .2s forwards;
-      }
-
-      @media (min-width: 890px) {
-      .nav-search-1 .search.nav-search svg.nav-search {
-        display: inline;
-            width: 28px;
-            height: 28px;
-            vertical-align: -14px;
-      }
-
-      .nav-search-1 .search.nav-search path.nav-search {
-        fill: #333;
-      }
-
-      .nav-search-1 .search-inactive.nav-search,.nav-search-1 .search-activated.nav-search {
-        display: block;
-            position: static;
-            padding: 1.2rem .2rem;
-            background: transparent;
-      }
-
-      .nav-search-1 .search-activated.nav-search .highlight.nav-search {
-        width: 13rem;
-            height: 2.8rem;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: reverse;
-            -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-      }
-
-      .nav-search-1 .search-activated.nav-search .search-field.nav-search {
-        width: calc(100% - 28px);
-            height: 100%;
-            padding-left: 0;
-            font-size: 1.4rem;
-            text-align: left;
-      }
-
-      .nav-search-1 .search-activated.nav-search .search.nav-search svg.nav-search {
-        width: 28px;
-            height: 28px;
-      }
-
-      }</style><!-- Shady DOM styles for media-button --><style scope="media-button-1">.media-button-1 a.media-button {
-        display: inline-block;
-          text-decoration: none;
-      }
-
-      .media-button-1 .menu-item.media-button {
-        display: inline-flex;
-          width: 100%;
-          padding: 0;
-          font-size: 1.6rem;
-          text-align: left;
-          background: transparent;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-      }
-
-      .media-button-1 .menu-item.media-button:focus {
-        outline: none;
-      }
-
-      .media-button-1 .label.media-button {
-        display: inline-block;
-          padding: 0;
-          font-weight: 400;
-          color: #fff;
-          text-align: left;
-          vertical-align: middle;
-      }
-
-      .media-button-1 .menu-item.media-button > .icon.media-button {
-        display: inline-flex;
-          width: 42px;
-          height: 42px;
-          vertical-align: middle;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-      }
-
-      .media-button-1 .menu-item.selected.media-button .icon.media-button {
-        background-color: #333;
-          border-radius: 1rem 0 0 1rem;
-      }
-
-      .media-button-1 .icon.media-button .fill-color.media-button {
-        fill: #999;
-      }
-
-      .media-button-1 .icon.active.media-button .fill-color.media-button {
-        fill: #fff;
-      }
-
-      .media-button-1 .donate.media-button .fill-color.media-button {
-        fill: #f00;
-      }
-
-      @media (min-width: 890px) {
-      .media-button-1 .menu-item.media-button {
-        width: auto;
-            height: 5rem;
-            color: #999;
-      }
-
-      .media-button-1 .menu-item.media-button:hover,.media-button-1 .menu-item.media-button:active,.media-button-1 .menu-item.media-button:focus {
-        color: #fff;
-      }
-
-      .media-button-1 .menu-item.media-button:hover .fill-color.media-button,.media-button-1 .menu-item.media-button:active .fill-color.media-button,.media-button-1 .menu-item.media-button:focus .fill-color.media-button {
-        fill: #fff;
-      }
-
-      .media-button-1 .label.media-button {
-        display: none;
-      }
-
-      .media-button-1 .label.media-button,.media-button-1 .web.media-button:after {
-        padding-right: 1rem;
-            font-size: 1.3rem;
-            text-transform: uppercase;
-            color: inherit;
-      }
-
-      .media-button-1 .web.media-button:after {
-        display: none;
-            content: "web";
-      }
-
-      .media-button-1 .donate.media-button,.media-button-1 .more.media-button {
-        display: none;
-      }
-
-      .media-button-1 .menu-item.selected.media-button {
-        background: #474747;
-      }
-
-      .media-button-1 .menu-item.selected.media-button .label.media-button,.media-button-1 .menu-item.selected.web.media-button:after {
-        color: #fff;
-      }
-
-      .media-button-1 .menu-item.selected.media-button .icon.media-button {
-        background: transparent;
-      }
-
-      .media-button-1 .web.selected.media-button .fill-color.media-button {
-        fill: #ffcd27;
-      }
-
-      .media-button-1 .texts.selected.media-button .fill-color.media-button {
-        fill: #faab3c;
-      }
-
-      .media-button-1 .video.selected.media-button .fill-color.media-button {
-        fill: #f1644b;
-      }
-
-      .media-button-1 .audio.selected.media-button .fill-color.media-button {
-        fill: #00adef;
-      }
-
-      .media-button-1 .software.selected.media-button .fill-color.media-button {
-        fill: #9ecc4f;
-      }
-
-      .media-button-1 .images.selected.media-button .fill-color.media-button {
-        fill: #aa99c9;
-      }
-
-      }
-
-      @media (min-width: 1300px) {
-      .media-button-1 .label.media-button,.media-button-1 .web.media-button:after {
-        display: inline;
-      }
-
-      .media-button-1 .web.media-button .label.media-button {
-        display: none;
-      }
-
-      }</style><!-- Shady DOM styles for media-menu --><style scope="media-menu-1">.media-menu-1 {
-        outline: none;
-      }
-
-      .media-menu-1 .media-menu.media-menu {
-        position: absolute;
-          z-index: -1;
-          top: -100vh;
-          width: 100%;
-          background-color: #222;
-          margin: 0;
-          overflow: hidden;
-      }
-
-      .media-menu-1 .media-menu.tx-slide.media-menu {
-        transition-property: top;
-          transition-duration: 0.2s;
-          transition-timing-function: ease;
-      }
-
-      .media-menu-1 .media-menu.tx-slide.open.media-menu {
-        top: 100%;
-      }
-
-      .media-menu-1 .media-menu.tx-slide.closed.media-menu {
-        top: -100vh;
-      }
-
-      .media-menu-1 .media-menu.tx-slide.closed.media-menu {
-        transition-duration: 0.2s;
-      }
-
-      .media-menu-1 .menu-group.media-menu {
-        position: relative;
-          line-height: normal;
-      }
-
-      @media (min-width: 890px) {
-      .media-menu-1 .media-menu.media-menu {
-        display: inline-block;
-            position: static;
-            width: auto;
-            height: 5rem;
-      }
-
-      .media-menu-1 .media-menu.tx-slide.media-menu {
-        transition-property: none;
-      }
-
-      .media-menu-1 .media-menu.tx-slide.open.media-menu,.media-menu-1 .media-menu.tx-slide.closed.media-menu {
-        top: 0;
-      }
-
-      .media-menu-1 .menu-group.media-menu {
-        font-size: 0;
-      }
-
-      }</style><!-- Shady DOM styles for primary-nav --><style scope="primary-nav-1">.primary-nav-1 button.primary-nav:focus,.primary-nav-1 a.primary-nav:focus,.primary-nav-1 input.primary-nav:focus {
-        outline: none;
-      }
-
-      .primary-nav-1 nav.primary-nav {
-        position: relative;
-          display: -ms-grid;
-          display: grid;
-          height: 4rem;
-          grid-template-areas: "hamburger empty search user";
-          -ms-grid-columns: 4rem minmax(1rem, 100%) 4.3rem 5rem;
-          grid-template-columns: 4rem auto 4.3rem 5rem;
-          -ms-grid-rows: 100%;
-          grid-template-rows: 100%;
-          background: #222;
-          border-bottom: 1px solid #333;
-      }
-
-      .primary-nav-1 button.primary-nav {
-        background: none;
-          color: inherit;
-          border: none;
-          font: inherit;
-          cursor: pointer;
-      }
-
-      .primary-nav-1 .link-home.primary-nav {
-        position: absolute;
-          top: 50%;
-          left: 50%;
-          z-index: 2;
-          text-decoration: none;
-          -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-      }
-
-      .primary-nav-1 media-menu.primary-nav {
-        grid-column-start: hamburger-start;
-          grid-column-end: user-end;
-      }
-
-      .primary-nav-1 .ia-logo.primary-nav {
-        display: block;
-      }
-
-      .primary-nav-1 .ia-wordmark.primary-nav {
-        display: none;
-      }
-
-      .primary-nav-1 .hamburger.primary-nav {
-        -ms-grid-row: 1;
-          -ms-grid-column: 1;
-          grid-area: hamburger;
-          padding: 0;
-      }
-
-      .primary-nav-1 .search-trigger.primary-nav {
-        -ms-grid-row: 1;
-          -ms-grid-column: 3;
-          grid-area: search;
-          position: relative;
-          padding: 0;
-          z-index: 1;
-          width: 100%;
-          text-align: right;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-      }
-
-      .primary-nav-1 .search-trigger.primary-nav .fill-color.primary-nav {
-        fill: #999;
-      }
-
-      .primary-nav-1 .search-activated.primary-nav {
-        position: relative;
-          z-index: 3;
-      }
-
-      .primary-nav-1 .upload.primary-nav {
-        display: none;
-      }
-
-      .primary-nav-1 .upload.primary-nav span.primary-nav {
-        display: none;
-      }
-
-      .primary-nav-1 .user-info.primary-nav {
-        -ms-grid-row: 1;
-          -ms-grid-column: 4;
-          grid-area: user;
-          -ms-grid-row-align: stretch;
-          align-self: stretch;
-          -ms-grid-column-align: end;
-          justify-self: end;
-      }
-
-      .primary-nav-1 .username.primary-nav {
-        display: none;
-          font-size: 1.3rem;
-          vertical-align: middle;
-          text-transform: uppercase;
-      }
-
-      .primary-nav-1 .user-menu.primary-nav {
-        height: 100%;
-          padding: .5rem 1rem;
-          color: #999;
-      }
-
-      .primary-nav-1 .user-menu.primary-nav:hover {
-        color: #fff;
-      }
-
-      .primary-nav-1 .user-menu.active.primary-nav {
-        border-radius: 1rem 1rem 0 0;
-          background: #333;
-      }
-
-      .primary-nav-1 .user-menu.primary-nav img.primary-nav {
-        display: block;
-          width: 30px;
-          height: 30px;
-      }
-
-      @media (min-width: 890px) {
-      .primary-nav-1 {
-        ;
-      }
-
-      .primary-nav-1 nav.primary-nav {
-        display: block;
-            z-index: 2;
-            height: 5rem;
-            padding-right: 1.5rem;
-      }
-
-      .primary-nav-1 .link-home.primary-nav {
-        position: static;
-            float: left;
-            margin-top: 1rem;
-            padding: 0 10px 0 13px;
-            -webkit-transform: translate(0, 0);
-            -ms-transform: translate(0, 0);
-            transform: translate(0, 0);
-      }
-
-      .primary-nav-1 .ia-logo.primary-nav,.primary-nav-1 .ia-wordmark.primary-nav {
-        display: inline-block;
-            vertical-align: middle;
-      }
-
-      .primary-nav-1 .ia-wordmark.primary-nav {
-        margin-left: 1rem;
-      }
-
-      .primary-nav-1 .hamburger.primary-nav,.primary-nav-1 .search-trigger.primary-nav {
-        display: none;
-      }
-
-      .primary-nav-1 .user-info.primary-nav {
-        float: right;
-            padding-top: 1rem;
-      }
-
-      .primary-nav-1 .user-menu.primary-nav {
-        padding-top: 0;
-      }
-
-      .primary-nav-1 .user-menu.active.primary-nav {
-        background: transparent;
-      }
-
-      .primary-nav-1 .user-menu.primary-nav img.primary-nav {
-        display: inline-block;
-            vertical-align: middle;
-      }
-
-      .primary-nav-1 .upload.primary-nav {
-        display: block;
-            float: right;
-            margin-top: 1rem;
-            font-size: 1.4rem;
-            text-transform: uppercase;
-            text-decoration: none;
-            color: #999;
-      }
-
-      .primary-nav-1 .upload.primary-nav:active,.primary-nav-1 .upload.primary-nav:focus,.primary-nav-1 .upload.primary-nav:hover {
-        color: #fff;
-      }
-
-      .primary-nav-1 .upload.primary-nav svg.primary-nav {
-        width: 32px;
-            height: 32px;
-            vertical-align: middle;
-            fill: #999;
-      }
-
-      .primary-nav-1 .upload.primary-nav:hover svg.primary-nav,.primary-nav-1 .upload.primary-nav:focus svg.primary-nav,.primary-nav-1 .upload.primary-nav:active svg.primary-nav {
-        fill: #fff;
-      }
-
-      .primary-nav-1 nav-search.primary-nav {
-        float: right;
-            margin-left: 1rem;
-      }
-
-      .primary-nav-1 login-button.primary-nav {
-        display: block;
-            margin-right: 1rem;
-      }
-
-      }
-
-      @media (min-width: 990px) {
-      .primary-nav-1 .username.primary-nav {
-        display: inline-block;
-      }
-
-      .primary-nav-1 .upload.primary-nav span.primary-nav {
-        display: inline;
-      }
-
-      }</style><!-- Shady DOM styles for user-menu --><!-- Shady DOM styles for search-menu --><style scope="search-menu-1">.search-menu-1 {
-        ;
-      }
-
-      .search-menu-1 button.search-menu:focus,.search-menu-1 input.search-menu:focus {
-        outline-color: #428bca;
-          outline-width: 0.16rem;
-          outline-style: auto;
-      }
-
-      .search-menu-1 .search-menu.search-menu {
-        position: absolute;
-          top: -800px;
-          right: 0;
-          left: 0;
-          z-index: 1;
-          padding: 0 4.5rem;
-          font-size: 1.6rem;
-          background-color: #333;
-      }
-
-      .search-menu-1 .tx-slide.search-menu {
-        overflow: hidden;
-          transition-property: top;
-          transition-duration: 0.2s;
-          transition-timing-function: ease;
-      }
-
-      .search-menu-1 .initial.search-menu,.search-menu-1 .closed.search-menu {
-        top: -800px;
-      }
-
-      .search-menu-1 .closed.search-menu {
-        transition-duration: 0.2s;
-      }
-
-      .search-menu-1 .open.search-menu {
-        top: 4rem;
-      }
-
-      .search-menu-1 label.search-menu,.search-menu-1 a.search-menu {
-        padding: 1rem;
-          display: block;
-      }
-
-      .search-menu-1 .advanced-search.search-menu {
-        text-decoration: none;
-          color: #428bca;
-      }
-
-      @media (min-width: 890px) {
-      .search-menu-1 .search-menu.search-menu {
-        overflow: visible;
-            top: -400px;
-            right: 2rem;
-            left: auto;
-            z-index: 5;
-            padding: 1rem 2rem;
-            transition: opacity .2s ease-in-out;
-            font-size: 1.4rem;
-            color: #333;
-            border-radius: 2px;
-            background: #fff;
-            box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .15);
-      }
-
-      .search-menu-1 .search-menu.search-menu:after {
-        position: absolute;
-            right: 7px;
-            top: -7px;
-            width: 12px;
-            height: 7px;
-            box-sizing: border-box;
-            color: #fff;
-            content: "";
-            border-bottom: 7px solid currentColor;
-            border-left: 6px solid transparent;
-            border-right: 6px solid transparent;
-      }
-
-      .search-menu-1 .initial.search-menu,.search-menu-1 .closed.search-menu {
-        opacity: 0;
-            transition-duration: .2s;
-      }
-
-      .search-menu-1 .open.search-menu {
-        top: 5.1rem;
-            opacity: 1;
-      }
-
-      .search-menu-1 label.search-menu {
-        padding: 0;
-      }
-
-      .search-menu-1 label.search-menu + label.search-menu {
-        padding-top: 7px;
-      }
-
-      .search-menu-1 a.search-menu {
-        padding: 1rem 0 0 0;
-      }
-
-      }</style><!-- Shady DOM styles for wayback-search --><!-- Shady DOM styles for more-slider --><!-- Shady DOM styles for media-subnav --><style scope="media-subnav-1">.media-subnav-1 a.media-subnav {
-        text-decoration: none;
-          color: #fff;
-      }
-
-      .media-subnav-1 img.media-subnav {
-        display: block;
-          width: 90px;
-          height: 90px;
-          margin: 0 auto 1rem auto;
-          border-radius: 45px;
-      }
-
-      .media-subnav-1 h3.media-subnav {
-        margin-top: 0;
-          font-size: 1.8rem;
-      }
-
-      .media-subnav-1 h4.media-subnav {
-        font-size: 1.6rem;
-      }
-
-      .media-subnav-1 ul.media-subnav {
-        padding: 0;
-          margin: 0;
-          list-style: none;
-      }
-
-      .media-subnav-1 li.media-subnav + li.media-subnav {
-        padding-top: 1.5rem;
-      }
-
-      .media-subnav-1 .icon-links.media-subnav {
-        display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: space-evenly;
-          -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-          text-align: center;
-      }
-
-      .media-subnav-1 .icon-links.media-subnav a.media-subnav {
-        display: inline-block;
-          width: 120px;
-          margin-bottom: 1.5rem;
-          overflow: hidden;
-          white-space: nowrap;
-          text-align: center;
-          text-overflow: ellipsis;
-      }
-
-      .media-subnav-1 .icon-links.media-subnav a.media-subnav + a.media-subnav {
-        margin-left: 2rem;
-      }
-
-      .media-subnav-1 .featured.media-subnav h4.media-subnav {
-        display: none;
-      }
-
-      @media (min-width: 890px) {
-      .media-subnav-1 {
-        display: -ms-grid;
-            display: grid;
-            -ms-grid-columns: 40% 20% 40%;
-            grid-template-columns: 40% 20% 40%;
-      }
-
-      .media-subnav-1 .wayback-search.media-subnav {
-        -ms-grid-column: 1;
-            -ms-grid-column-span: 3;
-            grid-column: 1 / 4;
-      }
-
-      .media-subnav-1 h3.media-subnav {
-        display: none;
-      }
-
-      .media-subnav-1 h4.media-subnav {
-        margin: 0 0 1rem 0;
-            font-weight: 100;
-      }
-
-      .media-subnav-1 ul.media-subnav {
-        font-size: 1.3rem;
-      }
-
-      .media-subnav-1 li.media-subnav {
-        padding-bottom: .5rem;
-      }
-
-      .media-subnav-1 li.media-subnav + li.media-subnav {
-        padding-top: 0;
-      }
-
-      .media-subnav-1 li.media-subnav a.media-subnav {
-        display: block;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-      }
-
-      .media-subnav-1 .icon-links.media-subnav {
-        -ms-grid-column: 1;
-      }
-
-      .media-subnav-1 .icon-links.media-subnav a.media-subnav {
-        padding-top: 3.5rem;
-            max-width: 160px;
-      }
-
-      .media-subnav-1 .links.media-subnav {
-        padding: 0 1.5rem;
-      }
-
-      .media-subnav-1 .featured.media-subnav {
-        -ms-grid-column: 2;
-      }
-
-      .media-subnav-1 .featured.media-subnav h4.media-subnav {
-        display: block;
-      }
-
-      .media-subnav-1 .top.media-subnav {
-        -ms-grid-column: 3;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav {
-        display: -ms-grid;
-            display: grid;
-            -ms-grid-columns: 50% 3rem 50%;
-            grid-template-columns: 50% 50%;
-            -ms-grid-rows: (auto)[7];
-            grid-template-rows: repeat(7, auto);
-            grid-column-gap: 3rem;
-            grid-auto-flow: column;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(1) {
-        -ms-grid-row: 1;
-            -ms-grid-column: 1;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(2) {
-        -ms-grid-row: 2;
-            -ms-grid-column: 1;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(3) {
-        -ms-grid-row: 3;
-            -ms-grid-column: 1;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(4) {
-        -ms-grid-row: 4;
-            -ms-grid-column: 1;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(5) {
-        -ms-grid-row: 5;
-            -ms-grid-column: 1;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(6) {
-        -ms-grid-row: 6;
-            -ms-grid-column: 1;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(7) {
-        -ms-grid-row: 7;
-            -ms-grid-column: 1;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(8) {
-        -ms-grid-row: 1;
-            -ms-grid-column: 3;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(9) {
-        -ms-grid-row: 2;
-            -ms-grid-column: 3;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(10) {
-        -ms-grid-row: 3;
-            -ms-grid-column: 3;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(11) {
-        -ms-grid-row: 4;
-            -ms-grid-column: 3;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(12) {
-        -ms-grid-row: 5;
-            -ms-grid-column: 3;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(13) {
-        -ms-grid-row: 6;
-            -ms-grid-column: 3;
-      }
-
-      .media-subnav-1 .top.media-subnav ul.media-subnav > *.media-subnav:nth-child(14) {
-        -ms-grid-row: 7;
-            -ms-grid-column: 3;
-      }
-
-      }</style><!-- Shady DOM styles for media-slider --><style scope="media-slider-1">.media-slider-1 .overflow-clip.media-slider {
-        display: none;
-          position: absolute;
-          top: 4rem;
-          right: 0;
-          left: 4rem;
-          height: 368px;
-          overflow-x: hidden;
-      }
-
-      .media-slider-1 .information-menu.media-slider {
-        position: absolute;
-          top: 0;
-          right: 0;
-          left: 0;
-          padding: 0;
-          height: 368px;
-          overflow-x: hidden;
-          font-size: 1.4rem;
-          background: #333;
-      }
-
-      .media-slider-1 .open.media-slider {
-        display: block;
-      }
-
-      .media-slider-1 .info-box.media-slider {
-        padding: 1rem;
-      }
-
-      @media (min-width: 890px) {
-      .media-slider-1 .overflow-clip.media-slider {
-        display: block;
-            top: 0;
-            left: 0;
-            height: auto;
-            overflow-x: visible;
-            transform: translate(0, -100%);
-            transition: transform .2s ease;
-      }
-
-      .media-slider-1 .information-menu.media-slider {
-        left: 0;
-            z-index: 1;
-            height: auto;
-            min-height: 21rem;
-            background: #474747;
-            transform: translate(0, -100%);
-            transition: transform .2s ease;
-      }
-
-      .media-slider-1 .overflow-clip.open.media-slider {
-        transform: translate(0, 8rem);
-      }
-
-      .media-slider-1 .information-menu.open.media-slider {
-        transform: translate(0, 0);
-      }
-
-      .media-slider-1 .info-box.media-slider {
-        max-width: 1000px;
-            padding: 1.5rem 0;
-            margin: 0 auto;
-      }
-
-      }</style><!-- Shady DOM styles for desktop-subnav --><style scope="desktop-subnav-1">.desktop-subnav-1 ul.desktop-subnav {
-        position: relative;
-          z-index: 3;
-          padding: .8rem 0;
-          margin: 0;
-          font-size: 1.2rem;
-          text-transform: uppercase;
-          text-align: center;
-          background: #333;
-      }
-
-      .desktop-subnav-1 li.desktop-subnav {
-        display: inline-block;
-          padding: 0 15px;
-      }
-
-      .desktop-subnav-1 a.desktop-subnav {
-        text-decoration: none;
-          color: #aaa;
-      }
-
-      .desktop-subnav-1 a.desktop-subnav:hover,.desktop-subnav-1 a.desktop-subnav:active,.desktop-subnav-1 a.desktop-subnav:focus {
-        color: #fff;
-      }
-
-      .desktop-subnav-1 .donate.desktop-subnav svg.desktop-subnav {
-        width: 16px;
-          height: 16px;
-          vertical-align: -4px;
-          fill: #f00;
-      }</style><!-- Shady DOM styles for signed-out-dropdown --><style scope="signed-out-dropdown-1">.signed-out-dropdown-1 {
-        ;
-      }
-
-      .signed-out-dropdown-1 nav.signed-out-dropdown {
-        position: absolute;
-          top: -1500px;
-          right: 0;
-          z-index: 1;
-          overflow: hidden;
-          font-size: 1.6rem;
-          background-color: #333;
-          transition-property: top;
-          transition-duration: 0.2s;
-          transition-timing-function: ease;
-      }
-
-      .signed-out-dropdown-1 .initial.signed-out-dropdown,.signed-out-dropdown-1 .closed.signed-out-dropdown {
-        top: -1500px;
-      }
-
-      .signed-out-dropdown-1 .closed.signed-out-dropdown {
-        transition-duration: 0.5s;
-      }
-
-      .signed-out-dropdown-1 .open.signed-out-dropdown {
-        top: 4rem;
-          max-width: 100vw;
-          overflow: auto;
-      }
-
-      .signed-out-dropdown-1 h3.signed-out-dropdown {
-        padding: 0.6rem 2rem;
-          margin: 0;
-          font-size: inherit;
-          overflow: hidden;
-          text-overflow: ellipsis;
-      }
-
-      .signed-out-dropdown-1 ul.signed-out-dropdown {
-        padding: 0.4rem 0 0.7rem 0;
-          margin: 0;
-          list-style: none;
-          
-          max-height: calc(100vh - 7.2rem + 1px);
-          overflow: auto;
-          box-sizing: border-box;
-      }
-
-      .signed-out-dropdown-1 .divider.signed-out-dropdown {
-        margin: .5rem 0;
-          border-bottom: 1px solid #666;
-      }
-
-      .signed-out-dropdown-1 a.signed-out-dropdown,.signed-out-dropdown-1 .info-item.signed-out-dropdown {
-        display: block;
-          color: #fff;
-          text-decoration: none;
-          padding: 1rem 2rem;
-      }
-
-      .signed-out-dropdown-1 .info-item.signed-out-dropdown {
-        font-size: .8em;
-          color: #999;
-      }
-
-      @media (min-width: 890px) {
-      .signed-out-dropdown-1 nav.signed-out-dropdown {
-        overflow: visible;
-            top: calc(100% + 7px);
-            left: auto;
-            z-index: 5;
-            transition: opacity .2s ease-in-out;
-            font-size: 1.4rem;
-            border-radius: 2px;
-            background: #fff;
-            box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .15);
-      }
-
-      .signed-out-dropdown-1 nav.signed-out-dropdown:after {
-        position: absolute;
-            right: 7px;
-            top: -7px;
-            width: 12px;
-            height: 7px;
-            box-sizing: border-box;
-            color: #fff;
-            content: "";
-            border-bottom: 7px solid currentColor;
-            border-left: 6px solid transparent;
-            border-right: 6px solid transparent;
-      }
-
-      .signed-out-dropdown-1 h3.signed-out-dropdown {
-        display: none;
-      }
-
-      .signed-out-dropdown-1 ul.signed-out-dropdown {
-        max-height: calc(100vh - 8.5rem + 1px);
-      }
-
-      .signed-out-dropdown-1 .divider.signed-out-dropdown {
-        border-bottom-color: #666;
-      }
-
-      .signed-out-dropdown-1 a.signed-out-dropdown {
-        padding: .5rem 2rem;
-            color: #333;
-            transition: background .1s ease-out, color .1s ease-out;
-      }
-
-      .signed-out-dropdown-1 .info-item.signed-out-dropdown {
-        padding: .5rem 2rem;
-            font-size: .8em;
-      }
-
-      .signed-out-dropdown-1 a.signed-out-dropdown:hover,.signed-out-dropdown-1 a.signed-out-dropdown:active,.signed-out-dropdown-1 a.signed-out-dropdown:focus {
-        color: #fff;
-            background: #428bca;
-      }
-
-      .signed-out-dropdown-1 .initial.signed-out-dropdown,.signed-out-dropdown-1 .closed.signed-out-dropdown {
-        opacity: 0;
-            transition-duration: .2s;
-      }
-
-      .signed-out-dropdown-1 .open.signed-out-dropdown {
-        top: 5.1rem;
-            opacity: 1;
-            overflow: visible;
-      }
-
-      }
-
-      @media (min-width: 890px) {
-      .signed-out-dropdown-1 .initial.signed-out-dropdown,.signed-out-dropdown-1 .closed.signed-out-dropdown,.signed-out-dropdown-1 .open.signed-out-dropdown {
-        right: 33.7rem;
-      }
-
-      .signed-out-dropdown-1 .search-hidden.initial.signed-out-dropdown,.signed-out-dropdown-1 .search-hidden.closed.signed-out-dropdown,.signed-out-dropdown-1 .search-hidden.open.signed-out-dropdown {
-        right: 18.3rem;
-      }
-
-      }
-
-      @media (min-width: 990px) {
-      .signed-out-dropdown-1 .initial.signed-out-dropdown,.signed-out-dropdown-1 .closed.signed-out-dropdown,.signed-out-dropdown-1 .open.signed-out-dropdown {
-        right: 39.7rem;
-      }
-
-      .signed-out-dropdown-1 .search-hidden.initial.signed-out-dropdown,.signed-out-dropdown-1 .search-hidden.closed.signed-out-dropdown,.signed-out-dropdown-1 .search-hidden.open.signed-out-dropdown {
-        right: 23.5rem;
-      }
-
-      }</style><!-- Shady DOM styles for ia-topnav --><style scope="ia-topnav-1">.ia-topnav-1 {
-        ;
-
-          color: #fff;
-          font-size: 2rem;
-          font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      }
-
-      .ia-topnav-1 #close-layer.ia-topnav {
-        display: none;
-          position: fixed;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          z-index: 0;
-      }
-
-      .ia-topnav-1 #close-layer.visible.ia-topnav {
-        display: block;
-      }
-
-      .ia-topnav-1 .topnav.ia-topnav {
-        position: relative;
-          z-index: 3;
-      }
-
-      @media (max-width: 889px) {
-      .ia-topnav-1 desktop-subnav.ia-topnav {
-        display: none;
-      }
-
-      }</style><style>body {transition: opacity ease-in 0.2s; } 
-      body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
-      </style>
-          <div class="topnav style-scope ia-topnav">
-        <primary-nav class="style-scope ia-topnav x-scope primary-nav-1"><!---->
-      <nav class="style-scope primary-nav">
-        <a class="link-home style-scope primary-nav" href="../archive.org/index.html" data-event-click-tracking="BetaTopNav|NavHome"><!---->
-  <svg class="ia-logo style-scope primary-nav" width="27" height="30" viewBox="0 0 27 30" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logoTitleID logoDescID">
-    <title id="logoTitleID" class="style-scope primary-nav">Internet Archive logo</title>
-    <desc id="logoDescID" class="style-scope primary-nav">A line drawing of the Internet Archive headquarters building façade.</desc>
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="style-scope primary-nav">
-      <mask id="mask-2" fill="white" class="style-scope primary-nav">
-        <path d="M26.6666667,28.6046512 L26.6666667,30 L0,30 L0.000283687943,28.6046512 L26.6666667,28.6046512 Z M25.6140351,26.5116279 L25.6140351,28.255814 L1.05263158,28.255814 L1.05263158,26.5116279 L25.6140351,26.5116279 Z M3.62469203,7.6744186 L3.91746909,7.82153285 L4.0639977,10.1739544 L4.21052632,13.9963932 L4.21052632,17.6725617 L4.0639977,22.255044 L4.03962296,25.3421929 L3.62469203,25.4651163 L2.16024641,25.4651163 L1.72094074,25.3421929 L1.55031755,22.255044 L1.40350877,17.6970339 L1.40350877,14.0211467 L1.55031755,10.1739544 L1.68423854,7.80887484 L1.98962322,7.6744186 L3.62469203,7.6744186 Z M24.6774869,7.6744186 L24.9706026,7.82153285 L25.1168803,10.1739544 L25.2631579,13.9963932 L25.2631579,17.6725617 L25.1168803,22.255044 L25.0927809,25.3421929 L24.6774869,25.4651163 L23.2130291,25.4651163 L22.7736357,25.3421929 L22.602418,22.255044 L22.4561404,17.6970339 L22.4561404,14.0211467 L22.602418,10.1739544 L22.7369262,7.80887484 L23.0420916,7.6744186 L24.6774869,7.6744186 Z M9.94042303,7.6744186 L10.2332293,7.82153285 L10.3797725,10.1739544 L10.5263158,13.9963932 L10.5263158,17.6725617 L10.3797725,22.255044 L10.3556756,25.3421929 L9.94042303,25.4651163 L8.47583122,25.4651163 L8.0362015,25.3421929 L7.86556129,22.255044 L7.71929825,17.6970339 L7.71929825,14.0211467 L7.86556129,10.1739544 L8.00005604,7.80887484 L8.30491081,7.6744186 L9.94042303,7.6744186 Z M18.0105985,7.6744186 L18.3034047,7.82153285 L18.449948,10.1739544 L18.5964912,13.9963932 L18.5964912,17.6725617 L18.449948,22.255044 L18.425851,25.3421929 L18.0105985,25.4651163 L16.5460067,25.4651163 L16.1066571,25.3421929 L15.9357367,22.255044 L15.7894737,17.6970339 L15.7894737,14.0211467 L15.9357367,10.1739544 L16.0702315,7.80887484 L16.3753664,7.6744186 L18.0105985,7.6744186 Z M25.6140351,4.53488372 L25.6140351,6.97674419 L1.05263158,6.97674419 L1.05263158,4.53488372 L25.6140351,4.53488372 Z M13.0806755,0 L25.9649123,2.93331338 L25.4484139,3.8372093 L0.771925248,3.8372093 L0,3.1041615 L13.0806755,0 Z" id="path-1" class="style-scope primary-nav"></path>
-      </mask>
-      <use fill="#FFFFFF" xlink:href="#path-1" class="style-scope primary-nav"></use>
-      <g mask="url(#mask-2)" fill="#FFFFFF" class="style-scope primary-nav">
-        <path d="M0,0 L26.6666667,0 L26.6666667,30 L0,30 L0,0 Z" id="swatch" class="style-scope primary-nav"></path>
-      </g>
-    </g>
-  </svg>
-<!---->
-  <svg class="ia-wordmark style-scope primary-nav" height="14" viewBox="0 0 183 14" width="183" xmlns="http://www.w3.org/2000/svg"><g fill="#fff" fill-rule="evenodd" class="style-scope primary-nav"><g transform="translate(107.24177)" class="style-scope primary-nav"><path d="m3.46567087 2.73592273c.09358964-.31350476.26547063-.95793121.26547063-1.08718317 0-.73655285-.57818604-.75488647-1.20271694-.86488814v-.40471447h2.93682509l3.81107838 12.38893815h-1.62387035l-1.17212033-3.82897484h-3.98340931l-1.17167038 3.82897484h-.96784292zm-.7032722 5.33783106h3.4520181l-1.78045302-5.37541496z" class="style-scope primary-nav"></path><path d="m13.7607138 2.88304997c0-1.82281935-.0319465-1.82281935-1.4843858-2.09919855v-.40471447h3.8425749c1.1721204 0 4.4050127 0 4.4050127 3.2954667 0 2.09828187-1.1554722 2.79816749-2.3896856 3.03696279l2.874282 6.05650866h-1.7957513l-2.7649442-5.72512863h-.9687428v5.72512863h-1.7183599zm1.7183599 3.29500836h.8909015c1.0146377 0 2.4364804-.33092169 2.4364804-2.39299467 0-1.98873853-.9687428-2.54103858-2.2812476-2.54103858-1.0461343 0-1.0461343.33138003-1.0461343 1.6573585z" class="style-scope primary-nav"></path><path d="m31.6158204 12.2524422c-.5304913.2768376-1.3903462.6998857-2.9989182.6998857-3.389925 0-4.6083902-2.4113283-4.6083902-6.55334954 0-3.35000921.8742533-6.07530059 4.3582178-6.07530059 1.3903462 0 2.4058839.27592086 3.1240044.55230005l.0940396 3.07500503h-.4530999c-.062543-.9395976-.921948-2.743625-2.6088113-2.743625-2.296096 0-2.6713545 2.88983555-2.6713545 5.19162051 0 2.90816916.8598549 5.52254214 3.0304147 5.52254214 1.4843858 0 2.2497511-.5523 2.7338976-.9386809z" class="style-scope primary-nav"></path><path d="m36.1784975 2.80971552c0-1.45568877-.0935896-1.62114962-1.5626771-1.80448573v-.40563116l3.2805871-.42258975v5.70633665h4.2484299v-5.50420858h1.7183599v12.38893815h-1.7183599v-6.01984144h-4.2484299v6.01984144h-1.71791z" class="style-scope primary-nav"></path><path d="m46.8631973 12.3083598c1.1086774 0 1.3273532-.2759209 1.3273532-1.711901v-7.91645358c0-1.43598014-.2186758-1.71144266-1.3273532-1.71144266v-.46109033h4.3735162v.46109033c-1.093829 0-1.3273532.27546252-1.3273532 1.71144266v7.91645358c0 1.4359801.2335242 1.711901 1.3273532 1.711901v.4597153h-4.3735162z" class="style-scope primary-nav"></path><path d="m56.1269544 2.73592273c-.4998947-1.67569211-.6407291-1.67569211-1.8902409-1.95207131v-.40471447h3.0304147l3.0614614 10.08806985h.0310465l2.9840699-10.08806985h1.0146377l-3.8106284 12.38893815h-1.3588497z" class="style-scope primary-nav"></path><path d="m68.8422796 2.88304997c0-1.82281935-.0467948-1.82281935-1.4839359-2.09919855v-.40471447h7.4826722l.0467949 2.7243747h-.4378016c0-1.47264736-.6555775-1.85948657-1.6868634-1.85948657h-1.2184652c-.7806636 0-.9835912.07333445-.9835912.95747287v3.66351396h1.8902409c1.0767309 0 1.1865187-.80942895 1.2805583-1.41672984h.4369017v3.86518369h-.4369017c0-.9941401-.3437619-1.58356571-1.2805583-1.58356571h-1.8902409v4.10535405c0 1.0308073.2029276 1.0679328.9835912 1.0679328h1.7345581c.8895516 0 1.311155-.3685056 1.4051946-1.8040274h.4378015l-.0476947 2.6689156h-6.2322605z" class="style-scope primary-nav"></path></g><g transform="translate(.24177 .277385)" class="style-scope primary-nav"><path d="m1.57302598 10.3699491v-8.03470531c0-1.45706379-.25962128-1.73802639-1.57302598-1.73802639v-.46659042h5.18252665v.46659042c-1.29540668 0-1.57302597.2809626-1.57302597 1.73802639v8.03470531c0 1.4575222.27761929 1.7366514 1.57302597 1.7366514v.4675071h-5.18252665v-.4675071c1.3134047 0 1.57302598-.2791292 1.57302598-1.7366514z" class="style-scope primary-nav"></path><path d="m10.0331719 2.39116131c0-1.73756805-.25872136-1.66240024-1.85064525-1.98003007v-.41113124h3.90556795l5.830455 10.1641543h.0368959v-10.1641543h1.1662709v12.5741076h-1.7773033l-6.1076243-10.63028642h-.0373459v10.63028642h-1.166271z" class="style-scope primary-nav"></path><path d="m25.9161467.87818h-1.2774087c-1.4618883 0-1.8875412.46704876-1.9991288 1.83198615h-.5178928l.0737919-2.71016615h9.4768516l.0742417 2.76562533h-.5183426c0-1.43873018-.5925845-1.88744533-2.0175768-1.88744533h-1.2580608v11.6959276h-2.0364747z" class="style-scope primary-nav"></path><path d="m36.505907 2.54103859c0-1.84986143-.0562438-1.84986143-1.7593054-2.12990735v-.41113124h8.8658192l.0557938 2.76562533h-.5183426c0-1.49510604-.777064-1.88744533-1.9982289-1.88744533h-1.4443403c-.9255476 0-1.1662709.07516781-1.1662709.97213976v3.71805646h2.2398522c1.2769587 0 1.4060944-.82272082 1.5176821-1.43964686h.5187926v3.92430959h-.5187926c0-1.00880698-.406755-1.60648273-1.5176821-1.60648273h-2.2398522v4.16631328c0 1.0463909.2407233 1.0830581 1.1662709 1.0830581h2.0544728c1.0555832 0 1.554578-.3735473 1.6652657-1.83061113h.5192426l-.0557938 2.70879113h-7.3845831z" class="style-scope primary-nav"></path><path d="m48.7037894 2.54103859c0-1.84986143-.0368959-1.84986143-1.7575055-2.12990735v-.41113124h4.5525963c1.3885464 0 5.2194226 0 5.2194226 3.34450912 0 2.13036568-1.3687486 2.8403348-2.8315368 3.08325515l3.4056733 6.14634333h-2.1287145l-3.2756376-5.81083823h-1.1478231v5.81083823h-2.0364747zm2.0364747 3.34405077h1.0555833c1.202267 0 2.8873305-.33550509 2.8873305-2.42782853 0-2.01898899-1.147823-2.57908083-2.7028509-2.57908083-1.2400629 0-1.2400629.33596344-1.2400629 1.68256722z" class="style-scope primary-nav"></path><path d="m62.1435345 2.39116131c0-1.73756805-.2596213-1.66240024-1.8510952-1.98003007v-.41113124h3.905118l5.830005 10.1641543h.0373458v-10.1641543h1.166271v12.5741076h-1.7764035l-6.1085242-10.63028642h-.0368959v10.63028642h-1.165821z" class="style-scope primary-nav"></path><path d="m75.9895846 2.54103859c0-1.84986143-.0553439-1.84986143-1.7584055-2.12990735v-.41113124h8.8658192l.0557938 2.76562533h-.5183426c0-1.49510604-.777964-1.88744533-1.9991289-1.88744533h-1.4438902c-.9250977 0-1.1658211.07516781-1.1658211.97213976v3.71805646h2.2394023c1.2774087 0 1.4060944-.82272082 1.5176821-1.43964686h.5187926v3.92430959h-.5187926c0-1.00880698-.406755-1.60648273-1.5176821-1.60648273h-2.2394023v4.16631328c0 1.0463909.2407234 1.0830581 1.1658211 1.0830581h2.0544727c1.0555832 0 1.5550279-.3735473 1.6661657-1.83061113h.5183426l-.0557938 2.70879113h-7.385033z" class="style-scope primary-nav"></path><path d="m90.2243917.87818h-1.2765088c-1.4623382 0-1.8879911.46704876-1.9995788 1.83198615h-.5178927l.0742418-2.71016615h9.4759517l.0742418 2.76562533h-.5178928c0-1.43873018-.5921344-1.88744533-2.0180267-1.88744533h-1.2585108v11.6959276h-2.0360247z" class="style-scope primary-nav"></path></g></g></svg>
-<!----></a>
-
-      <button class="search-trigger style-scope primary-nav" data-event-click-tracking="BetaTopNav|NavSearchOpen">
-
-  <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="searchTitleID searchDescID" class="style-scope primary-nav">
-    <title id="searchTitleID" class="style-scope primary-nav">Search icon</title>
-    <desc id="searchDescID" class="style-scope primary-nav">An illustration of a magnifying glass.</desc>
-    <path class="fill-color style-scope primary-nav" d="m32.4526364 29.8875889-8.1719472-7.9751279c1.1046135-1.4876138 1.7652549-3.3102407 1.7652549-5.2846451 0-.101185-.0142895-.1981539-.030573-.2944743.0166158-.0976175.0309053-.196208.0309053-.2990145 0-4.9814145-4.152935-9.0343271-9.2572866-9.0343271-.0907218 0-.1781206.01394537-.2655193.02594487-.0880633-.0119995-.1747974-.02594487-.2655193-.02594487-5.1046839 0-9.25761889 4.0529126-9.25761889 9.0343271 0 .1011849.01395722.1981539.03057294.2947985-.01694804.0976176-.03090525.1958838-.03090525.2986903 0 4.9814145 4.1526027 9.0346514 9.2572866 9.0346514.0907218 0 .1777882-.0139454.2658516-.0262692.0873987.0123238.1741328.0262692.265187.0262692 1.7306942 0 3.3467399-.4747911 4.7338208-1.2852439l8.2882574 8.0886366c.3652137.3564177.843082.53414 1.3212826.53414.4782007 0 .9567336-.1780467 1.3212827-.53414.7294304-.7118622.7294304-1.8660845-.0003323-2.5782711zm-15.9526364-7.8875889c-.0832667-.0118703-.1652765-.0253024-.2513711-.0253024-2.8781993 0-5.2197212-2.3278242-5.2197212-5.1891862 0-.0974612-.013197-.1908615-.0289077-.2836371.0160249-.0940251.0292219-.1889874.0292219-.2880105 0-2.861362 2.3418361-5.1891861 5.2200354-5.1891861.0854662 0 .1677902-.0131198.2510569-.0246777.0826383.0115579.1649623.0246777.2510569.0246777 2.8781993 0 5.2197212 2.3278241 5.2197212 5.1891861 0 .0974612.0135112.1908616.0289077.2839496-.0157107.0940251-.0295361.1886749-.0295361.287698 0 2.861362-2.3415219 5.1891862-5.2197212 5.1891862-.0860946 0-.1684187.0134321-.2507427.0253024z" fill-rule="evenodd"></path>
-  </svg>
-
-      </button>
-      <nav-search class="style-scope primary-nav x-scope nav-search-1"><!----><div class="search-activated fade-in search-inactive style-scope nav-search">
-      <form id="nav-search" class="highlight style-scope nav-search" method="get" action="https://archive.org/search.php" data-event-submit-tracking="BetaTopNav|NavSearchSubmit">
-        <input type="text" name="query" class="search-field style-scope nav-search" placeholder="Search" autocomplete="off">
-        <input type="hidden" name="sin" class="style-scope nav-search" value="">
-        <button type="submit" class="search style-scope nav-search" data-event-click-tracking="BetaTopNav|NavSearchClose">
-
-  <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="searchTitleID searchDescID" class="style-scope nav-search">
-    <title id="searchTitleID" class="style-scope nav-search">Search icon</title>
-    <desc id="searchDescID" class="style-scope nav-search">An illustration of a magnifying glass.</desc>
-    <path class="fill-color style-scope nav-search" d="m32.4526364 29.8875889-8.1719472-7.9751279c1.1046135-1.4876138 1.7652549-3.3102407 1.7652549-5.2846451 0-.101185-.0142895-.1981539-.030573-.2944743.0166158-.0976175.0309053-.196208.0309053-.2990145 0-4.9814145-4.152935-9.0343271-9.2572866-9.0343271-.0907218 0-.1781206.01394537-.2655193.02594487-.0880633-.0119995-.1747974-.02594487-.2655193-.02594487-5.1046839 0-9.25761889 4.0529126-9.25761889 9.0343271 0 .1011849.01395722.1981539.03057294.2947985-.01694804.0976176-.03090525.1958838-.03090525.2986903 0 4.9814145 4.1526027 9.0346514 9.2572866 9.0346514.0907218 0 .1777882-.0139454.2658516-.0262692.0873987.0123238.1741328.0262692.265187.0262692 1.7306942 0 3.3467399-.4747911 4.7338208-1.2852439l8.2882574 8.0886366c.3652137.3564177.843082.53414 1.3212826.53414.4782007 0 .9567336-.1780467 1.3212827-.53414.7294304-.7118622.7294304-1.8660845-.0003323-2.5782711zm-15.9526364-7.8875889c-.0832667-.0118703-.1652765-.0253024-.2513711-.0253024-2.8781993 0-5.2197212-2.3278242-5.2197212-5.1891862 0-.0974612-.013197-.1908615-.0289077-.2836371.0160249-.0940251.0292219-.1889874.0292219-.2880105 0-2.861362 2.3418361-5.1891861 5.2200354-5.1891861.0854662 0 .1677902-.0131198.2510569-.0246777.0826383.0115579.1649623.0246777.2510569.0246777 2.8781993 0 5.2197212 2.3278241 5.2197212 5.1891861 0 .0974612.0135112.1908616.0289077.2839496-.0157107.0940251-.0295361.1886749-.0295361.287698 0 2.861362-2.3415219 5.1891862-5.2197212 5.1891862-.0860946 0-.1684187.0134321-.2507427.0253024z" fill-rule="evenodd"></path>
-  </svg>
-
-        </button>
-      </form>
-    </div><!----></nav-search>
-
-        <a class="upload style-scope primary-nav" href="../archive.org/create/index.html">
-
-  <svg width="40" height="41" viewBox="0 0 40 41" xmlns="http://www.w3.org/2000/svg" aria-labelledby="uploadTitleID uploadDescID" class="style-scope primary-nav">
-    <title id="uploadTitleID" class="style-scope primary-nav">Upload icon</title>
-    <desc id="uploadDescID" class="style-scope primary-nav">An illustration of a horizontal line over an up pointing arrow.</desc>
-    <path class="fill-color style-scope primary-nav" d="m20 12.8 8 10.4h-4.8v8.8h-6.4v-8.8h-4.8zm12-4.8v3.2h-24v-3.2z" fill-rule="evenodd"></path>
-  </svg>
-
-          <span class="style-scope primary-nav">Upload</span>
-        </a>
-        <div class="user-info style-scope primary-nav">
-
-      <login-button class="style-scope primary-nav x-scope login-button-1"><!---->
-      <div class="logged-out-toolbar style-scope login-button">
-        <a class="dropdown-toggle style-scope login-button" data-event-click-tracking="BetaTopNav|NavLoginIcon">
-
-  <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="userTitleID userDescID" class="style-scope login-button">
-    <title id="userTitleID" class="style-scope login-button">User icon</title>
-    <desc id="userDescID" class="style-scope login-button">An illustration of a person's head and chest.</desc>
-    <path class="fill-color style-scope login-button" d="m20.7130435 18.0434783c-3.5658385 0-6.4565218-2.9198821-6.4565218-6.5217392 0-3.60185703 2.8906833-6.5217391 6.4565218-6.5217391s6.4565217 2.91988207 6.4565217 6.5217391c0 3.6018571-2.8906832 6.5217392-6.4565217 6.5217392zm-12.9130435 16.9565217c0-7.9240855 5.7813665-14.3478261 12.9130435-14.3478261s12.9130435 6.4237406 12.9130435 14.3478261z" fill-rule="evenodd"></path>
-  </svg>
-
-        </a>
-        <span class="style-scope login-button">
-          <a class="style-scope login-button" href="../archive.org/account/signup.html">Sign up</a>
-          |
-          <a class="style-scope login-button" href="../archive.org/account/login-2.html">Log in</a>
-        </span>
-      </div>
-    <!----></login-button>
-
-        </div>
-        <media-menu class="style-scope primary-nav x-scope media-menu-1" tabindex="-1"><!---->
-      <nav class="media-menu tx-slide closed style-scope media-menu" aria-hidden="true" aria-expanded="false">
-        <div class="menu-group style-scope media-menu">
-          <!---->
-        <media-button class="style-scope media-menu x-scope media-button-1" data-mediatype="web"><!---->
-      <a class="menu-item web  style-scope media-button" href="../archive.org/web/index.html" data-event-click-tracking="BetaTopNav|NavMenuWeb">
-
-      <span class="icon  style-scope media-button">
-
-  <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="webTitleID webDescID" class="style-scope media-button">
-    <title id="webTitleID" class="style-scope media-button">Web icon</title>
-    <desc id="webDescID" class="style-scope media-button">An illustration of a computer application window</desc>
-    <path class="fill-color style-scope media-button" d="m8 28.7585405v-8.1608108-9.3577297h24v9.3577297 8.1608108zm14.2702703-15.8863783h-12.43243246v2.6114594h12.43243246zm7.7837838 14.0365946v-7.0727027-1.8497838h-20.21621626v1.8497838 7.0727027zm-3.7837838-14.0365946h-2.7027027v2.6114594h2.7027027zm4 0h-2.7027027v2.6114594h2.7027027z" fill-rule="evenodd"></path>
-  </svg>
-
-      </span>
-      <span class="label style-scope media-button"><!---->Wayback Machine<!----></span>
-
-      </a>
-    <!----></media-button>
-      <!---->
-        <media-button class="style-scope media-menu x-scope media-button-1" data-mediatype="texts"><!---->
-      <a class="menu-item texts  style-scope media-button" href="../archive.org/details/texts.html" data-event-click-tracking="BetaTopNav|NavMenuTexts">
-
-      <span class="icon  style-scope media-button">
-
-  <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="textsTitleID textsDescID" class="style-scope media-button">
-    <title id="textsTitleID" class="style-scope media-button">Texts icon</title>
-    <desc id="textsDescID" class="style-scope media-button">An illustration of an open book.</desc>
-    <path class="fill-color style-scope media-button" d="m10.3323235 11.0007023h6.9060825c.8851083 0 1.5847122.3064258 2.0988114.9192774v14.4324451h-.6460032c-.1435563-.120323-.3528315-.2434552-.6278257-.3693964-.2749942-.1259413-.5201585-.2191097-.7354929-.2795053l-.3048241-.1081503h-5.7042647c-.3108832 0-.5621067-.0601615-.7536705-.1804846-.0717781-.0599274-.1256117-.1439663-.1615008-.2521166-.0358891-.1081502-.0598928-.2043619-.0720112-.2886348v-13.8741368zm19.1752505 0v13.603761c-.0717781.3361555-.2211606.5943584-.4481473.7746089-.0717781.0599274-.1733862.1079162-.304824.1439663-.1314379.0360501-.2451643.0601615-.3411793.0723343h-5.5965975c-.9568865.2640552-1.5068748.5164059-1.649965.757052h-.6634817v-14.4324451c.5140992-.6128516 1.2076439-.9192774 2.0806339-.9192774h6.92426zm1.3814961.6489017-.1796783 15.2976474c-.0955489 0-1.0342578.0119386-2.8161268.035816-1.7818691.0238773-3.3006293.0898911-4.5562806.1980414-1.2556514.1081503-1.9613144.2884008-2.1169891.5407514-.0955488.1924233-.5439291.273419-1.345141.2429871-.8012118-.0304319-1.3155441-.1776755-1.5429969-.4417308-.334654-.3843783-3.4558378-.5765674-9.36355164-.5765674v-15.3875385l-.96830576.3960828v16.2702977c6.4096947-.2041278 9.7760429-.0840388 10.0990445.3602669.2391051.276228.9864833.414342 2.2421347.414342.1915638 0 .4187835-.0210682.6816593-.0632047s.4810068-.0870821.6543929-.1348367c.1733862-.0477547.2719646-.0838048.2957353-.1081503.0838965-.1563732.9599161-.2675666 2.6280587-.3335805 1.6681426-.0660138 3.3213703-.0931684 4.9596831-.0814638l2.4392915.0182591v-16.2344816z"></path>
-  </svg>
-
-      </span>
-      <span class="label style-scope media-button"><!---->Books<!----></span>
-
-      </a>
-    <!----></media-button>
-      <!---->
-        <media-button class="style-scope media-menu x-scope media-button-1" data-mediatype="video"><!---->
-      <a class="menu-item video  style-scope media-button" href="../archive.org/details/movies.html" data-event-click-tracking="BetaTopNav|NavMenuVideo">
-
-      <span class="icon  style-scope media-button">
-
-  <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="videoTitleID videoDescID" class="style-scope media-button">
-    <title id="videoTitleID" class="style-scope media-button">Video icon</title>
-    <desc id="videoDescID" class="style-scope media-button">An illustration of two cells of a film strip.</desc>
-    <path class="fill-color style-scope media-button" d="m31.0117647 12.0677966c0 .4067797-.2823529.6779661-.7058823.6779661h-1.2705883c-.4235294 0-.7058823-.2711864-.7058823-.6779661v-.6779661c0-.4067797.2823529-.6779661.7058823-.6779661h1.2705883c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.2542373c0 .4067797-.2823529.6779661-.7058823.6779661h-1.2705883c-.4235294 0-.7058823-.2711864-.7058823-.6779661v-.6779661c0-.4067797.2823529-.6779661.7058823-.6779661h1.2705883c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.2542373c0 .4067796-.2823529.6779661-.7058823.6779661h-1.2705883c-.4235294 0-.7058823-.2711865-.7058823-.6779661v-.6779661c0-.4067797.2823529-.6779661.7058823-.6779661h1.2705883c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.3898305c0 .4067797-.2823529.6779661-.7058823.6779661h-1.2705883c-.4235294 0-.7058823-.2711864-.7058823-.6779661v-.6779661c0-.4067797.2823529-.6779661.7058823-.6779661h1.2705883c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.2542373c0 .4067796-.2823529.6779661-.7058823.6779661h-1.2705883c-.4235294 0-.7058823-.2711865-.7058823-.6779661v-.6779661c0-.4067797.2823529-.6779661.7058823-.6779661h1.2705883c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.2542373c0 .4067796-.2823529.6779661-.7058823.6779661h-1.2705883c-.4235294 0-.7058823-.2711865-.7058823-.6779661v-.6779661c0-.4067797.2823529-.6779661.7058823-.6779661h1.2705883c.4235294 0 .7058823.2711864.7058823.6779661zm-4.0941176-10.440678c0 .5423729-.4235295.9491525-.9882353.9491525h-11.5764706c-.5647059 0-.9882353-.4067796-.9882353-.9491525v-6.9152542c0-.5423729.4235294-.9491526.9882353-.9491526h11.5764706c.5647058 0 .9882353.4067797.9882353.9491526zm-.1411765 11.2542373c0 .5423729-.4235294.9491525-.9882353.9491525h-11.5764706c-.5647059 0-.9882353-.4067796-.9882353-.9491525v-6.9152542c0-.5423729.4235294-.9491526.9882353-.9491526h11.5764706c.5647059 0 .9882353.4067797.9882353.9491526zm-14.9647059-17.220339c0 .4067797-.2823529.6779661-.7058823.6779661h-1.27058828c-.42352941 0-.70588236-.2711864-.70588236-.6779661v-.6779661c0-.4067797.28235295-.6779661.70588236-.6779661h1.27058828c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.2542373c0 .4067797-.2823529.6779661-.7058823.6779661h-1.27058828c-.42352941 0-.70588236-.2711864-.70588236-.6779661v-.6779661c0-.4067797.28235295-.6779661.70588236-.6779661h1.27058828c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.2542373c0 .4067796-.2823529.6779661-.7058823.6779661h-1.27058828c-.42352941 0-.70588236-.2711865-.70588236-.6779661v-.6779661c0-.4067797.28235295-.6779661.70588236-.6779661h1.27058828c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.3898305c0 .4067797-.2823529.6779661-.7058823.6779661h-1.27058828c-.42352941 0-.70588236-.2711864-.70588236-.6779661v-.6779661c0-.4067797.28235295-.6779661.70588236-.6779661h1.27058828c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.2542373c0 .4067796-.2823529.6779661-.7058823.6779661h-1.27058828c-.42352941 0-.70588236-.2711865-.70588236-.6779661v-.6779661c0-.4067797.28235295-.6779661.70588236-.6779661h1.27058828c.4235294 0 .7058823.2711864.7058823.6779661zm0 3.2542373c0 .4067796-.2823529.6779661-.7058823.6779661h-1.27058828c-.42352941 0-.70588236-.2711865-.70588236-.6779661v-.6779661c0-.4067797.28235295-.6779661.70588236-.6779661h1.27058828c.4235294 0 .7058823.2711864.7058823.6779661zm20.0470588-20.4745763h-.8470588v.27118644.6779661c0 .40677966-.2823529.6779661-.7058823.6779661h-1.2705883c-.4235294 0-.7058823-.27118644-.7058823-.6779661v-.6779661-.27118644h-16.5176471v.27118644.6779661c0 .40677966-.2823529.6779661-.7058823.6779661h-1.27058828c-.42352941 0-.70588236-.27118644-.70588236-.6779661v-.6779661-.27118644h-1.12941176v24h1.12941176v-.2711864-.6779661c0-.4067797.28235295-.6779661.70588236-.6779661h1.27058828c.4235294 0 .7058823.2711864.7058823.6779661v.6779661.2711864h16.6588235v-.2711864-.6779661c0-.4067797.282353-.6779661.7058824-.6779661h1.2705882c.4235294 0 .7058824.2711864.7058824.6779661v.6779661.2711864h.8470588v-24z" fill-rule="evenodd"></path>
-  </svg>
-
-      </span>
-      <span class="label style-scope media-button"><!---->Video<!----></span>
-
-      </a>
-    <!----></media-button>
-      <!---->
-        <media-button class="style-scope media-menu x-scope media-button-1" data-mediatype="audio"><!---->
-      <a class="menu-item audio  style-scope media-button" href="../archive.org/details/audio" data-event-click-tracking="BetaTopNav|NavMenuAudio">
-
-      <span class="icon  style-scope media-button">
-
-  <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-labelledby="audioTitleID audioDescID" class="style-scope media-button">
-    <title id="audioTitleID" class="style-scope media-button">Audio icon</title>
-    <desc id="audioDescID" class="style-scope media-button">An illustration of an audio speaker.</desc>
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="style-scope media-button">
-      <g transform="translate(10, 8)" class="fill-color style-scope media-button">
-        <path d="M19.4264564,11.8585048 L19.4264564,20.7200433 C19.4264564,22.3657576 18.8838179,23.2519114 16.8489237,23.2519114 C12.2364969,23.125318 7.75972977,23.125318 3.14730298,23.2519114 C1.24806842,23.2519114 0.569770368,22.492351 0.569770368,20.7200433 L0.569770368,2.74377955 C0.569770368,1.09806526 1.11240881,0.211911416 3.14730298,0.211911416 C7.75972977,0.338504822 12.2364969,0.338504822 16.8489237,0.211911416 C18.7481583,0.211911416 19.4264564,0.971471855 19.4264564,2.74377955 C19.2907967,5.78202131 19.4264564,8.82026306 19.4264564,11.8585048 L19.4264564,11.8585048 Z M10.0659432,2.74377955 C8.16670861,2.74377955 6.67445288,4.13630702 6.67445288,5.90861471 C6.67445288,7.6809224 8.16670861,9.07344988 10.0659432,9.07344988 C11.9651777,9.07344988 13.4574335,7.6809224 13.4574335,5.90861471 C13.4574335,4.13630702 11.8295181,2.74377955 10.0659432,2.74377955 L10.0659432,2.74377955 Z M10.0659432,11.4787246 C7.21709133,11.4787246 5.04653754,13.6308125 5.04653754,16.1626806 C5.04653754,18.8211422 7.35275094,20.8466367 10.0659432,20.8466367 C12.914795,20.8466367 15.0853488,18.6945488 15.0853488,16.1626806 C15.0853488,13.6308125 12.7791354,11.4787246 10.0659432,11.4787246 L10.0659432,11.4787246 Z" class="style-scope media-button"></path>
-        <ellipse cx="10.2016028" cy="16.5690777" rx="1.35659611" ry="1.34075134" class="style-scope media-button"></ellipse>
-      </g>
-    </g>
-  </svg>
-
-      </span>
-      <span class="label style-scope media-button"><!---->Audio<!----></span>
-
-      </a>
-    <!----></media-button>
-      <!---->
-        <media-button class="style-scope media-menu x-scope media-button-1" data-mediatype="software"><!---->
-      <a class="menu-item software  style-scope media-button" href="../archive.org/details/software.html" data-event-click-tracking="BetaTopNav|NavMenuSoftware">
-
-      <span class="icon  style-scope media-button">
-
-  <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="softwareTitleID softwareDescID" class="style-scope media-button">
-    <title id="softwareTitleID" class="style-scope media-button">Software icon</title>
-    <desc id="softwareDescID" class="style-scope media-button">An illustration of a 3.5" floppy disk.</desc>
-    <path class="fill-color style-scope media-button" d="m32 30.6900373v-21.44521088c0-.82988428-.4156786-1.24482642-1.2470357-1.24482642h-21.50592858c-.83135715 0-1.24703572.4221795-1.24703572 1.26653851v21.44521089c0 .8588337.41567857 1.2882506 1.24703572 1.2882506h21.48327168c.8458575 0 1.2687863-.4366542 1.2687863-1.3099627zm-5.9950155-20.4410268v6.114667c0 .6694561-.3428744 1.0041841-1.0286232 1.0041841h-10.1294464c-.2622159 0-.4773054-.0802141-.6452685-.2406423s-.2519447-.3642806-.2519447-.6115572v-6.1363791l.0217506-.1311772h12.0326259zm-4.9437353.8295827v5.0010178h3.0405558v-5.0010178zm-9.7134658 18.8035735v-7.753025c0-.5241057.1604108-.9025595.4812325-1.1353613.1897138-.1453504.4011782-.2180256.6343932-.2180256h14.7451099c.3208217 0 .5905898.1091636.8093044.3274907s.3280719.5023936.3280719.8521995v7.8181612l-.0217506.1094652h-16.9772676z"></path>
-  </svg>
-
-      </span>
-      <span class="label style-scope media-button"><!---->Software<!----></span>
-
-      </a>
-    <!----></media-button>
-      <!---->
-        <media-button class="style-scope media-menu x-scope media-button-1" data-mediatype="images"><!---->
-      <a class="menu-item images  style-scope media-button" href="../archive.org/details/image" data-event-click-tracking="BetaTopNav|NavMenuImages">
-
-      <span class="icon  style-scope media-button">
-
-  <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="imagesTitleID imagesDescID" class="style-scope media-button">
-    <title id="imagesTitleID" class="style-scope media-button">Images icon</title>
-    <desc id="imagesDescID" class="style-scope media-button">An illustration of two photographs.</desc>
-    <path class="fill-color style-scope media-button" d="m20.8219178 15.3769871c0 1.1136708-.8767123 1.8932404-1.8630137 1.8932404s-1.9726027-.8909367-1.9726027-1.8932404c0-1.0023038.8767123-1.8932404 1.9726027-1.8932404.9863014 0 1.8630137.8909366 1.8630137 1.8932404zm-5.9178082-3.7864808h15.4520548v6.0138225l-1.9726028-3.3410125-2.6301369 6.3479237-2.1917809-2.67281-6.1369863 5.1228859h-2.5205479zm-1.7534247-1.6705063v14.9231892h18.8493151v-14.9231892zm-2.9589041 7.2388604c.2191781 0 1.9726028-.3341012 1.9726028-.3341012v-2.0046075l-4.1643836.5568354c.43835616 4.7887846.87671233 9.9116704 1.31506849 14.700455 6.02739731-.5568354 13.26027401-1.5591391 19.39726031-2.1159746-.1095891-.5568354-.1095891-2.0046075-.2191781-2.67281-.4383562.1113671-1.4246575 0-1.8630137.1113671v.8909367c-5.1506849.4454683-10.3013699 1.1136708-15.4520548 1.6705062.109589-.111367-.5479452-7.0161262-.9863014-10.8026071z" fill-rule="evenodd"></path>
-  </svg>
-
-      </span>
-      <span class="label style-scope media-button"><!---->Images<!----></span>
-
-      </a>
-    <!----></media-button>
-      <!---->
-        <media-button class="style-scope media-menu x-scope media-button-1" data-mediatype="donate"><!---->
-      <a class="menu-item donate  style-scope media-button" href="../archive.org/donate/index.html" data-event-click-tracking="BetaTopNav|NavMenuDonate">
-
-      <span class="icon  style-scope media-button">
-
-  <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="donateTitleID donateDescID" class="style-scope media-button">
-    <title id="donateTitleID" class="style-scope media-button">Donate icon</title>
-    <desc id="donateDescID" class="style-scope media-button">An illustration of a heart shape</desc>
-    <path class="fill-color style-scope media-button" d="m30.0120362 11.0857287c-1.2990268-1.12627221-2.8599641-1.65258786-4.682812-1.57894699-.8253588.02475323-1.7674318.3849128-2.8262192 1.08047869-1.0587873.6955659-1.89622 1.5724492-2.512298 2.63065-.591311-1.0588196-1.4194561-1.9357029-2.4844351-2.63065-1.0649791-.69494706-2.0039563-1.05510663-2.8169316-1.08047869-1.2067699-.04950647-2.318187.17203498-3.3342513.66462439-1.0160643.4925893-1.82594378 1.2002224-2.42963831 2.1228992-.60369453.9226769-.91173353 1.9629315-.92411701 3.1207641-.03715043 1.9202322.70183359 3.7665141 2.21695202 5.5388457 1.2067699 1.4035084 2.912594 3.1606786 5.1174721 5.2715107 2.2048782 2.1108321 3.7565279 3.5356901 4.6549492 4.2745742.8253588-.6646243 2.355647-2.0647292 4.5908647-4.2003145s3.9747867-3.9171994 5.218707-5.3448422c1.502735-1.7723316 2.2355273-3.6186135 2.1983769-5.5388457-.0256957-1.7608832-.6875926-3.2039968-1.9866194-4.3302689z"></path>
-  </svg>
-
-      </span>
-      <span class="label style-scope media-button"><!---->Donate<!----></span>
-
-      </a>
-    <!----></media-button>
-      <!---->
-        <media-button class="style-scope media-menu x-scope media-button-1" data-mediatype="more"><!---->
-      <a class="menu-item more  style-scope media-button" href="../archive.org/about/index.html" data-event-click-tracking="BetaTopNav|NavMenuMore">
-
-      <span class="icon  style-scope media-button">
-
-  <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="ellipsesTitleID ellipsesDescID" class="style-scope media-button">
-    <title id="ellipsesTitleID" class="style-scope media-button">Ellipses icon</title>
-    <desc id="ellipsesDescID" class="style-scope media-button">An illustration of text ellipses.</desc>
-    <path class="fill-color style-scope media-button" d="m10.5 17.5c1.3807119 0 2.5 1.1192881 2.5 2.5s-1.1192881 2.5-2.5 2.5c-1.38071187 0-2.5-1.1192881-2.5-2.5s1.11928813-2.5 2.5-2.5zm9.5 0c1.3807119 0 2.5 1.1192881 2.5 2.5s-1.1192881 2.5-2.5 2.5-2.5-1.1192881-2.5-2.5 1.1192881-2.5 2.5-2.5zm9.5 0c1.3807119 0 2.5 1.1192881 2.5 2.5s-1.1192881 2.5-2.5 2.5-2.5-1.1192881-2.5-2.5 1.1192881-2.5 2.5-2.5z" fill-rule="evenodd"></path>
-  </svg>
-
-      </span>
-      <span class="label style-scope media-button"><!---->More<!----></span>
-
-      </a>
-    <!----></media-button>
-      <!---->
-        </div>
-      </nav>
-    <!----></media-menu>
-        <button class="hamburger style-scope primary-nav" tabindex="1" data-event-click-tracking="BetaTopNav|NavHamburger">
-          <icon-hamburger class="style-scope primary-nav x-scope icon-hamburger-1"><!---->
-      <svg height="40" viewBox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="hamburgerTitleID hamburgerDescID" class="style-scope icon-hamburger">
-        <title id="hamburgerTitleID" class="style-scope icon-hamburger">Hamburger icon</title>
-        <desc id="hamburgerDescID" class="style-scope icon-hamburger">An icon used to represent a menu that can be toggled by interacting with this icon.</desc>
-        <path d="m30.5 26.5c.8284271 0 1.5.6715729 1.5 1.5s-.6715729 1.5-1.5 1.5h-21c-.82842712 0-1.5-.6715729-1.5-1.5s.67157288-1.5 1.5-1.5zm0-8c.8284271 0 1.5.6715729 1.5 1.5s-.6715729 1.5-1.5 1.5h-21c-.82842712 0-1.5-.6715729-1.5-1.5s.67157288-1.5 1.5-1.5zm0-8c.8284271 0 1.5.6715729 1.5 1.5s-.6715729 1.5-1.5 1.5h-21c-.82842712 0-1.5-.6715729-1.5-1.5s.67157288-1.5 1.5-1.5z" fill="#999" fill-rule="evenodd" class="style-scope icon-hamburger"></path>
-      </svg>
-    <!----></icon-hamburger>
-        </button>
-      </nav>
-    <!----></primary-nav>
-        <media-slider class="style-scope ia-topnav x-scope media-slider-1"><!---->
-      <div class="overflow-clip closed style-scope media-slider">
-        <div class="information-menu closed style-scope media-slider">
-          <div class="info-box style-scope media-slider">
-            <media-subnav class="style-scope media-slider x-scope media-subnav-1"><!----><!----></media-subnav>
-          </div>
-        </div>
-      </div>
-    <!----></media-slider>
-      </div>
-      <desktop-subnav class="style-scope ia-topnav x-scope desktop-subnav-1"><!---->
-      <ul class="style-scope desktop-subnav">
-        <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="about style-scope desktop-subnav" href="../archive.org/about/index.html"><!---->About<!----><!----></a>
-        </li>
-      <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="blog style-scope desktop-subnav" href="../blog.archive.org/index.html"><!---->Blog<!----><!----></a>
-        </li>
-      <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="projects style-scope desktop-subnav" href="../archive.org/projects/index.html"><!---->Projects<!----><!----></a>
-        </li>
-      <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="help style-scope desktop-subnav" href="../help.archive.org/index.html"><!---->Help<!----><!----></a>
-        </li>
-      <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="donate style-scope desktop-subnav" href="../archive.org/donate/index.html"><!---->Donate<!---->
-  <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-labelledby="donateTitleID donateDescID" class="style-scope desktop-subnav">
-    <title id="donateTitleID" class="style-scope desktop-subnav">Donate icon</title>
-    <desc id="donateDescID" class="style-scope desktop-subnav">An illustration of a heart shape</desc>
-    <path class="fill-color style-scope desktop-subnav" d="m30.0120362 11.0857287c-1.2990268-1.12627221-2.8599641-1.65258786-4.682812-1.57894699-.8253588.02475323-1.7674318.3849128-2.8262192 1.08047869-1.0587873.6955659-1.89622 1.5724492-2.512298 2.63065-.591311-1.0588196-1.4194561-1.9357029-2.4844351-2.63065-1.0649791-.69494706-2.0039563-1.05510663-2.8169316-1.08047869-1.2067699-.04950647-2.318187.17203498-3.3342513.66462439-1.0160643.4925893-1.82594378 1.2002224-2.42963831 2.1228992-.60369453.9226769-.91173353 1.9629315-.92411701 3.1207641-.03715043 1.9202322.70183359 3.7665141 2.21695202 5.5388457 1.2067699 1.4035084 2.912594 3.1606786 5.1174721 5.2715107 2.2048782 2.1108321 3.7565279 3.5356901 4.6549492 4.2745742.8253588-.6646243 2.355647-2.0647292 4.5908647-4.2003145s3.9747867-3.9171994 5.218707-5.3448422c1.502735-1.7723316 2.2355273-3.6186135 2.1983769-5.5388457-.0256957-1.7608832-.6875926-3.2039968-1.9866194-4.3302689z"></path>
-  </svg>
-<!----></a>
-        </li>
-      <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="contact style-scope desktop-subnav" href="../archive.org/about/contact.html"><!---->Contact<!----><!----></a>
-        </li>
-      <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="jobs style-scope desktop-subnav" href="../archive.org/about/jobs.html"><!---->Jobs<!----><!----></a>
-        </li>
-      <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="volunteer style-scope desktop-subnav" href="../archive.org/about/volunteerpositions.html"><!---->Volunteer<!----><!----></a>
-        </li>
-      <!---->
-        <li class="style-scope desktop-subnav">
-          <a class="people style-scope desktop-subnav" href="../archive.org/about/bios.php"><!---->People<!----><!----></a>
-        </li>
-      <!---->
-      </ul>
-    <!----></desktop-subnav>
-      <search-menu class="style-scope ia-topnav x-scope search-menu-1" tabindex="-1"><!---->
-      <div class="search-menu tx-slide closed style-scope search-menu" aria-hidden="true" aria-expanded="false">
-        <!---->
-        <label class="style-scope search-menu">
-          <input form="nav-search" type="radio" name="sin" class="style-scope search-menu" value="" checked="">
-          Search Metadata
-        </label>
-      <!---->
-        <label class="style-scope search-menu">
-          <input form="nav-search" type="radio" name="sin" class="style-scope search-menu" value="TXT">
-          Search text contents
-        </label>
-      <!---->
-        <label class="style-scope search-menu">
-          <input form="nav-search" type="radio" name="sin" class="style-scope search-menu" value="TV">
-          Search TV news captions
-        </label>
-      <!----><!---->
-        <label class="style-scope search-menu">
-          <input form="nav-search" type="radio" name="sin" class="style-scope search-menu" value="WEB">
-          Search archived websites
-        </label>
-      <!---->
-        <a class="advanced-search style-scope search-menu" href="../archive.org/advancedsearch.html" data-event-click-tracking="BetaTopNav|NavAdvancedSearch">Advanced Search</a>
-      </div>
-    <!----></search-menu>
-
-      <signed-out-dropdown class="style-scope ia-topnav x-scope signed-out-dropdown-1" tabindex="-1"><!---->
-      <nav class="initial style-scope signed-out-dropdown" aria-hidden="true" aria-expanded="false">
-        <ul class="style-scope signed-out-dropdown">
-          <!---->
-        <li class="style-scope signed-out-dropdown"><!----><a class="style-scope signed-out-dropdown" href="../archive.org/account/signup.html" data-event-click-tracking="BetaTopNav|NavSignUpDropdown"><!---->Sign up for free<!----></a><!----></li>
-      <!---->
-        <li class="style-scope signed-out-dropdown"><!----><a class="style-scope signed-out-dropdown" href="../archive.org/account/login-2.html" data-event-click-tracking="BetaTopNav|NavLogInDropdown"><!---->Log in<!----></a><!----></li>
-      <!---->
-        </ul>
-      </nav>
-    <!----></signed-out-dropdown>
-
-    </noscript>                      </ia-topnav>
-
-                  </div>
-            <input class="js-tvsearch" type="hidden" value='{"ands":[],"minday":"06/04/2009","maxday":"05/12/2021"}'/>
-    
-        
-    <div style="display: block; float: right; width: 28px; margin-top: 4px;">
-        <a href="#" onclick="window.open('../www.facebook.com/loginf2dc.html?u=' + encodeURIComponent(window.location.href), '', 'height=400,width=600'); return false;"
-            class="social_button" title="Share on Facebook"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
-        <a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(window.location.href) + '&via=internetarchive', '', 'height=400,width=600'); return false;"
-            class="social_button" title="Share on Twitter"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="../www.w3.org/index.html">
+
+<!-- Mirrored from web.archive.org/web/20210303003404/http://artofwa.com.au/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 May 2021 06:38:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head profile="../gmpg.org/11.html"><script src="../archive.org/images/analytics2a5b.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app207.us.archive.org';v.server_ms=867;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="images/playback.bundle2a46.js?v=bQvHU8mx" charset="utf-8"></script>
+<script type="text/javascript" src="images/wombat1b09.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("index-2.html");
+  __wm.wombat("../artofwa.com.au/index.html","20210303003404","index-2.html","web","index-3.html",
+	      "1614731644");
+</script>
+<link rel="stylesheet" type="text/css" href="images/banner-stylesdc04.css?v=wiOP2tld" />
+<link rel="stylesheet" type="text/css" href="images/iconochive8307.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="distribution" content="global"/>
+<meta name="robots" content="follow, all"/>
+<meta name="language" content="en, sv"/>
+<meta name="google-site-verification" content="sTvSVAi_4M3Ekac9CF8sAjLEnhVRUlGvI_G6vnjhVaQ"/>
+<title> </title>
+<meta name="generator" content="WordPress 3.9.1"/>
+<!-- leave this for stats please -->
+
+<link rel="Shortcut Icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="indexd784.html?feed=rss2"/>
+<link rel="alternate" type="text/xml" title="RSS .92" href="indexcc4d.html?feed=rss"/>
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="index6e0a.html?feed=atom"/>
+<link rel="pingback" href="../www.artofwa.com.au/xmlrpc.html"/>
+	<link rel="archives" title="August 2020" href="../www.artofwa.com.au/index2d4f.html?m=202008"/>
+	<link rel="archives" title="January 2020" href="../www.artofwa.com.au/indexad71.html?m=202001"/>
+	<link rel="archives" title="August 2019" href="../www.artofwa.com.au/indexcc03.html?m=201908"/>
+	<link rel="archives" title="May 2019" href="../www.artofwa.com.au/index8413.html?m=201905"/>
+	<link rel="archives" title="March 2018" href="../www.artofwa.com.au/indexabb9.html?m=201803"/>
+	<link rel="archives" title="December 2017" href="../www.artofwa.com.au/indexe1e7.html?m=201712"/>
+	<link rel="archives" title="July 2017" href="../www.artofwa.com.au/indexa676.html?m=201707"/>
+	<link rel="archives" title="February 2017" href="../www.artofwa.com.au/indexd305.html?m=201702"/>
+	<link rel="archives" title="October 2016" href="../www.artofwa.com.au/index8484.html?m=201610"/>
+	<link rel="archives" title="June 2015" href="../www.artofwa.com.au/indexe04d.html?m=201506"/>
+	<link rel="archives" title="May 2015" href="../www.artofwa.com.au/index2b58.html?m=201505"/>
+	<link rel="archives" title="March 2015" href="../www.artofwa.com.au/index559e.html?m=201503"/>
+	<link rel="archives" title="October 2014" href="../www.artofwa.com.au/index166c.html?m=201410"/>
+	<link rel="archives" title="July 2014" href="../www.artofwa.com.au/index8ba2.html?m=201407"/>
+	<link rel="archives" title="March 2014" href="../www.artofwa.com.au/indexd907.html?m=201403"/>
+	<link rel="archives" title="February 2014" href="../www.artofwa.com.au/index03da.html?m=201402"/>
+	<link rel="archives" title="January 2014" href="../www.artofwa.com.au/index81d5.html?m=201401"/>
+	<link rel="archives" title="December 2013" href="../www.artofwa.com.au/indexd44c.html?m=201312"/>
+	<link rel="archives" title="November 2013" href="../www.artofwa.com.au/index2501.html?m=201311"/>
+	<link rel="archives" title="October 2013" href="../www.artofwa.com.au/indexd649.html?m=201310"/>
+	<link rel="archives" title="September 2013" href="../www.artofwa.com.au/index2fe4.html?m=201309"/>
+	<link rel="archives" title="August 2013" href="../www.artofwa.com.au/index0b82.html?m=201308"/>
+	<link rel="archives" title="July 2013" href="../www.artofwa.com.au/index8172.html?m=201307"/>
+	<link rel="archives" title="June 2013" href="../www.artofwa.com.au/index631b.html?m=201306"/>
+	<link rel="archives" title="May 2013" href="../www.artofwa.com.au/index0b76.html?m=201305"/>
+	<link rel="archives" title="April 2013" href="../www.artofwa.com.au/indexaf22.html?m=201304"/>
+	<link rel="archives" title="March 2013" href="../www.artofwa.com.au/index9149.html?m=201303"/>
+	<link rel="archives" title="February 2013" href="../www.artofwa.com.au/index9f9d.html?m=201302"/>
+	<link rel="archives" title="January 2013" href="../www.artofwa.com.au/index0558.html?m=201301"/>
+	<link rel="archives" title="December 2012" href="../www.artofwa.com.au/index3642.html?m=201212"/>
+	<link rel="archives" title="November 2012" href="../www.artofwa.com.au/indexfb7b.html?m=201211"/>
+	<link rel="archives" title="October 2012" href="../www.artofwa.com.au/index29b3.html?m=201210"/>
+	<link rel="archives" title="September 2012" href="../www.artofwa.com.au/indexc797.html?m=201209"/>
+	<link rel="archives" title="August 2012" href="../www.artofwa.com.au/indexdef7.html?m=201208"/>
+	<link rel="archives" title="July 2012" href="../www.artofwa.com.au/index0929.html?m=201207"/>
+	<link rel="archives" title="June 2012" href="../www.artofwa.com.au/index0260.html?m=201206"/>
+	<link rel="archives" title="May 2012" href="../www.artofwa.com.au/indexde88.html?m=201205"/>
+	<link rel="archives" title="April 2012" href="../www.artofwa.com.au/index9b14.html?m=201204"/>
+	<link rel="archives" title="March 2012" href="../www.artofwa.com.au/index3598.html?m=201203"/>
+	<link rel="archives" title="August 2011" href="../www.artofwa.com.au/indexfdb0.html?m=201108"/>
+	<link rel="archives" title="July 2011" href="../www.artofwa.com.au/index62cc.html?m=201107"/>
+	<link rel="archives" title="June 2011" href="../www.artofwa.com.au/indexc61a.html?m=201106"/>
+	<link rel="archives" title="April 2011" href="../www.artofwa.com.au/index512b.html?m=201104"/>
+	<link rel="archives" title="March 2011" href="../www.artofwa.com.au/index08fb.html?m=201103"/>
+	<link rel="archives" title="February 2011" href="../www.artofwa.com.au/index52f4.html?m=201102"/>
+	<link rel="archives" title="January 2011" href="../www.artofwa.com.au/index74f1.html?m=201101"/>
+	<link rel="archives" title="December 2010" href="../www.artofwa.com.au/index8956.html?m=201012"/>
+	<link rel="archives" title="November 2010" href="../www.artofwa.com.au/indexa1aa.html?m=201011"/>
+	<link rel="archives" title="October 2010" href="../www.artofwa.com.au/indexe3d5.html?m=201010"/>
+	<link rel="archives" title="September 2010" href="../www.artofwa.com.au/index9ab9.html?m=201009"/>
+	<link rel="archives" title="August 2010" href="../www.artofwa.com.au/index1ff0.html?m=201008"/>
+	<link rel="archives" title="July 2010" href="../www.artofwa.com.au/index9f11.html?m=201007"/>
+	<link rel="archives" title="June 2010" href="../www.artofwa.com.au/index31f0.html?m=201006"/>
+	<link rel="archives" title="May 2010" href="../www.artofwa.com.au/indexd189.html?m=201005"/>
+	<link rel="archives" title="April 2010" href="../www.artofwa.com.au/indexb5c0.html?m=201004"/>
+	<link rel="archives" title="March 2010" href="../www.artofwa.com.au/indexf258.html?m=201003"/>
+	<link rel="archives" title="February 2010" href="../www.artofwa.com.au/index6e30.html?m=201002"/>
+	<link rel="archives" title="December 2009" href="../www.artofwa.com.au/index5c0a.html?m=200912"/>
+	<link rel="archives" title="November 2009" href="../www.artofwa.com.au/index8f62.html?m=200911"/>
+	<link rel="archives" title="October 2009" href="../www.artofwa.com.au/index451d.html?m=200910"/>
+	<link rel="archives" title="September 2009" href="../www.artofwa.com.au/index3e04.html?m=200909"/>
+	<link rel="archives" title="August 2009" href="../www.artofwa.com.au/index425a.html?m=200908"/>
+	<link rel="archives" title="July 2009" href="../www.artofwa.com.au/index9907.html?m=200907"/>
+	<link rel="archives" title="June 2009" href="../www.artofwa.com.au/index3104.html?m=200906"/>
+	<link rel="archives" title="April 2009" href="../www.artofwa.com.au/index17e8.html?m=200904"/>
+	<link rel="archives" title="March 2009" href="../www.artofwa.com.au/index10a5.html?m=200903"/>
+	<link rel="archives" title="October 2008" href="../www.artofwa.com.au/indexa7bc.html?m=200810"/>
+	<link rel="archives" title="June 2008" href="../www.artofwa.com.au/indexfda7.html?m=200806"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../www.artofwa.com.au/xmlrpc0db0.html?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../www.artofwa.com.au/wlwmanifest.html"/> 
+<meta name="generator" content="WordPress 3.9.1"/>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" media="screen">
+<!-- @import url( images/style.css); -->
+</style>
+<meta name="google-site-verification" content="1fVF3cxO0rhDDEKRS4ktj0jg44tRmNlMT1tEPu8KAkc"/>
+</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:110px;padding-top:12px;">
+      <a href="index-2.html" title="Wayback Machine home page"><img src="images/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
     </div>
-    <script>
-      var config = {"api_url_anchor": "/__wb/search/anchor?q={{query}}", "api_url_calendar_captures": "/__wb/calendarcaptures?url={{url}}\u0026selected_year={{year}}", "api_url_host": "/__wb/search/host?q={{query}}", "api_url_metadata": "/__wb/search/metadata?q={{query}}", "api_url_sitemap": "/web/timemap/json?url={{url}}/\u0026fl=timestamp:4,original,urlkey\u0026matchType=prefix\u0026filter=statuscode:200\u0026filter=mimetype:text/html\u0026collapse=urlkey\u0026collapse=timestamp:4\u0026limit=100000", "api_url_sparkline": "/__wb/sparkline?output=json\u0026url={{url}}\u0026collection=web", "bundling": {"public_path": "/static/bower_components/wayback-search-js/dist"}, "diff": {"cdxServer": "/web/timemap", "diffgraphPrefix": "/web/diffgraph/", "limit": 3000, "maxSunburstLevelLength": "70", "snapshotsPrefix": "/web/", "sparklineURL": "/__wb/sparkline", "urlPrefix": "/web/diff/", "waybackDiscoverDiff": "https://gext-api.archive.org/services/simhash", "webMonitoringProcessingURL": "https://gext-api.archive.org/services/diff"}, "features": {"beta_promo": false, "changes_calendar": true, "landing": "carousel", "landing_layout_with_trend": false, "search": "v1"}, "num_of_explored_web_pages": "551 billion", "url_playback": "/web/{{date}}/{{url}}", "url_playback_screenshot": "/web/", "url_save_page_now": "/save/{{query}}", "url_search_page": "/web/*/{{url}}*", "url_thumb": "https://web.archive.org/thumb/{{item}}?generate=1"};
-      $(document).ready(function(){
-	var e = $('#react-wayback-search'), c = e.attr('component');
-	ReactDOM.render(
-	  React.createElement(window[c], { config: config }),
-	  e.get(0)
-	);
-      });
-    </script>
-    <div id="react-wayback-search" component="WaybackSearchComponent"></div>
-    <noscript>
-      <div class="no-script-message">
-        The Wayback Machine requires your browser to support JavaScript, please email <a href="mailto:info@archive.org">info@archive.org</a><br/>if you have any questions about this.
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#"
+	     title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="../archive.org/login.html"
+             title="Sign In"
+             id="wm-sign-in"
+          >
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        	<a href="../faq.web.archive.org/index.html" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
       </div>
-    </noscript>
-    <footer>
-      <div id="footerHome">
-        <p>
-          The Wayback Machine is an initiative of the
-          <a href="../archive.org/index.html">Internet Archive</a>,
-          a 501(c)(3) non-profit, building a digital library of
-          Internet sites and other cultural artifacts in digital form.
-          <br/>Other <a href="../archive.org/projects/index.html">projects</a> include
-          <a href="../openlibrary.org/index.html">Open Library</a> &amp;
-          <a href="../archive-it.org/index.html">archive-it.org</a>.
-        </p>
-        <p>
-          Your use of the Wayback Machine is subject to the Internet Archive's
-          <a href="../archive.org/about/terms.html">Terms of Use</a>.
-        </p>
+      <div id="wm-share">
+          <a href="index-4.html"
+             id="wm-screenshot"
+             title="screenshot">
+            <span class="wm-icon-screen-shot"></span>
+          </a>
+	<a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20210303003404/http://artofwa.com.au/" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20210303003404/http://artofwa.com.au/" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
       </div>
-    </footer>
-  </body>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="https://web.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://artofwa.com.au/" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20210303003404" /><input type="submit" value="Go" /></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap"><a href="index-5.html" title="18 Jan 2021"><strong>Jan</strong></a></td>
+		  <td class="c" id="displayMonthEl" title="You are here: 00:34:04 Mar 03, 2021">MAR</td>
+		  <td class="f" nowrap="nowrap">Apr</td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><a href="index-6.html" title="02:28:56 Feb 27, 2021"><img src="images/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 00:34:04 Mar 03, 2021">03</td>
+		  <td class="f" nowrap="nowrap"><a href="index-7.html" title="00:15:16 Mar 14, 2021"><img src="images/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap"><a href="index-8.html" title="24 Feb 2020"><strong>2020</strong></a></td>
+		  <td class="c" id="displayYearEl" title="You are here: 00:34:04 Mar 03, 2021">2021</td>
+		  <td class="f" nowrap="nowrap">2022</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures">
+	      	      <a class="t" href="index-9.html" title="See a list of every capture for this URL">248 captures</a>
+	      <div class="r" title="Timespan for captures of this URL">22 Jun 2008 - 14 Mar 2021</div>
+	      </div>
+	  </td>
+	  <td class="k">
+	    <a href="#" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="650" height="27" border="0"></canvas>
+	      </div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+                    <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(../archive.org/images/nlaweb);"></span>
+		Organization: <a style="color:#33f;" href="../archive.org/nlaweb.html" target="_new"><span class="wm-title">National Library of Australia Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Crawls performed by Internet Archive on behalf of the National Library of Australia.  This data is currently not publicly accessible.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(../archive.org/images/notfound.png)"></span>
+		<div>Collection: <a style="color:#33f;" href="../archive.org/nla_2021.html" target="_new"><span class="wm-title">NLA 2021 Domain Crawl</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Domain crawl of the Australian web domain (.au) performed by Internet Archive on behalf of the National Library of Australia in March-April, 2021.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210303003404/http://artofwa.com.au/</div>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="../archive.org/donateebed.html?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20210303003404/http%3A//artofwa.com.au/"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","../artofwa.com.au/index.html","20210303003404",1996,"index-3.html",["/_static/css/banner-styles.css?v=wiOP2tld","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
 
-<!-- Mirrored from web.archive.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 May 2021 05:16:35 GMT -->
-</html>
+<div id="wrap">
+
+	<div id="header">
+	
+		<div id="headerleft">
+			<a href="index-10.html"></a><br/>
+					</div>
+		
+		<div id="headerright">
+			<ul>
+				<li><a href="index-10.html">Home</a></li>
+				<li><a href="indexcc4d.html?feed=rss">RSS</a></li>
+			</ul>
+		</div>
+
+	</div>
+	
+<div style="clear:both;"></div>
+	
+	<div id="tagline">
+		<div id="taglineleft">
+			<p>artofwa.com</p>
+		</div>
+		
+		<div id="taglineright">
+			<p>Ric Holland's Blog</p>
+		</div>
+	</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6117053-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://web.archive.org/web/20210303003404/https://ssl' : 'https://web.archive.org/web/20210303003404/http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<div id="content">
+
+<!-- begin l_sidebar -->
+
+<div id="l_sidebar">
+
+	<ul id="l_sidebarwidgeted">
+	<li id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s"/>
+					<input type="submit" id="searchsubmit" value="Search"/>
+				</div>
+			</form></li>
+<li id="pages-2" class="widget widget_pages"><h2 class="widgettitle">Pages</h2>
+		<ul>
+			<li class="page_item page-item-1546"><a href="index2221.html?page_id=1546">-Ric Holland</a></li>
+<li class="page_item page-item-2 page_item_has_children"><a href="indexba53.html?page_id=2">About &#8211; Art of Wa.com</a>
+<ul class="children">
+	<li class="page_item page-item-752"><a href="index1a30.html?page_id=752">Art of Making Marks (The Book)</a></li>
+	<li class="page_item page-item-622"><a href="indexee2a.html?page_id=622">Digital Art</a></li>
+	<li class="page_item page-item-810"><a href="indexace3.html?page_id=810">Expressive Mark Making (Techniques)</a></li>
+	<li class="page_item page-item-618 page_item_has_children"><a href="index6d0d.html?page_id=618">INDUSTRY PIONEERS</a>
+	<ul class="children">
+		<li class="page_item page-item-39"><a href="index7193.html?page_id=39">BILL BUXTON interview</a></li>
+		<li class="page_item page-item-616"><a href="index64d2.html?page_id=616">DON McALPINE interview</a></li>
+		<li class="page_item page-item-43"><a href="indexdf4d.html?page_id=43">DOUGLAS OLSON interview</a></li>
+		<li class="page_item page-item-38"><a href="index3f9d.html?page_id=38">DUNCAN BRINSMEAD interview</a></li>
+		<li class="page_item page-item-44"><a href="indexb60b.html?page_id=44">IMRE MOLNAR interview</a></li>
+		<li class="page_item page-item-870"><a href="index9a32.html?page_id=870">JAMES CAMERON &#8211; before Avatar</a></li>
+		<li class="page_item page-item-35"><a href="indexc502.html?page_id=35">JOHN DERRY &#8211; interview</a></li>
+		<li class="page_item page-item-41"><a href="index4e71.html?page_id=41">JULIEANNE KOST interview</a></li>
+		<li class="page_item page-item-42"><a href="indexbece.html?page_id=42">LEON BROWN interview</a></li>
+		<li class="page_item page-item-40"><a href="index9829.html?page_id=40">MASAHIKO YAMADA interview</a></li>
+		<li class="page_item page-item-34"><a href="index027d.html?page_id=34">RICK CHAMPAGNE interview</a></li>
+		<li class="page_item page-item-6"><a href="index5534.html?page_id=6">RON COBB interviews</a></li>
+		<li class="page_item page-item-37"><a href="indexbc9e.html?page_id=37">RUSSELL BROWN interview</a></li>
+		<li class="page_item page-item-872"><a href="index3d46.html?page_id=872">SYD MEAD interview</a></li>
+		<li class="page_item page-item-952"><a href="index1f2f.html?page_id=952">UWE MAURER ArtRage</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-809"><a href="indexe845.html?page_id=809">NUI (Research Archive)</a></li>
+	<li class="page_item page-item-789"><a href="index90c5.html?page_id=789">NUI &#8211; Interaction (Archive)</a></li>
+	<li class="page_item page-item-690"><a href="indexceb6.html?page_id=690">Wacom (Photo Archive)</a></li>
+	<li class="page_item page-item-124"><a href="indexbcf5.html?page_id=124">Wacom Brand Story</a></li>
+	<li class="page_item page-item-623"><a href="indexd0bd.html?page_id=623">Wacom Media, Partners &#038; Links</a></li>
+	<li class="page_item page-item-128"><a href="index7d80.html?page_id=128">Wacom Sightings</a></li>
+</ul>
+</li>
+<li class="page_item page-item-620 page_item_has_children"><a href="indexa0b6.html?page_id=620">CREATIVE INNOVATORS</a>
+<ul class="children">
+	<li class="page_item page-item-233"><a href="indexede2.html?page_id=233">Allan Macdonald interview</a></li>
+	<li class="page_item page-item-52"><a href="index028b.html?page_id=52">Allan Morse interview</a></li>
+	<li class="page_item page-item-127"><a href="index1a57.html?page_id=127">Angus MacLane &#8211; Pixar</a></li>
+	<li class="page_item page-item-655"><a href="indexcd9d.html?page_id=655">BMW press article</a></li>
+	<li class="page_item page-item-23"><a href="index32ec.html?page_id=23">Bryn Farrelly interview</a></li>
+	<li class="page_item page-item-873"><a href="indexfc13.html?page_id=873">Chris Edwards &#8211; Third Floor</a></li>
+	<li class="page_item page-item-53"><a href="index6184.html?page_id=53">Cindy Bower interview</a></li>
+	<li class="page_item page-item-19"><a href="index307d.html?page_id=19">Clint Walker interview</a></li>
+	<li class="page_item page-item-1102"><a href="index3842.html?page_id=1102">Colin Smith Interview</a></li>
+	<li class="page_item page-item-50"><a href="indexf536.html?page_id=50">Craig Calhoun interview</a></li>
+	<li class="page_item page-item-28"><a href="indexc583.html?page_id=28">Dr Phillip George</a></li>
+	<li class="page_item page-item-56"><a href="indexd7ad.html?page_id=56">Evan Shipard interview</a></li>
+	<li class="page_item page-item-51"><a href="indexe2e5.html?page_id=51">Gerry Haggerty interview</a></li>
+	<li class="page_item page-item-49"><a href="index6499.html?page_id=49">Jake Hempson interview</a></li>
+	<li class="page_item page-item-31"><a href="index3329.html?page_id=31">Jason Chatfield interview</a></li>
+	<li class="page_item page-item-55"><a href="index2928.html?page_id=55">Jeremy Sutton interview</a></li>
+	<li class="page_item page-item-947"><a href="indexc8d6.html?page_id=947">John Fiorelli Cut&#038;Paste</a></li>
+	<li class="page_item page-item-47"><a href="indexc04b.html?page_id=47">Ken Lambert interview</a></li>
+	<li class="page_item page-item-808"><a href="index1029.html?page_id=808">Keshen Teo interview</a></li>
+	<li class="page_item page-item-30"><a href="index8192.html?page_id=30">Kidchan interview</a></li>
+	<li class="page_item page-item-726"><a href="index07f8.html?page_id=726">Lee Sheppard interview</a></li>
+	<li class="page_item page-item-46"><a href="index9902.html?page_id=46">Marco Nero interview</a></li>
+	<li class="page_item page-item-54"><a href="index9bef.html?page_id=54">Matt Taylor interview</a></li>
+	<li class="page_item page-item-21"><a href="index1766.html?page_id=21">Nick Pill interview</a></li>
+	<li class="page_item page-item-22"><a href="index97bb.html?page_id=22">Nigel Allen interview</a></li>
+	<li class="page_item page-item-70"><a href="index4404.html?page_id=70">Outside Line interview</a></li>
+	<li class="page_item page-item-945"><a href="index2f17.html?page_id=945">Peggy Gyulai interview</a></li>
+	<li class="page_item page-item-16"><a href="index7f0d.html?page_id=16">Richard Luxton interview</a></li>
+	<li class="page_item page-item-949"><a href="index64b0.html?page_id=949">Rob Powers NewTek</a></li>
+	<li class="page_item page-item-86"><a href="index7bf9.html?page_id=86">Robin Preston interview</a></li>
+	<li class="page_item page-item-871"><a href="index13f6.html?page_id=871">Ryan Church interview</a></li>
+	<li class="page_item page-item-15"><a href="indexc185.html?page_id=15">Steve Rosewell interview</a></li>
+	<li class="page_item page-item-48"><a href="index128b.html?page_id=48">Steve Stamatiadis interview</a></li>
+	<li class="page_item page-item-624"><a href="indexf22f.html?page_id=624">Sync &#8211; Audio Research</a></li>
+	<li class="page_item page-item-20"><a href="index0d2a.html?page_id=20">Ted Blore interview</a></li>
+	<li class="page_item page-item-24"><a href="index16e4.html?page_id=24">Tin &#038; Ed interview</a></li>
+	<li class="page_item page-item-33"><a href="indexbf8a.html?page_id=33">Tony Bradt interview</a></li>
+	<li class="page_item page-item-45"><a href="indexd079.html?page_id=45">Tylney Taylor interview</a></li>
+	<li class="page_item page-item-134"><a href="index37cc.html?page_id=134">Zero One Animation</a></li>
+</ul>
+</li>
+<li class="page_item page-item-621 page_item_has_children"><a href="index49ab.html?page_id=621">SHOWCASE</a>
+<ul class="children">
+	<li class="page_item page-item-129"><a href="index448a.html?page_id=129">Angie Taylor interview</a></li>
+	<li class="page_item page-item-71"><a href="indexe527.html?page_id=71">Antonis Kotzias interview</a></li>
+	<li class="page_item page-item-691"><a href="index1812.html?page_id=691">Barry Dean</a></li>
+	<li class="page_item page-item-69"><a href="index0743.html?page_id=69">Bryan Kahrs interview</a></li>
+	<li class="page_item page-item-751"><a href="index4ae2.html?page_id=751">Craig (Jenner) Hilton interview</a></li>
+	<li class="page_item page-item-72"><a href="indexade1.html?page_id=72">Dave Davidson</a></li>
+	<li class="page_item page-item-132"><a href="index7e09.html?page_id=132">Design student reports on Intuos3</a></li>
+	<li class="page_item page-item-32"><a href="index5c4e.html?page_id=32">Ed Velandria interview</a></li>
+	<li class="page_item page-item-75"><a href="index8a92.html?page_id=75">Eric Seaholm</a></li>
+	<li class="page_item page-item-77"><a href="indexb9fc.html?page_id=77">Fernanda Cohen</a></li>
+	<li class="page_item page-item-78"><a href="indexe36c.html?page_id=78">Hui Tian</a></li>
+	<li class="page_item page-item-79"><a href="index11cb.html?page_id=79">Jean-Luc Touillon</a></li>
+	<li class="page_item page-item-80"><a href="indexaffc.html?page_id=80">Jeff Wong</a></li>
+	<li class="page_item page-item-81"><a href="indexf2af.html?page_id=81">Jill Johnston-Price</a></li>
+	<li class="page_item page-item-82"><a href="index05df.html?page_id=82">Lawrence Callender</a></li>
+	<li class="page_item page-item-601"><a href="indexa03b.html?page_id=601">Leith O&#8217;Malley</a></li>
+	<li class="page_item page-item-83"><a href="index0405.html?page_id=83">Lok Jansen</a></li>
+	<li class="page_item page-item-599"><a href="index06ff.html?page_id=599">Luke Feldman</a></li>
+	<li class="page_item page-item-84"><a href="indexfe27.html?page_id=84">Man Qin</a></li>
+	<li class="page_item page-item-85"><a href="indexe735.html?page_id=85">Martin Nebelong Henningsen</a></li>
+	<li class="page_item page-item-791"><a href="index7e33.html?page_id=791">Min Yum</a></li>
+	<li class="page_item page-item-564"><a href="index9db3.html?page_id=564">Raziman Baharudin</a></li>
+	<li class="page_item page-item-74"><a href="indexcc4b.html?page_id=74">Saizen Media Studios</a></li>
+	<li class="page_item page-item-87"><a href="indexc795.html?page_id=87">Santos Zaballos Fernandez</a></li>
+	<li class="page_item page-item-88"><a href="index411e.html?page_id=88">Saul Zanolari</a></li>
+	<li class="page_item page-item-126"><a href="index8a21.html?page_id=126">Scott Adams drawing Dilbert</a></li>
+	<li class="page_item page-item-89"><a href="index96bd.html?page_id=89">Simon So</a></li>
+	<li class="page_item page-item-73"><a href="index188e.html?page_id=73">Step and Repeat Design</a></li>
+	<li class="page_item page-item-90"><a href="indexa442.html?page_id=90">Waheed Nasir</a></li>
+	<li class="page_item page-item-91"><a href="indexf635.html?page_id=91">Wu Tong</a></li>
+	<li class="page_item page-item-92"><a href="index487c.html?page_id=92">Yongkiat Karnchapayap</a></li>
+</ul>
+</li>
+		</ul>
+		</li>
+		<li id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Posts</h2>
+		<ul>
+					<li>
+				<a href="index1e14.html?p=1609">Ep12: The Virtual Excellence Show featuring Ric Holland</a>
+						</li>
+					<li>
+				<a href="index0bc9.html?p=1601">Ric Holland &#8211; 40 years of Creative Innovation</a>
+						</li>
+					<li>
+				<a href="indexaf75.html?p=1590">Ric Holland &#8211; Extreme Digital Media</a>
+						</li>
+					<li>
+				<a href="index95d2.html?p=1587">Ford using Gravity Sketch in car design</a>
+						</li>
+					<li>
+				<a href="index9a03.html?p=1585">Working in Quill on Rift</a>
+						</li>
+				</ul>
+		</li>
+<li id="categories-145334411" class="widget widget_categories"><h2 class="widgettitle">Categories</h2>
+		<ul>
+	<li class="cat-item cat-item-1"><a href="indexb31a.html?cat=1" title="Expressive digital mark making and human interface interaction innovations 1983 - 2008">Wacom &#8211; Art of Making Marks</a>
+</li>
+		</ul>
+</li>
+<li id="archives-2" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>
+		<ul>
+	<li><a href="index2d4f.html?m=202008">August 2020</a></li>
+	<li><a href="indexad71.html?m=202001">January 2020</a></li>
+	<li><a href="indexcc03.html?m=201908">August 2019</a></li>
+	<li><a href="index8413.html?m=201905">May 2019</a></li>
+	<li><a href="indexabb9.html?m=201803">March 2018</a></li>
+	<li><a href="indexe1e7.html?m=201712">December 2017</a></li>
+	<li><a href="indexa676.html?m=201707">July 2017</a></li>
+	<li><a href="indexd305.html?m=201702">February 2017</a></li>
+	<li><a href="index8484.html?m=201610">October 2016</a></li>
+	<li><a href="indexe04d.html?m=201506">June 2015</a></li>
+	<li><a href="index2b58.html?m=201505">May 2015</a></li>
+	<li><a href="index559e.html?m=201503">March 2015</a></li>
+	<li><a href="index166c.html?m=201410">October 2014</a></li>
+	<li><a href="index8ba2.html?m=201407">July 2014</a></li>
+	<li><a href="indexd907.html?m=201403">March 2014</a></li>
+	<li><a href="index03da.html?m=201402">February 2014</a></li>
+	<li><a href="index81d5.html?m=201401">January 2014</a></li>
+	<li><a href="indexd44c.html?m=201312">December 2013</a></li>
+	<li><a href="index2501.html?m=201311">November 2013</a></li>
+	<li><a href="indexd649.html?m=201310">October 2013</a></li>
+	<li><a href="index2fe4.html?m=201309">September 2013</a></li>
+	<li><a href="index0b82.html?m=201308">August 2013</a></li>
+	<li><a href="index8172.html?m=201307">July 2013</a></li>
+	<li><a href="index631b.html?m=201306">June 2013</a></li>
+	<li><a href="index0b76.html?m=201305">May 2013</a></li>
+	<li><a href="indexaf22.html?m=201304">April 2013</a></li>
+	<li><a href="index9149.html?m=201303">March 2013</a></li>
+	<li><a href="index9f9d.html?m=201302">February 2013</a></li>
+	<li><a href="index0558.html?m=201301">January 2013</a></li>
+	<li><a href="index3642.html?m=201212">December 2012</a></li>
+	<li><a href="indexfb7b.html?m=201211">November 2012</a></li>
+	<li><a href="index29b3.html?m=201210">October 2012</a></li>
+	<li><a href="indexc797.html?m=201209">September 2012</a></li>
+	<li><a href="indexdef7.html?m=201208">August 2012</a></li>
+	<li><a href="index0929.html?m=201207">July 2012</a></li>
+	<li><a href="index0260.html?m=201206">June 2012</a></li>
+	<li><a href="indexde88.html?m=201205">May 2012</a></li>
+	<li><a href="index9b14.html?m=201204">April 2012</a></li>
+	<li><a href="index3598.html?m=201203">March 2012</a></li>
+	<li><a href="indexfdb0.html?m=201108">August 2011</a></li>
+	<li><a href="index62cc.html?m=201107">July 2011</a></li>
+	<li><a href="indexc61a.html?m=201106">June 2011</a></li>
+	<li><a href="index512b.html?m=201104">April 2011</a></li>
+	<li><a href="index08fb.html?m=201103">March 2011</a></li>
+	<li><a href="index52f4.html?m=201102">February 2011</a></li>
+	<li><a href="index74f1.html?m=201101">January 2011</a></li>
+	<li><a href="index8956.html?m=201012">December 2010</a></li>
+	<li><a href="indexa1aa.html?m=201011">November 2010</a></li>
+	<li><a href="indexe3d5.html?m=201010">October 2010</a></li>
+	<li><a href="index9ab9.html?m=201009">September 2010</a></li>
+	<li><a href="index1ff0.html?m=201008">August 2010</a></li>
+	<li><a href="index9f11.html?m=201007">July 2010</a></li>
+	<li><a href="index31f0.html?m=201006">June 2010</a></li>
+	<li><a href="indexd189.html?m=201005">May 2010</a></li>
+	<li><a href="indexb5c0.html?m=201004">April 2010</a></li>
+	<li><a href="indexf258.html?m=201003">March 2010</a></li>
+	<li><a href="index6e30.html?m=201002">February 2010</a></li>
+	<li><a href="index5c0a.html?m=200912">December 2009</a></li>
+	<li><a href="index8f62.html?m=200911">November 2009</a></li>
+	<li><a href="index451d.html?m=200910">October 2009</a></li>
+	<li><a href="index3e04.html?m=200909">September 2009</a></li>
+	<li><a href="index425a.html?m=200908">August 2009</a></li>
+	<li><a href="index9907.html?m=200907">July 2009</a></li>
+	<li><a href="index3104.html?m=200906">June 2009</a></li>
+	<li><a href="index17e8.html?m=200904">April 2009</a></li>
+	<li><a href="index10a5.html?m=200903">March 2009</a></li>
+	<li><a href="indexa7bc.html?m=200810">October 2008</a></li>
+	<li><a href="indexfda7.html?m=200806">June 2008</a></li>
+		</ul>
+</li>
+<li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Network</h2>
+
+	<ul class="xoxo blogroll">
+<li><a href="index-11.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/5senses.wordpress.com');" title="Peter Kurstjens Personal Blog">5 Senses</a></li>
+<li><a href="search299d.html?search=&amp;sortCriteria=3&amp;groupFilter=110468" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.linkedin.com');" title="Linkedin group – Adobe Gurus ">Adobe Gurus group</a></li>
+<li><a href="index-12.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('www.agda.com.html');">AGDA (Design Association)</a></li>
+<li><a href="i-cms2679.html?page=1" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('www.aimia.com.html');">AIMIA (Interactive Ass.)</a></li>
+<li><a href="index-13.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/area.autodesk.com');">Area &#8211; Autodesk Community</a></li>
+<li><a href="index-14.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.flickr.com');" title="Ric’s flickr photostream">Art of Wa &#8211; on flickr</a></li>
+<li><a href="index-15.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.ballisticpublishing.com');" title="The worlds best and most beautiful digital art ">Ballistic Books</a></li>
+<li><a href="index29ed2.html?lang=en" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.wacom.eu');" title="Wacom Bamboo Mini dock">Bamboo Mini</a></li>
+<li><a href="index-16.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.cgsociety.org');" title="A global society of Digital Artists">CG Society</a></li>
+<li><a href="links.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.designstudiopress.com');" title="Links to a world of awesome concept artists">Design Studio Press &#8211; Links</a></li>
+<li><a href="index-17.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.designtaxi.com');">Design Taxi</a></li>
+<li><a href="index-18.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('www.dgdesignnetwork.com.html');">DG Design Network</a></li>
+<li><a href="index-19.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/drawn.ca');">Drawn &#8211; Blog</a></li>
+<li><a href="index-20.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.idnworld.com');" title="Publishers for the Art of Making Marks – Coffee table book">IdN International design Network</a></li>
+<li><a href="index-21.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/pixlart.blogspot.com');" title="John Derry co-inventor of Corel Painter and pioneer of digital painting since 1983">John Derry&#8217;s blog</a></li>
+<li><a href="index6fe2.html?p=701" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/delicategeniusblog.com');" title="Michael caught up with me at WebDU in Sydney">Michael Kordahi&#8217;s vlog post</a></li>
+<li><a href="partner-tv-wacom.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/blogs.msdn.com');" title="Christian Longstaff at Microsoft asked me to explain Bamboo">Microsoft Partner TV</a></li>
+<li><a href="index-22.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.redbubble.com');">Red Bubble &#8211; Creative Network</a></li>
+<li><a href="profileb018.html?id=649645227" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.facebook.com');" title="Ric’s personal profile on Facebook">Ric&#8217;s Facebook profile</a></li>
+<li><a href="index-23.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('www.extreme.com.html');" title="Ric’s website – Extreme Digital ">Ric&#8217;s portfolio Extreme Digital</a></li>
+<li><a href="richolland.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.linkedin.com');" title="Ric’s Linkedin network">Ric&#8217;s profile on Linkedin</a></li>
+<li><a href="ric_holland.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/twitter.com');" title="Twitter network">Ric&#8217;s Twitter page</a></li>
+<li><a href="index-24.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.slideshare.net');" title="Ric’s support slides for UCBD presentation to the ABC Lamp Workshop">User Centric Brand Design</a></li>
+<li><a href="index-25.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.wacom-asia.com');">Wacom &#8211; AP Community</a></li>
+<li><a href="index-26.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/community.wacom.com');">Wacom Community</a></li>
+<li><a href="index-27.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/www.pencollective.com');" title="Website for Wacom users also links to Facebook Group">Wacom Group</a></li>
+<li><a href="index-28.html" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview('/outbound/blogroll/linuxwacom.sourceforge.net');" title="The Linux Wacom Project – website">Wacom Linux resources</a></li>
+
+	</ul>
+</li>
+
+	</ul>
+			
+</div>
+
+<!-- end l_sidebar -->
+	<div id="contentleft">
+	
+				<h1><a href="index1e14.html?p=1609" rel="bookmark">Ep12: The Virtual Excellence Show featuring Ric Holland</a></h1>
+	
+		<p><iframe width="480" height="270" src="0uvsodgqrhy.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>August 12, 2020 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="index1e14.html?p=1609#respond" title="Comment on Ep12: The Virtual Excellence Show featuring Ric Holland">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1609"
+    dc:identifier="http://www.artofwa.com.au/?p=1609"
+    dc:title="Ep12: The Virtual Excellence Show featuring Ric Holland"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1609" />
+</rdf:RDF>		-->
+		
+				<h1><a href="index0bc9.html?p=1601" rel="bookmark">Ric Holland &#8211; 40 years of Creative Innovation</a></h1>
+	
+		<p style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;"><a title="View Ric Holland's TimeLine 2020 on Scribd" href="ric-holland-s-timeline-2020.html#from_embed" onclick="javascript:pageTracker._trackPageview('/outbound/article/www.scribd.com');" style="text-decoration: underline;">Ric Holland&#39;s TimeLine &#8230;</a> by <a title="View Ric Holland's profile on Scribd" href="ric-holland.html#from_embed" onclick="javascript:pageTracker._trackPageview('/outbound/article/www.scribd.com');" style="text-decoration: underline;">Ric Holland</a> on Scribd</p>
+<p><iframe class="scribd_iframe_embed" title="Ric Holland's TimeLine 2020" src="content85e9.html?start_page=1&amp;view_mode=scroll&amp;show_recommendations=true&amp;access_key=key-cuA1dINA14JlHscdKLj1" data-auto-height="true" data-aspect-ratio="1.7790927021696252" scrolling="no" width="100%" height="600" frameborder="0"></iframe></p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>January 28, 2020 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="index0bc9.html?p=1601#respond" title="Comment on Ric Holland – 40 years of Creative Innovation">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1601"
+    dc:identifier="http://www.artofwa.com.au/?p=1601"
+    dc:title="Ric Holland &#8211; 40 years of Creative Innovation"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1601" />
+</rdf:RDF>		-->
+		
+				<h1><a href="indexaf75.html?p=1590" rel="bookmark">Ric Holland &#8211; Extreme Digital Media</a></h1>
+	
+		<p><iframe width="480" height="270" src="afa6vpd6yta.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>35+ years delivering design &#038; technology innovation and disrupting how things are done. Extreme Digital Media &#8211; www.facebook.com/extreme.digital.media/</p>
+<p>Ric is a Spatial Computing specialist and for many years has been proactive in promoting the Virtual/Augmented Reality (XR) development community in Australia. He was the founding sponsor of one of the largest global AR/VR meet-ups prior to co-founding Extreme Digital Ventures, dedicated to XR investment in Asia Pacific.</p>
+<p>Featured in this video are the many events and projects Ric Holland has become known for including:</p>
+<p>Extreme Digital Media &#8211; www.extreme.com.au<br/>
+Extreme Digital Ventures &#8211; www.extremedigital.vc<br/>
+XR Meetings &#8211; www.SpaceTime.global<br/>
+AR &#038; VR Meetups<br/>
+Offis Multi-Cloud Innovation<br/>
+SkunkMonk &#8211; Creative Technologists<br/>
+ISV Speakeasy &#8211; Application Developers<br/>
+eClub &#8211; Business and Technology Innovation<br/>
+Ninefold &#8211; Macquarie Telecom<br/>
+Wacom Technology &#8211; ArtofWa.com (Art of Making Marks)<br/>
+301 Interactive &#8211; Studios 301<br/>
+IBM &#8211; Interactive Branding and Design<br/>
+MetaCreations Corporation</p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>August 25, 2019 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="indexaf75.html?p=1590#respond" title="Comment on Ric Holland – Extreme Digital Media">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1590"
+    dc:identifier="http://www.artofwa.com.au/?p=1590"
+    dc:title="Ric Holland &#8211; Extreme Digital Media"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1590" />
+</rdf:RDF>		-->
+		
+				<h1><a href="index95d2.html?p=1587" rel="bookmark">Ford using Gravity Sketch in car design</a></h1>
+	
+		<p><iframe width="480" height="270" src="jqn65wbtflw.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Ford is the first automaker to work with Gravity Sketch – a 3D virtual reality tool that enables designers to create more human-centric vehicle design. Designers trade in their sketchpads for a headset and controllers to become immersed in virtual reality, imitating gestural interactions through motion tracking that replicates sketching with pen and paper.</p>
+<p>Across five global Ford design studios, dozens of interior and exterior designers are now experimenting with Gravity Sketch for workflow feasibility and its potential for real-time co-creation and collaboration. Shifting to a model that designs and evaluates in virtual reality could revolutionise the entire process by drastically reducing development time and allowing for more 3D representations in the evaluation stage. </p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>May 22, 2019 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="index95d2.html?p=1587#respond" title="Comment on Ford using Gravity Sketch in car design">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1587"
+    dc:identifier="http://www.artofwa.com.au/?p=1587"
+    dc:title="Ford using Gravity Sketch in car design"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1587" />
+</rdf:RDF>		-->
+		
+				<h1><a href="index9a03.html?p=1585" rel="bookmark">Working in Quill on Rift</a></h1>
+	
+		<p><iframe width="480" height="270" src="1smud7yx8hg.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>May 22, 2019 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="index9a03.html?p=1585#respond" title="Comment on Working in Quill on Rift">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1585"
+    dc:identifier="http://www.artofwa.com.au/?p=1585"
+    dc:title="Working in Quill on Rift"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1585" />
+</rdf:RDF>		-->
+		
+				<h1><a href="index67b4.html?p=1582" rel="bookmark">The Rift app Oculus Medium won’t be coming to Quest</a></h1>
+	
+		<p><iframe width="480" height="270" src="o4lj66kenp4.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Facebook says it requires “the power and memory of a PC” Standalone VR is great as it’s affordable and wireless. Over the past few months and throughout GDC we’ve been hearing about plenty of games coming to the $399 standalone headset. Developers have been working hard to optimise their art assets and code to make them run on the Snapdragon 835 SoC.</p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>May 22, 2019 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="index67b4.html?p=1582#respond" title="Comment on The Rift app Oculus Medium won’t be coming to Quest">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1582"
+    dc:identifier="http://www.artofwa.com.au/?p=1582"
+    dc:title="The Rift app Oculus Medium won’t be coming to Quest"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1582" />
+</rdf:RDF>		-->
+		
+				<h1><a href="index4817.html?p=1575" rel="bookmark">The Last Oasis designed in Quill for Oculus Quest</a></h1>
+	
+		<p><iframe width="480" height="270" src="r48d1hya4wg.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Like many VR art tools, Quill essentially represents a way for artists to create everything from standalone assets to larger works like The Last Oasis without having to master a game engine, allowing artists to use a VR headset and motion controllers to build the work entirely from the ground-up. Fujita says it took him only five days to build, done in collaboration with a small team of Facebook software engineers.</p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>May 22, 2019 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="index4817.html?p=1575#respond" title="Comment on The Last Oasis designed in Quill for Oculus Quest">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1575"
+    dc:identifier="http://www.artofwa.com.au/?p=1575"
+    dc:title="The Last Oasis designed in Quill for Oculus Quest"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1575" />
+</rdf:RDF>		-->
+		
+				<h1><a href="index799a.html?p=1558" rel="bookmark">Ultrahaptics, Meta and ZeroLight | CES 2018</a></h1>
+	
+		<p><iframe width="480" height="270" src="fdcb5msi278.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>March 29, 2018 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="index799a.html?p=1558#respond" title="Comment on Ultrahaptics, Meta and ZeroLight | CES 2018">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1558"
+    dc:identifier="http://www.artofwa.com.au/?p=1558"
+    dc:title="Ultrahaptics, Meta and ZeroLight | CES 2018"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1558" />
+</rdf:RDF>		-->
+		
+				<h1><a href="index6dc7.html?p=1535" rel="bookmark">Strange Beasts</a></h1>
+	
+		<p><iframe src="209070629.html" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+<p><a href="209070629-2.html" onclick="javascript:pageTracker._trackPageview('/outbound/article/vimeo.com');">Strange Beasts</a> from <a href="magalibarbe.html" onclick="javascript:pageTracker._trackPageview('/outbound/article/vimeo.com');">Magali Barb&eacute;</a> on <a href="index-29.html" onclick="javascript:pageTracker._trackPageview('/outbound/article/vimeo.com');">Vimeo</a>.</p>
+<p>A sci-fi short about augmented reality.<br/>
+&#8220;Strange Beasts&#8221; is an augmented reality game. It allows you to create and grow your own virtual pet. How far can it go?</p>
+<p>Written, directed by Magali Barbé. Produced by: PEANUT<br/>
+Co producers: Red Knuckles<br/>
+magalibarbe.com/</p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>December 6, 2017 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="index6dc7.html?p=1535#respond" title="Comment on Strange Beasts">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1535"
+    dc:identifier="http://www.artofwa.com.au/?p=1535"
+    dc:title="Strange Beasts"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1535" />
+</rdf:RDF>		-->
+		
+				<h1><a href="indexbd8b.html?p=1514" rel="bookmark">Experiencing the MASSLESS Pen</a></h1>
+	
+		<p><iframe src="mqsp_h_oyra.html" width="480" height="280" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br/>
+Early adopter, David Edge (ARUP Virtual) talks about experiencing the MASSLESS Pen Learn more http://massless.io/</p>
+<div style="clear:both;"></div>
+		
+		<div class="postmeta">
+			<p>December 5, 2017 | Filed Under <a href="indexb31a.html?cat=1" title="View all posts in Wacom - Art of Making Marks" rel="category">Wacom - Art of Making Marks</a> | <a href="indexbd8b.html?p=1514#respond" title="Comment on Experiencing the MASSLESS Pen">Leave a Comment</a>&nbsp;</p>
+		</div>
+	 			
+		<!--
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.artofwa.com.au/?p=1514"
+    dc:identifier="http://www.artofwa.com.au/?p=1514"
+    dc:title="Experiencing the MASSLESS Pen"
+    trackback:ping="http://www.artofwa.com.au/wp-trackback.php?p=1514" />
+</rdf:RDF>		-->
+		
+				<p><a href="index6146.html?paged=2">Next Page &raquo;</a></p>
+	
+	</div>
+	
+<!-- begin r_sidebar -->
+
+	<div id="r_sidebar">
+	<ul id="r_sidebarwidgeted">
+	<li id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widgettitle">Recent Comments</h2>
+<ul id="recentcomments"></ul></li>
+<li id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widgettitle">Tags</h2>
+<div class="tagcloud"><a href="index6226.html?tag=3d-art" class="tag-link-51" title="4 topics" style="font-size: 9.1965811965812pt;">3D art</a>
+<a href="index4daf.html?tag=3d-oled-display" class="tag-link-106" title="3 topics" style="font-size: 8pt;">3D OLED Display</a>
+<a href="indexe021.html?tag=add-new-tag" class="tag-link-20" title="8 topics" style="font-size: 12.188034188034pt;">Add new tag</a>
+<a href="index1972.html?tag=ar" class="tag-link-206" title="4 topics" style="font-size: 9.1965811965812pt;">AR</a>
+<a href="index76e5.html?tag=ar-augmented-reality" class="tag-link-198" title="10 topics" style="font-size: 13.264957264957pt;">AR Augmented Reality</a>
+<a href="index54d1.html?tag=artist-digital" class="tag-link-71" title="5 topics" style="font-size: 10.153846153846pt;">artist digital</a>
+<a href="index9950.html?tag=art-of-making-marks" class="tag-link-69" title="28 topics" style="font-size: 18.290598290598pt;">Art of Making Marks</a>
+<a href="indexb025.html?tag=art-of-wa" class="tag-link-70" title="46 topics" style="font-size: 20.803418803419pt;">Art of Wa</a>
+<a href="indexf8b5.html?tag=augmented-reality" class="tag-link-157" title="16 topics" style="font-size: 15.538461538462pt;">Augmented Reality</a>
+<a href="index003b.html?tag=autodesk" class="tag-link-9" title="6 topics" style="font-size: 10.991452991453pt;">Autodesk</a>
+<a href="index70dc.html?tag=avatar" class="tag-link-60" title="3 topics" style="font-size: 8pt;">Avatar</a>
+<a href="indexb0b2.html?tag=cintiq" class="tag-link-32" title="4 topics" style="font-size: 9.1965811965812pt;">Cintiq</a>
+<a href="index0860.html?tag=digital-painting" class="tag-link-36" title="12 topics" style="font-size: 14.102564102564pt;">digital painting</a>
+<a href="index57ad.html?tag=digital-painting-tool" class="tag-link-47" title="6 topics" style="font-size: 10.991452991453pt;">digital painting tool</a>
+<a href="indexefd9.html?tag=expressive-natural-user-interface" class="tag-link-101" title="14 topics" style="font-size: 14.940170940171pt;">expressive natural user interface</a>
+<a href="indexeb88.html?tag=gustav" class="tag-link-28" title="3 topics" style="font-size: 8pt;">Gustav</a>
+<a href="index9e1a.html?tag=interaction-design" class="tag-link-78" title="3 topics" style="font-size: 8pt;">Interaction Design</a>
+<a href="indexf924.html?tag=intuos4" class="tag-link-17" title="3 topics" style="font-size: 8pt;">Intuos4</a>
+<a href="index6095.html?tag=intuos-4" class="tag-link-15" title="5 topics" style="font-size: 10.153846153846pt;">Intuos 4</a>
+<a href="indexe6f6.html?tag=ipad" class="tag-link-80" title="4 topics" style="font-size: 9.1965811965812pt;">iPad</a>
+<a href="index9949.html?tag=james-cameron" class="tag-link-59" title="3 topics" style="font-size: 8pt;">James Cameron</a>
+<a href="indexbbd6.html?tag=microsoft" class="tag-link-25" title="6 topics" style="font-size: 10.991452991453pt;">Microsoft</a>
+<a href="indexa3eb.html?tag=microsoft-research" class="tag-link-94" title="6 topics" style="font-size: 10.991452991453pt;">Microsoft Research</a>
+<a href="index8cdf.html?tag=multi-touch" class="tag-link-34" title="20 topics" style="font-size: 16.615384615385pt;">multi-touch</a>
+<a href="indexc1de.html?tag=multitouch" class="tag-link-33" title="23 topics" style="font-size: 17.333333333333pt;">multitouch</a>
+<a href="indexbc1f.html?tag=nab" class="tag-link-171" title="5 topics" style="font-size: 10.153846153846pt;">NAB</a>
+<a href="index5e9b.html?tag=natural-user-interface" class="tag-link-75" title="58 topics" style="font-size: 22pt;">Natural User Interface</a>
+<a href="indexdfe7.html?tag=new-screen-tablet" class="tag-link-48" title="3 topics" style="font-size: 8pt;">new screen tablet</a>
+<a href="index8ce3.html?tag=new-wacom-cintiq21ux" class="tag-link-45" title="3 topics" style="font-size: 8pt;">New Wacom Cintiq21UX</a>
+<a href="indexe32c.html?tag=nui" class="tag-link-76" title="49 topics" style="font-size: 21.162393162393pt;">NUI</a>
+<a href="index4103.html?tag=nui-natural-user-interface" class="tag-link-156" title="19 topics" style="font-size: 16.376068376068pt;">NUI (Natural User Interface)</a>
+<a href="indexdc04.html?tag=nui-research" class="tag-link-166" title="32 topics" style="font-size: 19.008547008547pt;">NUI Research</a>
+<a href="indexe11c.html?tag=pen-multi-touch" class="tag-link-93" title="10 topics" style="font-size: 13.264957264957pt;">pen &amp; multi-touch</a>
+<a href="index76f1.html?tag=pen-tablets" class="tag-link-55" title="4 topics" style="font-size: 9.1965811965812pt;">pen tablets</a>
+<a href="index09ea.html?tag=photoshop-cs5" class="tag-link-39" title="8 topics" style="font-size: 12.188034188034pt;">Photoshop CS5</a>
+<a href="index36a9.html?tag=ric-holland" class="tag-link-6" title="22 topics" style="font-size: 17.094017094017pt;">Ric Holland</a>
+<a href="index6237.html?tag=siggraph-2010" class="tag-link-114" title="7 topics" style="font-size: 11.589743589744pt;">Siggraph 2010</a>
+<a href="indexdb81.html?tag=stereoscopic-pre-visualisation" class="tag-link-58" title="3 topics" style="font-size: 8pt;">stereoscopic pre-visualisation</a>
+<a href="indexb801.html?tag=touchpad-tablets" class="tag-link-66" title="4 topics" style="font-size: 9.1965811965812pt;">TouchPad tablets</a>
+<a href="index62ae.html?tag=video" class="tag-link-90" title="3 topics" style="font-size: 8pt;">Video</a>
+<a href="indexbef5.html?tag=virtual-reality" class="tag-link-211" title="4 topics" style="font-size: 9.1965811965812pt;">Virtual Reality</a>
+<a href="index5abc.html?tag=vr" class="tag-link-192" title="8 topics" style="font-size: 12.188034188034pt;">VR</a>
+<a href="index7b6b.html?tag=wacom" class="tag-link-3" title="30 topics" style="font-size: 18.649572649573pt;">WACOM</a>
+<a href="index92fd.html?tag=wacom-art-of-making-marks" class="tag-link-16" title="35 topics" style="font-size: 19.487179487179pt;">Wacom - Art of Making Marks</a>
+<a href="index95f8.html?tag=wacom-pressure-sensitive-tablets" class="tag-link-49" title="11 topics" style="font-size: 13.74358974359pt;">Wacom Pressure Sensitive tablets</a></div>
+</li>
+	</ul>
+			
+</div>
+
+<!-- end r_sidebar -->	
+</div>
+
+<!-- The main column ends  -->
+
+<!-- begin footer -->
+
+<div style="clear:both;"></div>
+
+<div id="footer">
+
+	<div class="footerleft">	
+		<h2>Monthly Archives</h2>
+			<ul>
+					<li><a href="index2d4f.html?m=202008">August 2020</a></li>
+	<li><a href="indexad71.html?m=202001">January 2020</a></li>
+	<li><a href="indexcc03.html?m=201908">August 2019</a></li>
+	<li><a href="index8413.html?m=201905">May 2019</a></li>
+	<li><a href="indexabb9.html?m=201803">March 2018</a></li>
+	<li><a href="indexe1e7.html?m=201712">December 2017</a></li>
+	<li><a href="indexa676.html?m=201707">July 2017</a></li>
+	<li><a href="indexd305.html?m=201702">February 2017</a></li>
+	<li><a href="index8484.html?m=201610">October 2016</a></li>
+	<li><a href="indexe04d.html?m=201506">June 2015</a></li>
+	<li><a href="index2b58.html?m=201505">May 2015</a></li>
+	<li><a href="index559e.html?m=201503">March 2015</a></li>
+	<li><a href="index166c.html?m=201410">October 2014</a></li>
+	<li><a href="index8ba2.html?m=201407">July 2014</a></li>
+	<li><a href="indexd907.html?m=201403">March 2014</a></li>
+	<li><a href="index03da.html?m=201402">February 2014</a></li>
+	<li><a href="index81d5.html?m=201401">January 2014</a></li>
+	<li><a href="indexd44c.html?m=201312">December 2013</a></li>
+	<li><a href="index2501.html?m=201311">November 2013</a></li>
+	<li><a href="indexd649.html?m=201310">October 2013</a></li>
+	<li><a href="index2fe4.html?m=201309">September 2013</a></li>
+	<li><a href="index0b82.html?m=201308">August 2013</a></li>
+	<li><a href="index8172.html?m=201307">July 2013</a></li>
+	<li><a href="index631b.html?m=201306">June 2013</a></li>
+	<li><a href="index0b76.html?m=201305">May 2013</a></li>
+	<li><a href="indexaf22.html?m=201304">April 2013</a></li>
+	<li><a href="index9149.html?m=201303">March 2013</a></li>
+	<li><a href="index9f9d.html?m=201302">February 2013</a></li>
+	<li><a href="index0558.html?m=201301">January 2013</a></li>
+	<li><a href="index3642.html?m=201212">December 2012</a></li>
+	<li><a href="indexfb7b.html?m=201211">November 2012</a></li>
+	<li><a href="index29b3.html?m=201210">October 2012</a></li>
+	<li><a href="indexc797.html?m=201209">September 2012</a></li>
+	<li><a href="indexdef7.html?m=201208">August 2012</a></li>
+	<li><a href="index0929.html?m=201207">July 2012</a></li>
+	<li><a href="index0260.html?m=201206">June 2012</a></li>
+	<li><a href="indexde88.html?m=201205">May 2012</a></li>
+	<li><a href="index9b14.html?m=201204">April 2012</a></li>
+	<li><a href="index3598.html?m=201203">March 2012</a></li>
+	<li><a href="indexfdb0.html?m=201108">August 2011</a></li>
+	<li><a href="index62cc.html?m=201107">July 2011</a></li>
+	<li><a href="indexc61a.html?m=201106">June 2011</a></li>
+	<li><a href="index512b.html?m=201104">April 2011</a></li>
+	<li><a href="index08fb.html?m=201103">March 2011</a></li>
+	<li><a href="index52f4.html?m=201102">February 2011</a></li>
+	<li><a href="index74f1.html?m=201101">January 2011</a></li>
+	<li><a href="index8956.html?m=201012">December 2010</a></li>
+	<li><a href="indexa1aa.html?m=201011">November 2010</a></li>
+	<li><a href="indexe3d5.html?m=201010">October 2010</a></li>
+	<li><a href="index9ab9.html?m=201009">September 2010</a></li>
+	<li><a href="index1ff0.html?m=201008">August 2010</a></li>
+	<li><a href="index9f11.html?m=201007">July 2010</a></li>
+	<li><a href="index31f0.html?m=201006">June 2010</a></li>
+	<li><a href="indexd189.html?m=201005">May 2010</a></li>
+	<li><a href="indexb5c0.html?m=201004">April 2010</a></li>
+	<li><a href="indexf258.html?m=201003">March 2010</a></li>
+	<li><a href="index6e30.html?m=201002">February 2010</a></li>
+	<li><a href="index5c0a.html?m=200912">December 2009</a></li>
+	<li><a href="index8f62.html?m=200911">November 2009</a></li>
+	<li><a href="index451d.html?m=200910">October 2009</a></li>
+	<li><a href="index3e04.html?m=200909">September 2009</a></li>
+	<li><a href="index425a.html?m=200908">August 2009</a></li>
+	<li><a href="index9907.html?m=200907">July 2009</a></li>
+	<li><a href="index3104.html?m=200906">June 2009</a></li>
+	<li><a href="index17e8.html?m=200904">April 2009</a></li>
+	<li><a href="index10a5.html?m=200903">March 2009</a></li>
+	<li><a href="indexa7bc.html?m=200810">October 2008</a></li>
+	<li><a href="indexfda7.html?m=200806">June 2008</a></li>
+			</ul>
+		
+		<h2>Blogroll</h2>
+			<ul>
+				<li><a href="index-11.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/5senses.wordpress.com');" title="Peter Kurstjens Personal Blog">5 Senses</a> - Peter Kurstjens Personal Blog</li>
+<li><a href="search299d.html?search=&amp;sortCriteria=3&amp;groupFilter=110468" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.linkedin.com');" title="Linkedin group – Adobe Gurus ">Adobe Gurus group</a> - Linkedin group &#8211; Adobe Gurus </li>
+<li><a href="index-12.html" rel="" onclick="javascript:pageTracker._trackPageview('www.agda.com.html');">AGDA (Design Association)</a></li>
+<li><a href="i-cms2679.html?page=1" rel="" onclick="javascript:pageTracker._trackPageview('www.aimia.com.html');">AIMIA (Interactive Ass.)</a></li>
+<li><a href="index-13.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/area.autodesk.com');">Area &#8211; Autodesk Community</a></li>
+<li><a href="index-14.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.flickr.com');" title="Ric’s flickr photostream">Art of Wa &#8211; on flickr</a> - Ric&#8217;s flickr photostream</li>
+<li><a href="index-15.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.ballisticpublishing.com');" title="The worlds best and most beautiful digital art ">Ballistic Books</a> - The worlds best and most beautiful digital art </li>
+<li><a href="index29ed2.html?lang=en" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.wacom.eu');" title="Wacom Bamboo Mini dock">Bamboo Mini</a> - Wacom Bamboo Mini dock</li>
+<li><a href="index-16.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.cgsociety.org');" title="A global society of Digital Artists">CG Society</a> - A global society of Digital Artists</li>
+<li><a href="links.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.designstudiopress.com');" title="Links to a world of awesome concept artists">Design Studio Press &#8211; Links</a> - Links to a world of awesome concept artists</li>
+<li><a href="index-17.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.designtaxi.com');">Design Taxi</a></li>
+<li><a href="index-18.html" rel="" onclick="javascript:pageTracker._trackPageview('www.dgdesignnetwork.com.html');">DG Design Network</a></li>
+<li><a href="index-19.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/drawn.ca');">Drawn &#8211; Blog</a></li>
+<li><a href="index-20.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.idnworld.com');" title="Publishers for the Art of Making Marks – Coffee table book">IdN International design Network</a> - Publishers for the Art of Making Marks &#8211; Coffee table book</li>
+<li><a href="index-21.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/pixlart.blogspot.com');" title="John Derry co-inventor of Corel Painter and pioneer of digital painting since 1983">John Derry&#8217;s blog</a> - John Derry co-inventor of Corel Painter and pioneer of digital painting since 1983</li>
+<li><a href="index6fe2.html?p=701" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/delicategeniusblog.com');" title="Michael caught up with me at WebDU in Sydney">Michael Kordahi&#8217;s vlog post</a> - Michael caught up with me at WebDU in Sydney</li>
+<li><a href="partner-tv-wacom.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/blogs.msdn.com');" title="Christian Longstaff at Microsoft asked me to explain Bamboo">Microsoft Partner TV</a> - Christian Longstaff at Microsoft asked me to explain Bamboo</li>
+<li><a href="index-22.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.redbubble.com');">Red Bubble &#8211; Creative Network</a></li>
+<li><a href="profileb018.html?id=649645227" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.facebook.com');" title="Ric’s personal profile on Facebook">Ric&#8217;s Facebook profile</a> - Ric&#8217;s personal profile on Facebook</li>
+<li><a href="index-23.html" rel="" onclick="javascript:pageTracker._trackPageview('www.extreme.com.html');" title="Ric’s website – Extreme Digital ">Ric&#8217;s portfolio Extreme Digital</a> - Ric&#8217;s website &#8211; Extreme Digital </li>
+<li><a href="richolland.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.linkedin.com');" title="Ric’s Linkedin network">Ric&#8217;s profile on Linkedin</a> - Ric&#8217;s Linkedin network</li>
+<li><a href="ric_holland.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/twitter.com');" title="Twitter network">Ric&#8217;s Twitter page</a> - Twitter network</li>
+<li><a href="index-24.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.slideshare.net');" title="Ric’s support slides for UCBD presentation to the ABC Lamp Workshop">User Centric Brand Design</a> - Ric&#8217;s support slides for UCBD presentation to the ABC Lamp Workshop</li>
+<li><a href="index-25.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.wacom-asia.com');">Wacom &#8211; AP Community</a></li>
+<li><a href="index-26.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/community.wacom.com');">Wacom Community</a></li>
+<li><a href="index-27.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/www.pencollective.com');" title="Website for Wacom users also links to Facebook Group">Wacom Group</a> - Website for Wacom users also links to Facebook Group</li>
+<li><a href="index-28.html" rel="" onclick="javascript:pageTracker._trackPageview('/outbound/blogroll/linuxwacom.sourceforge.net');" title="The Linux Wacom Project – website">Wacom Linux resources</a> - The Linux Wacom Project &#8211; website</li>
+			</ul>
+	</div>
+	
+	<div class="footermiddle">
+		<h2>Admin</h2>
+			<ul>
+								<li><a href="wp-login.html">Log in</a></li>
+				<li><a href="index-30.html">WordPress</a></li>
+								<li><a href="checkbb5d.html?uri=referer">XHTML</a></li>
+			</ul>
+
+	</div>
+
+	<div class="footerright">
+		<h2>Find It</h2>
+	   		<form id="searchform" method="get" action="https://web.archive.org/web/20210303003404/http://artofwa.com.au/index.php">
+	   		<input type="text" value="To search, type and hit enter..." name="s" id="f" onfocus="if (this.value == 'To search, type and hit enter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'To search, type and hit enter...';}"/>
+			</form>
+			
+		<h2>Credits</h2>
+			<p>Copyright &copy; 2007 <a href="index-10.html"></a> &bull; Powered by <a href="index-30.html">WordPress</a> &bull; Using <a href="whitespace-wordpress-theme.html">Whitespace</a> theme by <a href="index-31.html">Brian Gardner</a></p>
+
+		
+	</div>
+
+</div>
+
+</div>
+
+	<!-- Google Analytics for WordPress | http://yoast.com/wordpress/google-analytics/ -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://web.archive.org/web/20210303003404/https://ssl." : "https://web.archive.org/web/20210303003404/http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-6353044-1");
+	</script>
+	<script src="images/custom_se.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		pageTracker._initData();
+		
+		pageTracker._trackPageview();
+	</script>
+	<!-- End of Google Analytics code -->
+	
+</body>
+
+<!-- Mirrored from web.archive.org/web/20210303003404/http://artofwa.com.au/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 May 2021 06:41:07 GMT -->
+</html><!--
+     FILE ARCHIVED ON 00:34:04 Mar 03, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:06:42 May 12, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 461.33
+  exclusion.robots: 0.315
+  exclusion.robots.policy: 0.299
+  RedisCDXSource: 3.288
+  esindex: 0.011
+  LoadShardBlock: 419.463 (3)
+  PetaboxLoader3.datanode: 546.316 (4)
+  CDXLines.iter: 23.604 (3)
+  load_resource: 374.502
+  PetaboxLoader3.resolve: 239.465
+-->
