@@ -493,3 +493,7 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 16:00:10	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1558 to https://web.archive.org/web/20210227045946/http://www.artofwa.com.au/?p=1558
 16:00:14	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1535
 16:00:14	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1535 to https://web.archive.org/web/20210227050014/http://www.artofwa.com.au/?p=1535
+16:04:33	Warning: 	FOUND for https://web.archive.org/web/20210303003404/https://vimeo.com/
+16:04:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/https://vimeo.com/ to https://web.archive.org/web/20210303003634/http://vimeo.com/
+16:04:33	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1514
+16:04:33	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?p=1514 to https://web.archive.org/web/20210227050030/http://www.artofwa.com.au/?p=1514
