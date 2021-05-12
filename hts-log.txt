@@ -511,3 +511,27 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 16:07:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=artist-digital to https://web.archive.org/web/20210227050340/http://www.artofwa.com.au/?tag=artist-digital
 16:07:47	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=art-of-making-marks
 16:07:47	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=art-of-making-marks to https://web.archive.org/web/20210227051231/http://www.artofwa.com.au/?tag=art-of-making-marks
+16:08:53	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=art-of-wa
+16:08:53	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=art-of-wa to https://web.archive.org/web/20210227051304/http://www.artofwa.com.au/?tag=art-of-wa
+16:08:53	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=augmented-reality
+16:08:53	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=augmented-reality to https://web.archive.org/web/20210227051339/http://www.artofwa.com.au/?tag=augmented-reality
+16:08:54	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=autodesk
+16:08:54	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=autodesk to https://web.archive.org/web/20210227051400/http://www.artofwa.com.au/?tag=autodesk
+16:09:59	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=avatar
+16:09:59	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=avatar to https://web.archive.org/web/20210227051422/http://www.artofwa.com.au/?tag=avatar
+16:10:00	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=cintiq
+16:10:00	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=cintiq to https://web.archive.org/web/20210227051529/http://www.artofwa.com.au/?tag=cintiq
+16:10:01	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=digital-painting
+16:10:01	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=digital-painting to https://web.archive.org/web/20210227051546/http://www.artofwa.com.au/?tag=digital-painting
+16:10:01	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=digital-painting-tool
+16:10:01	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=digital-painting-tool to https://web.archive.org/web/20210227051605/http://www.artofwa.com.au/?tag=digital-painting-tool
+16:11:06	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=expressive-natural-user-interface
+16:11:06	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=expressive-natural-user-interface to https://web.archive.org/web/20210227051622/http://www.artofwa.com.au/?tag=expressive-natural-user-interface
+16:11:06	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=gustav
+16:11:06	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=gustav to https://web.archive.org/web/20210227051640/http://www.artofwa.com.au/?tag=gustav
+16:11:07	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=interaction-design
+16:11:07	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=interaction-design to https://web.archive.org/web/20210227051658/http://www.artofwa.com.au/?tag=interaction-design
+16:11:08	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=intuos4
+16:11:08	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=intuos4 to https://web.archive.org/web/20210227051715/http://www.artofwa.com.au/?tag=intuos4
+16:11:08	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=intuos-4
+16:11:08	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.artofwa.com.au/?tag=intuos-4 to https://web.archive.org/web/20210227051737/http://www.artofwa.com.au/?tag=intuos-4
