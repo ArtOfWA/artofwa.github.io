@@ -457,3 +457,19 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 15:42:21	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.cgsociety.org/
 15:42:21	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.cgsociety.org/ to https://web.archive.org/web/20210302213611/https://cgsociety.org/
 15:42:21	Error: 	"Not Found" (404) at link https://web.archive.org/web/20201121230705/https://designstudiopress.com/new_site/links.php (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:46:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.dgdesignnetwork.com.au/dgdn/
+15:46:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.dgdesignnetwork.com.au/dgdn/ to https://web.archive.org/web/20191027085248/http://www.dgdesignnetwork.com.au/dgdn/
+15:46:29	Error: 	"NOT FOUND" (404) at link https://web.archive.org/outbound/blogroll/www.dgdesignnetwork.com.au (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
+15:46:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://drawn.ca/2008/10/10/ilovesketch-3d-curve-sketching-system/
+15:46:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://drawn.ca/2008/10/10/ilovesketch-3d-curve-sketching-system/ to https://web.archive.org/web/20201109042151/http://drawn.ca/2008/10/10/ilovesketch-3d-curve-sketching-system/
+15:46:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.idnworld.com/
+15:46:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.idnworld.com/ to https://web.archive.org/web/20210228182709/https://www.idnworld.com/
+15:46:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://pixlart.blogspot.com/
+15:46:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://pixlart.blogspot.com/ to https://web.archive.org/web/20210211015327/http://pixlart.blogspot.com/
+15:46:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://delicategeniusblog.com/?p=701
+15:46:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://delicategeniusblog.com/?p=701 to https://web.archive.org/web/20200111140403/http://delicategeniusblog.com/?p=701
+15:46:29	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.redbubble.com/
+15:46:29	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.redbubble.com/ to https://web.archive.org/web/20210302214437/https://www.redbubble.com/
+15:46:31	Warning: 	FOUND for https://web.archive.org/web/20210303003404/http://www.extreme.com.au/
+15:46:31	Warning: 	File has moved from https://web.archive.org/web/20210303003404/http://www.extreme.com.au/ to https://web.archive.org/web/20210304164213/http://extreme.com.au/
+15:46:31	Error: 	"NOT FOUND" (404) at link https://web.archive.org/outbound/blogroll/www.extreme.com.au (from https://web.archive.org/web/20210303003404/http://artofwa.com.au/)
