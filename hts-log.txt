@@ -605,3 +605,6 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 16:15:52	Warning: 	Retry after error 409 (Conflict) at link https://archive.org/create/ (from https://web.archive.org/)
 16:15:58	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/web/ (from https://web.archive.org/)
 16:15:58	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/details/texts (from https://web.archive.org/)
+16:18:11	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/details/audio (from https://web.archive.org/)
+16:20:24	Warning: 	Retry after error -4 (No data (connection closed)) at link https://archive.org/details/image (from https://web.archive.org/)
+16:20:53	Warning: 	HTML file (5288 bytes) retransferred due to lack of cache: https://www.cni.org//
