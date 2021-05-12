@@ -1,0 +1,35 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+wwwb-sentry.us.archive.org	TRUE	/	FALSE	1999999999	sentrysid	gAJ9cQFVBV9uZXh0cQJYAwAAAC8zL3Mu:1lghEO:-0BhnpMq3J8r_pG76yW9hRxBxLs"
+archive.org	TRUE	/	FALSE	1999999999	logged-in-ver	deleted
+archive.org	TRUE	/	FALSE	1999999999	logged-in-user	deleted
+.archive.org	TRUE	/	FALSE	1999999999	logged-in-ver	deleted
+.archive.org	TRUE	/	FALSE	1999999999	logged-in-user	deleted
+.archive.org	TRUE	/	FALSE	1999999999	logged-in-sig	deleted
+.archive.org	TRUE	/	FALSE	1999999999	test-cookie	1
+help.archive.org	TRUE	/	FALSE	1999999999	_zendesk_shared_session	-TURYTU9Dbm0ySCtoSmxWcFJiN2c0b3VCY1BwREllRVM1dWdpSUZmVTRncXQyRDJGcXVZYS9NK1psSlNJWmFLRWl5c0Z2NVdQU2p0MWdaK001dGxUSG0wT01iWlZmZDVwTHN3am1QTHdBaStQM1l1ZmNqeCtSK2hNRzhPK2M1OUZycHhEUm52czEwRHVQTmVQd1FDS0pBPT0tLU1RS3dNSWsraHlWU0taVlhFM2JzU2c9PQ%3D%3D--4716604702169fc55a9094f1c533504466c320f9
+help.archive.org	TRUE	/	FALSE	1999999999	_zendesk_session	BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiJWI3ODdhZjhkYWE5N2U0Y2E0MDNlNWI3MTc4N2Q2ZGRiBjsAVEkiDGFjY291bnQGOwBGaQPhPyJJIgpyb3V0ZQY7AEZpAxOVIUkiDmlzX21vYmlsZQY7AFRGSSITd2FyZGVuLm1lc3NhZ2UGOwBUewA%3D--c10aefc103b30ca5351126d115010986fab3201b
+.help.archive.org	TRUE	/	FALSE	1999999999	__cfruid	111e2c089fd9ed618ac11affe495a9bbfb0a7d34-1620796595
+help.archive.org	TRUE	/	FALSE	1999999999	SameSite	None
+.facebook.com	TRUE	/	FALSE	1999999999	sb	tWSbYBUgVsTOjuDbzWF3Gwki
+archive-it.org	TRUE	/	FALSE	1999999999	JSESSIONID-archive-it.org	F992F667BCBB176BC2BBB4E4BE49716C
+www.linkedin.com	TRUE	/	FALSE	1999999999	JSESSIONID	ajax:2272934167966671330
+.www.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.linkedin.com	TRUE	/	FALSE	1999999999	lang	v=2&lang=en-us
+.linkedin.com	TRUE	/	FALSE	1999999999	lidc	b=VGST07:s=V:r=V:a=V:p=V:g=2068:u=1:i=1620796865:t=1620883265:v=2:sig=AQGjXJvPDk0nqRZNC7XTFHp6FSn4ftcO"
+.archive.org	TRUE	/	FALSE	1999999999	PHPSESSID	jd0uapsv4b7hu1t7eit2fifua2
+.archive.org	TRUE	/	FALSE	1999999999	collections	twitteroutlinks
+.archive.org	TRUE	/	FALSE	1999999999	donation-identifier	2a5d5a32d1e6c5dac9580976d6a5125e
+.archive.org	TRUE	/	FALSE	1999999999	abtest-identifier	48e89d73c18082d5eeb904b85240c7e5
+.au.linkedin.com	TRUE	/	FALSE	1999999999	bscookie	v=1&20210512052838e0265f8a-3e2e-4e14-8633-712b6f17df43AQEZy02ESLf6G86NOUWTZvoE7zDUEmuM"
+au.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+au.linkedin.com	TRUE	/	FALSE	1999999999	trkCode	gf
+au.linkedin.com	TRUE	/	FALSE	1999999999	trkInfo	AQEcpWZaWxvT9gAAAXlfDGNwwmUWxrsJH07CV55MDFgTmhRcr8OGAu700DG0u8Z5zc6cE1MRO7T0zG2tApomMJbMyJaGfb4aXuvMPrIppTrMgGDOYcus-vyt875bEpFVnfY1Y-g=
+.linkedin.com	TRUE	/	FALSE	1999999999	rtc	AQGASlqwsJ_48QAAAXlfDGNw0kntjv3cT5HI8fCrtXZEfxl-5CZyiP9uYQpoef0uNxYidAn5rYAYEBUo-uOY3Cn7JAW5T9A7WHb8SIhAPmYDULV0j4tm40BTV9LRr1cfJzD-Nx39JfJ-OFxXeTL-U-N9-8rGnCdaVLQBMBOD0trUIf9whTteuohhga2T5zcQlAcO7J1CClZi8_WHlTmlBCs-1h6LcVcfw2tckqwcScpN7YuJpeOBP2Ij33R6RER_QF8C89nhEX_nsKfl6Ojig7ZToD-WAZuI2Saqmuu7TyB6i2blELXRKiAQIsixUD0zqRdoCdmSzhUE-uOf_Hw3ZRcch6DwkB8=
+.linkedin.com	TRUE	/	FALSE	1999999999	bcookie	v=2&f9e220dc-e88d-447d-80a4-b2b134f682bc"
+.www.linkedin.com	TRUE	/	FALSE	1999999999	bscookie	v=1&20210512052844ac7a034a-41bc-4869-8fb7-30c3ee794bf3AQHIJkrOuTpNPRSaN2htNGdlusucz_Fq"
+www.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+.twitter.com	TRUE	/	FALSE	1999999999	personalization_id	v1_KOOAKDI2WYyBGlce/g5wRA=="
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A162079764477565085
+twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+

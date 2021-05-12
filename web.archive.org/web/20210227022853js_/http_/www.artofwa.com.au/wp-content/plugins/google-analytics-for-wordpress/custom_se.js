@@ -64,7 +64,7 @@ pageTracker._addOrganic("google.ch","q");
 pageTracker._addOrganic("google.at","q");
 pageTracker._addOrganic("google.ie","q");
 pageTracker._addOrganic("google.ru","q");
-pageTracker._addOrganic("https://web.archive.org/web/20110301172325/http://www.artofwa.com.au/google.pl","q");
+pageTracker._addOrganic("google.html","q");
 
 // Yahoo EMEA Domains
 pageTracker._addOrganic("uk.yahoo.com","p");
@@ -139,7 +139,7 @@ pageTracker._addOrganic("voila.fr","kw");
 }
 /*
      FILE ARCHIVED ON 02:28:53 Feb 27, 2021 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 05:07:07 May 12, 2021.
+     INTERNET ARCHIVE ON 05:16:08 May 12, 2021.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -147,14 +147,14 @@ pageTracker._addOrganic("voila.fr","kw");
 */
 /*
 playback timings (ms):
-  PetaboxLoader3.datanode: 11899.981 (4)
-  esindex: 0.027
-  captures_list: 18707.218
-  RedisCDXSource: 1.077
-  LoadShardBlock: 15483.019 (3)
-  CDXLines.iter: 22.059 (3)
-  exclusion.robots.policy: 0.345
-  PetaboxLoader3.resolve: 31.004
-  exclusion.robots: 0.359
-  load_resource: 56.437
+  esindex: 0.01
+  CDXLines.iter: 20.597 (3)
+  exclusion.robots: 0.222
+  load_resource: 54.886
+  RedisCDXSource: 0.729
+  captures_list: 1622.229
+  exclusion.robots.policy: 0.208
+  PetaboxLoader3.datanode: 197.933 (4)
+  PetaboxLoader3.resolve: 1431.958 (3)
+  LoadShardBlock: 1596.366 (3)
 */
